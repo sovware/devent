@@ -10,10 +10,10 @@
       //widget title
       .widget-title {
          border-bottom: none;
-         color: #ffffff;
          font-size: 18px;
-         margin: 0 0 30px;
+         margin: 0 0 26px;
          padding: 0;
+         @extend .color-dark;
       }
       //widget body
       ul,
@@ -28,19 +28,74 @@
       }
       //Footer Widget List
       ul li a{
-         color:rgba(#ffffff, .50);
+         color: #7a82a6;
+         &:hover{
+            @extend .color-primary;
+         }
+      }
+      &.widget_devent_about{
+         .azin-img,
+         .azin-des{
+            padding: 0;
+         }
+         .azin-img{
+            margin-bottom: 20px;
+         }
+         .azin-des{
+            margin-bottom: 22px;
+         }
+         .azin-socials{
+            li{
+               a{
+                  height: 38px;
+                  width: 38px;
+                  border-radius: 50%;
+                  @extend .bg-soft;
+                  i,
+                  svg{
+                     @extend .color-light;
+                  }
+               }
+            }
+         }
+      }
+      &.widget_text{
+         p{
+            color: #7a82a6;
+         }
+      }
+      &.subscribe-widget {
+         .subscribe-form{
+            box-shadow: 0 5px 10px rgba($light,.10);
+            form{
+               border-color: #f2f2f2;
+            }
+            input{
+               &::placeholder{
+                  @extend .color-light;
+               }
+            }
+            .submit-btn{
+               i,
+               svg{
+                  color: #fd4956;
+               }
+            }
+         }
       }
    }
 
    //top
    .footer-top {
-      padding: 97px 0 58px 0;
+      padding: 97px 0 65px 0;
    }
 
    //bottom
    .footer-bottom {
-      padding: 30px 0 30px 0;
-
+      .footer-copyright{
+         padding: 30px 0;
+         border-top: 1px solid $border-normal;
+      }
       p {
          margin-bottom: 0;
       }
@@ -63,7 +118,6 @@
    }
 
 }
-
 
 
 //Footer form
@@ -92,7 +146,7 @@
 
          .textwidget {
             p {
-               color: #ffffff80;
+               @extend .color-light;
             }
          }
       }

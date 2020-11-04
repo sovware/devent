@@ -877,57 +877,57 @@
 }
 
 // Footer
-.footer {
-  .footer-top {
-    background: #1f2235;
-    .widget_nav_menu ul li {
-      a {
-        color: rgba($white, 0.5);
+// .footer {
+//   .footer-top {
+//     background: #1f2235;
+//     .widget_nav_menu ul li {
+//       a {
+//         color: rgba($white, 0.5);
 
-        &:hover {
-          @extend .color-secondary;
-        }
-      }
-    }
-    .footer-box {
-      h5 {
-        color: $white;
-      }
+//         &:hover {
+//           @extend .color-secondary;
+//         }
+//       }
+//     }
+//     .footer-box {
+//       h5 {
+//         color: $white;
+//       }
 
-      .aps-download {
-        li {
-          .btn-link {
-            background: $white;
-           @extend .color-gray;
+//       .aps-download {
+//         li {
+//           .btn-link {
+//             background: $white;
+//            @extend .color-gray;
 
-            &:hover {
-              background: rgba($white, 0.7);
-            }
-          }
-        }
-      }
+//             &:hover {
+//               background: rgba($white, 0.7);
+//             }
+//           }
+//         }
+//       }
 
-      .form-group {
-        .submit-btn {
-          @extend .color-secondary;
-        }
-      }
+//       .form-group {
+//         .submit-btn {
+//           @extend .color-secondary;
+//         }
+//       }
 
-    }
-  }
+//     }
+//   }
 
-  .footer-bottom {
-    background: #171928;
+//   .footer-bottom {
+//     background: #171928;
 
-    p {
-      color: rgba($white, 0.5);
+//     p {
+//       color: rgba($white, 0.5);
 
-      a {
-        color: $white;
-      }
-    }
-  }
-}
+//       a {
+//         color: $white;
+//       }
+//     }
+//   }
+// }
 
 // -- Listing --//
 // Listing Grid

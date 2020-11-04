@@ -58,7 +58,9 @@ switch ( $footer_columns ) {
 				<div class="container text-center">
 					<div class="row">
 						<div class="col-lg-12">
-							<p> <?php echo wp_kses_post( Theme::$options['copyright_text'] ); ?> </p>
+							<div class="footer-copyright">
+								<p> <?php echo wp_kses_post( Theme::$options['copyright_text'] ); ?> </p>
+							</div>
 						</div>
 					</div>
 				</div>
