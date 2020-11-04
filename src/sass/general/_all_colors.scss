@@ -1,0 +1,1783 @@
+/********************
+    All Colors 
+********************/
+// categories
+.categories-slider {
+  h2 {
+   @extend .color-dark;
+  }
+
+  .categories-carousel-inner {
+    box-shadow: 10px 0 30px rgba($light, 0.1);
+    border: 1px solid $border-color;
+
+    .single-categories-carousel {
+      h6 {
+       @extend .color-dark;
+      }
+
+      .categories-img {
+        background: rgba($secondary, 0.08);
+      }
+
+      .categories-btn {
+        @extend .bg-primary;
+        color: $white;
+      }
+    }
+  }
+
+  .owl-nav {
+    button {
+      i {
+        border: 1px solid $border-color;
+
+        &:hover {
+          @extend .bg-secondary;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+// Dashboard
+.dashboard {
+  @extend .bg-banner;
+}
+
+.sidebar {
+  @extend .bg-banner;
+
+  .nav-pills {
+    @extend .bg-banner;
+
+    .nav-link {
+     @extend .color-gray;
+      border-left: 3px solid transparent;
+    }
+
+    .nav-link.active {
+     @extend .color-primary;
+      background-color: #fff;
+      border-left: 3px solid $primary;
+      box-shadow: 5px 0 5px rgba($light, 0.05);
+
+      i {
+       @extend .color-primary;
+      }
+    }
+
+    i {
+      color: #adb4d2;
+    }
+  }
+
+  .btn-transparent {
+    border: 1px solid $secondary;
+    @extend .color-secondary;
+
+    i {
+      @extend .color-secondary;
+    }
+  }
+}
+
+.content {
+  .tab-content {
+    .nav-tabs {
+      border-bottom: none;
+      background: #fff;
+      box-shadow: 5px 0 5px rgba($light, 0.05);
+
+      li.nav-item .nav-link {
+        @extend .color-light;
+
+        span.count {
+          @extend .bg-banner;
+          @extend .color-gray;
+        }
+      }
+
+      li.nav-item .active {
+        color: $primary !important;
+
+        span.count {
+          background: rgba($primary, 0.15);
+         @extend .color-primary;
+        }
+      }
+
+      p {
+        @extend .color-light;
+        @extend .bg-banner;
+
+        span {
+         @extend .color-primary;
+        }
+      }
+
+      li.nav-item .appointment-request {
+       @extend .color-dark;
+        border-left: 1px solid $border-color;
+        background: transparent;
+      }
+    }
+
+    .appointments-menu {
+      background: $white;
+      box-shadow: 5px 0 5px rgba($light, 0.05);
+
+      h5 {
+       @extend .color-dark;
+      }
+
+      .appointments-menu-inner {
+        .short {
+          a {
+            @extend .color-light;
+          }
+        }
+
+        .match {
+          a {
+           @extend .color-gray;
+          }
+        }
+      }
+    }
+
+    .card {
+      box-shadow: 5px 0 5px rgba($light, 0.05);
+
+      .card-header {
+        background: transparent;
+
+        .dropdown-toggle i {
+          @extend .color-light;
+        }
+
+        .dropdown-item i {
+          background: rgba($danger, 0.2);
+          @extend .color-danger;
+        }
+      }
+
+      .card-body {
+        a {
+          .card-title {
+           @extend .color-dark;
+          }
+
+          &:hover {
+            .card-title {
+             @extend .color-primary;
+            }
+          }
+        }
+
+        p {
+          @extend .color-light;
+
+          span {
+           @extend .color-gray;
+          }
+        }
+
+        ul {
+          li {
+            @extend .color-light;
+
+            span {
+             @extend .color-dark;
+            }
+
+            i {
+              color: #adb4d2;
+            }
+          }
+        }
+
+        .btn {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.content .tab-content .dashboard-doctor-appointment {
+  .btn.btn-success {
+    background: rgba($success, 0.2);
+    @extend .color-success;
+
+    &:hover {
+      background: rgba($success, 1);
+      color: $white;
+    }
+  }
+
+  .btn.btn-danger {
+    background: rgba($danger, 0.2);
+    @extend .color-danger;
+
+    &:hover {
+      background: rgba($danger, 1);
+      color: $white;
+    }
+  }
+}
+
+.notification-area {
+  ul {
+    li {
+      .messages {
+        &:after {
+          @extend .bg-success;
+        }
+      }
+
+      .notification-icon {
+        &:after {
+          @extend .bg-danger;
+        }
+      }
+
+      a i {
+        color: #adb4d2;
+      }
+
+      .notification-dropdown-menu {
+        background: $white;
+        border-top: 1px solid $primary;
+        box-shadow: 3px 0 30px rgba($light, 0.2);
+
+        a {
+         @extend .color-gray;
+
+          &:hover {
+           @extend .color-primary;
+
+            i {
+             @extend .color-primary;
+            }
+          }
+        }
+      }
+
+      .author-dropdown-menu {
+        .author-user {
+          @extend .bg-primary;
+          color: $white;
+        }
+
+        .btn {
+          border: 1px solid $secondary;
+          @extend .color-secondary;
+
+          i {
+            @extend .color-secondary;
+          }
+
+          &:hover {
+            @extend .color-secondary;
+
+            i {
+              @extend .color-secondary;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Notification
+.recent-activities {
+  background: #fff;
+  border-bottom: 1px solid $border-color;
+
+  .recent-activities-wrapper {
+    .icon {
+      color: #fff;
+    }
+
+    .icon-warning {
+      @extend .bg-warning;
+    }
+
+    .icon-secondary {
+      @extend .bg-secondary;
+    }
+
+    .icon-primary {
+      @extend .bg-primary;
+    }
+
+    .notification {
+      h6 {
+        @extend .color-light;
+
+        a {
+         @extend .color-primary;
+        }
+      }
+
+      p {
+        @extend .color-light;
+      }
+    }
+  }
+
+  .trush-icon {
+    background: rgba($danger, 0.1);
+    @extend .color-danger;
+
+    &:hover {
+      @extend .bg-danger;
+      color: $white;
+    }
+  }
+
+  .pagination {
+    li.page-item {
+      a.page-link {
+       @extend .color-dark;
+
+        &:hover {
+          @extend .bg-primary;
+          color: $white;
+        }
+      }
+
+      .active .page-link {
+        @extend .bg-primary;
+      }
+    }
+  }
+}
+
+// My Profile
+.user_pro_img_area {
+  background: #fff;
+  border: 1px solid $border-color;
+
+  .image-info {
+    h6 {
+     @extend .color-dark;
+    }
+
+    span {
+      @extend .color-light;
+    }
+  }
+
+  .custom-file-upload {
+    label {
+      background: #f8f9fc;
+     @extend .color-gray;
+      border: 1px solid $border-color;
+    }
+  }
+}
+
+.dashboard-content-box.change-pass {
+  background: #fff;
+
+  h6 {
+    border-bottom: 1px solid $border-color;
+   @extend .color-dark;
+  }
+
+  .form-group {
+    input {
+      border: 1px solid $border-color;
+      @extend .color-light;
+
+      &:focus {
+        border: 1px solid $primary;
+      }
+    }
+
+    .btn-transparent {
+      border: 1px solid $primary;
+     @extend .color-primary;
+    }
+  }
+}
+
+.atbd_content_module {
+  .form-label {
+   @extend .color-dark;
+  }
+
+  .atbdb_content_module_contents {
+    .form-group {
+      label {
+       @extend .color-dark;
+      }
+
+      input {
+        @extend .color-light;
+
+        &:focus {
+          border: 1px solid $primary;
+        }
+      }
+    }
+  }
+}
+
+#menu-wrapper {
+  #hamburger-menu {
+    span {
+      color: $white;
+      background-color: $white;
+    }
+  }
+}
+
+#menu-container .menu-list {
+  @extend .bg-banner;
+  box-shadow: rgba(100, 100, 100, 0.2) 6px 2px 10px;
+
+  li.accordion-toggle,
+  .menu-login {
+    border-top: 1px solid #dbdcd2;
+  }
+}
+
+.accordion-toggle {
+  a {
+    &:before,
+    &:after {
+      background-color: #5a5858;
+    }
+  }
+
+  &.active-tab {
+    background: yellowgreen;
+  }
+
+  a.active {
+    &:before {
+      background: #fff !important;
+    }
+
+    &:after {
+      background: #fff !important;
+    }
+  }
+}
+
+.dashboard-off-canvas-main {
+  span.c-button__text i {
+    @extend .bg-primary;
+    color: #fff;
+  }
+
+  .notification-area-sidebar {
+    ul {
+      li {
+        button {
+          background: transparent;
+        }
+
+        .messages,
+        .notification-icon {
+          i {
+            color: #fff;
+            @extend .bg-primary;
+          }
+        }
+      }
+    }
+
+    .notification-dropdown-menu {
+      background: $white;
+      border-top: 1px solid $primary;
+      box-shadow: 3px 0 30px rgba($light, 0.2);
+
+      a {
+       @extend .color-gray;
+
+        &:hover {
+         @extend .color-primary;
+
+          i {
+           @extend .color-primary;
+          }
+        }
+      }
+
+      .author-user {
+        @extend .bg-primary;
+        color: $white;
+      }
+    }
+  }
+}
+
+// Doctor Hospitals Details Page
+.doctor-sidebar {
+  background: $white;
+  box-shadow: 3px 0 5px rgba($light, 0.05);
+
+  h6 {
+   @extend .color-dark;
+  }
+}
+
+.d-caption {
+  border-top: 1px solid $border-color;
+
+  .module {
+    background: $white;
+
+    .caption {
+      p {
+       @extend .color-dark;
+      }
+    }
+
+    .body {
+      form {
+        input[type="checkbox"] + label:before {
+          border: 0.1em solid #cbd0e3;
+        }
+
+        input[type="checkbox"]:checked + label:before {
+          @extend .bg-primary;
+          border-color: $primary;
+          color: #fff;
+        }
+
+        input[type="checkbox"]:disabled + label:before {
+          border-color: #aaa;
+        }
+
+        input[type="checkbox"]:checked:disabled + label:before {
+          background-color: #bfb;
+          border-color: #bfb;
+        }
+
+        label {
+         @extend .color-gray;
+
+          i,
+          span {
+            @extend .color-light;
+          }
+
+          .i-color {
+           @extend .color-light;
+          }
+        }
+      }
+
+      // Price Range Slider
+      .price-range p {
+        @extend .color-light;
+      }
+
+      .price-range.rs-primary .amount {
+       @extend .color-primary;
+      }
+
+      .price-range .ui-slider-horizontal {
+        background: rgba($primary, 0.2);
+      }
+
+      .price-range .ui-slider-horizontal .ui-slider-handle {
+        background: #fff;
+        border: 1px solid $primary;
+      }
+
+      .price-range .amount-two span {
+        border: 1px solid #e3e6ef;
+        color: #5d658c;
+      }
+
+      /* slider range */
+      .range-slider .ui-slider-horizontal .ui-slider-handle {
+        background: #fff;
+        border: 0.33333rem solid #903af9;
+      }
+
+      /* range slider */
+      .price-range.rs-primary .ui-slider-horizontal .ui-slider-handle,
+      .range-slider.rs-primary .ui-slider-horizontal .ui-slider-handle {
+        border-color: $primary;
+      }
+
+      .price-range.rs-primary .ui-slider-horizontal .ui-slider-range {
+        @extend .bg-primary;
+      }
+    }
+
+    .filter-btn {
+      .btn-reset {
+        background: #f5f5f6;
+      }
+    }
+  }
+}
+
+.d-btn-more {
+  a {
+    color: #15c4d7;
+  }
+}
+
+.listing-list-box {
+  background: $white;
+  border: 1px solid $border-color;
+  box-shadow: 3px 0 5px rgba($light, 0.05);
+
+  .listing-list-img {
+    .listing-img-inner {
+      &:before {
+        background-image: linear-gradient(to top, #000, transparent);
+      }
+    }
+  }
+
+  .listing-list-box-inner {
+    .listing-data-list {
+      .doc-degree {
+        a {
+         @extend .color-primary;
+        }
+      }
+    }
+
+    .box-footer .box-btn .favorite-icon i {
+      @extend .bg-banner;
+    }
+  }
+}
+
+.clean-icon {
+  span,
+  i {
+    color: $white;
+  }
+
+  .check-icon {
+    i {
+      @extend .bg-success;
+    }
+  }
+
+  .favorite-icon {
+    background: rgba($dark, 0.5);
+  }
+}
+
+// Progress Bar
+.main {
+  .progress-bar-box {
+    p {
+      @extend .color-light;
+    }
+
+    span {
+      @extend .color-light;
+    }
+  }
+}
+
+.progressBar {
+  background: #eeeeee;
+}
+
+.staff,
+.punctuality,
+.helpfulness,
+.knowledge {
+  background-image: linear-gradient(to right, $primary, $secondary);
+}
+
+.atbd_area_footer {
+  .active-one,
+  .active-two,
+  .active-three,
+  .active-four,
+  .active-five {
+   @extend .color-primary;
+  }
+}
+
+.doctor-sidebar-inner {
+  .contact-info {
+    background: $white;
+    box-shadow: 3px 0 5px rgba($light, 0.05);
+
+    .contact-info-inner {
+      h6 {
+        border-bottom: 1px solid $border-color;
+       @extend .color-dark;
+      }
+
+      ul {
+        border-bottom: 1px solid $border-color;
+
+        li {
+          i {
+            background: rgba($secondary, 0.1);
+            @extend .color-secondary;
+          }
+
+          span {
+           @extend .color-gray;
+          }
+
+          .info {
+            @extend .color-light;
+          }
+        }
+      }
+
+      .contact-info-footer {
+        .social {
+          a {
+            background: #f5f5f6;
+            @extend .color-light;
+
+            &:hover {
+              @extend .bg-primary;
+              color: $white;
+            }
+          }
+        }
+
+        .sidebar-modal {
+          .btn-light {
+            @extend .bg-soft;
+           @extend .color-dark;
+            border: 1px solid #e9ebf4;
+
+            i {
+             @extend .color-primary;
+            }
+          }
+
+          .modal-content {
+            .modal-header {
+              @extend .bg-secondary;
+              color: #fff;
+
+              .close {
+                span {
+                  background: rgba($white, 0.2);
+                  color: $white;
+                }
+              }
+            }
+
+            .modal-body {
+              .form-group .form-control {
+                border: 1px solid $border-color;
+
+                &:focus {
+                  border: 1px solid $primary;
+                }
+              }
+
+              input::placeholder {
+                color:$light;
+              }
+            }
+          }
+        }
+      }
+
+      .office-hours {
+        li {
+          border-bottom: 1px solid $border-color;
+
+          span {
+            color: #5d658c;
+          }
+        }
+
+        .office-today {
+          span {
+            @extend .color-success;
+          }
+        }
+
+        .office-closed {
+          span {
+            @extend .color-danger;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Hopital details
+.hospital-carousel {
+  .single-hospital-carousel {
+    border: 1px solid $border-color;
+
+    .hospital-doc-details {
+      .doctor-profile-box-inner {
+        h2 {
+         @extend .color-dark;
+        }
+
+        p {
+          @extend .color-light;
+        }
+
+        .listing-data-list {
+          ul li .rating {
+            i {
+             @extend .color-light;
+            }
+
+            span {
+              color: #adb3ce;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.owl-nav {
+  i {
+    border: 1px solid $border-color;
+
+    &:hover {
+      @extend .bg-primary;
+      color: $white;
+    }
+  }
+}
+
+.atbd_share {
+  .atbd_director_social_wrap {
+    background: #fff;
+    box-shadow: 0 remy(5px) remy(30px) rgba($body-color, 0.4);
+
+    a {
+      @extend .color-light;
+    }
+
+    ul {
+      li {
+        border-bottom: 1px solid $border-color;
+      }
+    }
+  }
+}
+
+// Footer
+.footer {
+  .footer-top {
+    background: #1f2235;
+    .widget_nav_menu ul li {
+      a {
+        color: rgba($white, 0.5);
+
+        &:hover {
+          @extend .color-secondary;
+        }
+      }
+    }
+    .footer-box {
+      h5 {
+        color: $white;
+      }
+
+      .aps-download {
+        li {
+          .btn-link {
+            background: $white;
+           @extend .color-gray;
+
+            &:hover {
+              background: rgba($white, 0.7);
+            }
+          }
+        }
+      }
+
+      .form-group {
+        .submit-btn {
+          @extend .color-secondary;
+        }
+      }
+
+    }
+  }
+
+  .footer-bottom {
+    background: #171928;
+
+    p {
+      color: rgba($white, 0.5);
+
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+
+// -- Listing --//
+// Listing Grid
+.listing-grid {
+  background: #f5f5f6;
+
+  .listing-grid-wrapper {
+    .filters {
+      ul {
+        background: $white;
+        box-shadow: 3px 0 5px rgba($light, 0.05);
+
+        li {
+          border: 1px solid $border-color;
+        }
+
+        .active {
+          @extend .bg-primary;
+          color: $white;
+        }
+
+        .dropdown {
+          a {
+            span {
+              background: transparent;
+              border: 1px solid $light;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.listing-grid-inner {
+  .listing-grid-box {
+    background: #fff;
+    box-shadow: 3px 0 5px rgba($light, 0.05);
+
+    .listing-grid-img {
+      position: relative;
+
+      &:before {
+        background-image: linear-gradient(to top, $dark, transparent);
+      }
+    }
+  }
+
+  .btn-white {
+    background: #fff;
+   @extend .color-gray;
+    box-shadow: 3px 0 5px rgba($light, 0.05);
+  }
+}
+
+.listing-grid-box-inner {
+  border: 1px solid $border-color;
+
+  .upper-badge {
+    .badge {
+      border: 1px solid transparent;
+      color: $white;
+    }
+
+    .badge-featured {
+      @extend .bg-danger;
+    }
+
+    .badge-verified {
+      @extend .bg-success;
+    }
+  }
+
+  .box-title {
+    h6 {
+     @extend .color-dark;
+    }
+
+    p {
+      @extend .color-light;
+    }
+  }
+
+  .listing-data-list {
+    ul {
+      li {
+        p {
+          @extend .color-light;
+
+          span {
+            @extend .color-secondary;
+          }
+
+          a {
+            @extend .color-light;
+          }
+        }
+      }
+    }
+  }
+
+  .box-footer {
+    border-top: 1px solid $border-color;
+
+    .rating {
+      span {
+        color: #adb3ce;
+      }
+
+      .active {
+       @extend .color-light;
+      }
+    }
+
+    .box-btn .btn {
+      border: 1px solid $primary;
+     @extend .color-primary;
+
+      &:hover {
+        @extend .bg-primary;
+        color: $white;
+      }
+    }
+  }
+}
+
+// Breadcrumb
+.breadcrumb {
+  .b-title h1 {
+    color: $white;
+  }
+}
+
+// Listing List
+.all-doctor {
+  background: #f5f5f6;
+
+  .generic-header {
+    .generic-header-title {
+      @extend .color-light;
+
+      span {
+       @extend .color-dark;
+      }
+    }
+
+    .listing-action {
+      .short a {
+        @extend .color-light;
+      }
+
+      .match a {
+       @extend .color-dark;
+      }
+
+      .view-mode {
+        .ab-grid {
+          @extend .color-light;
+        }
+
+        .ab-list {
+          @extend .color-light;
+        }
+
+        .active span {
+          background: #fff;
+         @extend .color-primary;
+        }
+      }
+    }
+  }
+
+  nav {
+    .page-item {
+      .page-link {
+       @extend .color-dark;
+
+        i {
+         @extend .color-dark;
+        }
+      }
+    }
+
+    .active .page-link {
+      @extend .bg-primary;
+      color: $white;
+    }
+  }
+}
+
+.appointment-doctor {
+  background: #f5f5f6;
+
+  .atbd_content_module {
+    .appointment-doctor-title {
+      border-top: 1px solid $border-color;
+
+      h3 {
+       @extend .color-gray;
+      }
+
+      .btn {
+        border: 1px solid $primary;
+       @extend .color-primary;
+      }
+    }
+
+    input {
+      // border: 1px solid $border-color-three;
+
+      &:focus {
+        border: 1px solid $primary;
+      }
+    }
+
+    .doc-time-plan {
+      h6 {
+       @extend .color-gray;
+
+        b {
+         @extend .color-dark;
+        }
+      }
+    }
+
+    .radio {
+      .radio-wrapper {
+        h6 {
+         @extend .color-dark;
+        }
+
+        .radio-inner input:focus + label {
+          @extend .bg-primary;
+        }
+
+        .radio-inner input:focus + label .checker {
+          border-color: #fff;
+        }
+
+        .radio-inner input:checked + label .checker {
+          box-shadow: inset 0 0 0 6px $primary;
+        }
+
+        .radio-inner label {
+          transition: background-color 0.3s ease;
+        }
+
+        .radio-inner label:hover {
+          background: #eeeeff;
+        }
+
+        .radio-inner label:hover .checker {
+          box-shadow: inset 0 0 0 2px $primary;
+        }
+
+        .radio-inner .checker {
+          box-shadow: inset 0 0 0 2px #ccc;
+          transition: box-shadow 0.3s ease;
+        }
+      }
+    }
+
+    h6 {
+     @extend .color-dark;
+    }
+
+    .form-control {
+      border: 1px solid $border-color;
+
+      &:focus {
+        box-shadow: none;
+        border: 1px solid $primary;
+      }
+    }
+
+    .textarea {
+      border: 1px solid $border-color;
+    }
+
+    p {
+      a {
+        @extend .color-secondary;
+      }
+    }
+  }
+}
+
+.appointment-doctor-two {
+  .atbd_listing_details {
+    h2 {
+     @extend .color-dark;
+
+      i {
+        @extend .color-success;
+      }
+    }
+  }
+}
+
+// All categories
+.all-doctor-list {
+  h1 {
+   @extend .color-gray;
+
+    b {
+     @extend .color-dark;
+    }
+  }
+
+  .doctor-listing-inner {
+    .doctor-listing-title {
+      @extend .bg-primary;
+      color: #fff;
+    }
+
+    a {
+     @extend .color-gray;
+
+      &:hover {
+       @extend .color-primary;
+      }
+    }
+  }
+}
+
+.all-location-list {
+  .location-listing {
+    .location-listing-inner {
+      span.location-listing-title {
+        background: rgba($primary, 0.05);
+       @extend .color-primary;
+      }
+    }
+  }
+}
+
+// calender
+.ui-datepicker .ui-state-default,
+.ui-datepicker .ui-widget-content .ui-state-default {
+  background: #fff;
+  text-align: center;
+}
+
+.ui-datepicker .ui-state-highlight,
+.ui-datepicker .ui-widget-content .ui-state-highlight {
+  @extend .bg-primary;
+  color: #fff;
+}
+
+.ui-datepicker .ui-widget.ui-widget-content {
+  border: 1px solid $primary;
+}
+
+.ui-datepicker {
+  .ui-datepicker-title {
+    @extend .bg-primary;
+  }
+}
+
+.ui-datepicker span {
+  color: #fff;
+}
+
+.ui-datepicker {
+  .ui-datepicker-prev,
+  .ui-datepicker-next {
+    background: transparent;
+  }
+
+  .ui-datepicker-prev span {
+    border-right: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    background: none;
+  }
+
+  .ui-datepicker-next span {
+    border-right: 10px solid transparent;
+    border-left: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    background: none;
+  }
+}
+
+.listing-table {
+  background: #fff;
+
+  .table {
+    background: $white;
+    box-shadow: 5px 0 5px rgba($light, 0.05);
+
+    thead {
+      th {
+       @extend .color-gray;
+      }
+    }
+
+    tr {
+      td {
+        border-top: 1px solid $border-color;
+
+        .table-inner {
+          p {
+           @extend .color-dark;
+          }
+
+          .rating {
+            li {
+              span {
+               @extend .color-light;
+              }
+
+              span.atbd_count {
+                color: #adb4d2 !important;
+              }
+            }
+          }
+        }
+
+        p {
+          @extend .color-light;
+        }
+
+        .dropdown a i {
+          @extend .color-light;
+        }
+
+        .bookmark-action-btn {
+          @extend .bg-banner;
+          @extend .color-danger;
+
+          &:hover {
+            @extend .bg-danger;
+            color: $white;
+          }
+        }
+
+        .remaining-listing span {
+         @extend .color-primary;
+        }
+      }
+
+      &:last-child {
+        td {
+          border-bottom: 1px solid $border-color;
+        }
+      }
+    }
+  }
+
+  nav {
+    ul.pagination .page-item {
+      a.page-link {
+        @extend .color-dark;
+
+        &:hover {
+          @extend .bg-primary;
+          color: $white;
+        }
+      }
+    }
+
+    ul.pagination .page-item.active .page-link {
+      @extend .bg-primary;
+      color: $white;
+    }
+  }
+}
+
+.doctor-listing-table {
+  background: transparent;
+}
+
+// Listing Details
+.doctor-details {
+  background: #f5f5f6;
+}
+
+.doctor-profile {
+  .breadcrumb-title {
+    h1 {
+      color: #ffffff;
+    }
+  }
+
+  .doctor-profile-box {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 10px 0 15px rgba($light, 0.05);
+  }
+
+  .doctor-profile-box-inner {
+    .box-title {
+      .box-title-inner {
+        h2 {
+         @extend .color-dark;
+        }
+      }
+    }
+
+    p {
+      @extend .color-light;
+    }
+
+    .listing-data-list {
+      ul li {
+        .rating {
+          b {
+           @extend .color-dark;
+          }
+
+          i {
+            @extend .color-light;
+          }
+
+          .active {
+           @extend .color-light;
+          }
+
+          span {
+            color: #adb3ce;
+          }
+        }
+      }
+    }
+
+    .clean-icon {
+      span {
+        @extend .color-light;
+      }
+    }
+  }
+
+  .atbd_listing_action_area {
+    .atbd_action {
+      .doctor-profile-btn {
+        @extend .bg-soft;
+        border: 1px solid $border-color;
+        @extend .color-light;
+      }
+    }
+  }
+}
+
+.atbd_content_module {
+  background: $white;
+  box-shadow: 3px 0 5px rgba($light, 0.05);
+
+  h4 {
+   @extend .color-dark;
+  }
+
+  h6 {
+   @extend .color-primary;
+  }
+
+  .atbdb_content_module_contents {
+    border-top: 1px solid $border-color;
+
+    p {
+     @extend .color-gray;
+    }
+
+    ul.social-links-list {
+      li {
+       @extend .color-gray;
+
+        &:before {
+          @extend .bg-secondary;
+        }
+      }
+    }
+
+    .rating-box {
+      .average-ratings {
+        .atbd_listing_rating {
+          background: rgba(#f8f9fb, 1);
+         @extend .color-primary;
+        }
+
+        .average-ratings-inner {
+          @extend .color-light;
+
+          span {
+            .active {
+             @extend .color-light;
+            }
+          }
+        }
+      }
+    }
+
+    .atbd_area_title {
+      .atbd_area_box {
+        span i {
+          @extend .color-light;
+        }
+
+        span .active {
+         @extend .color-light;
+        }
+      }
+
+      .atbd_area_title_inner {
+        h6 {
+         @extend .color-dark;
+        }
+
+        p {
+          @extend .color-light;
+        }
+      }
+    }
+
+    ul.pagination {
+      li.page-item {
+        a.page-link {
+          color: #5d658c;
+
+          &:hover {
+            @extend .bg-primary;
+            color: $white;
+          }
+        }
+
+        .active {
+          @extend .bg-primary;
+          color: $white !important;
+
+          i {
+            color: $white;
+          }
+        }
+      }
+    }
+
+    .review-rating {
+      .review-rating-inner {
+        p {
+          @extend .color-light;
+
+          &:last-child {
+           @extend .color-dark;
+          }
+        }
+
+        .rating-box {
+          border: 1px solid $border-color;
+
+          i {
+            @extend .bg-secondary;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    form {
+      textarea#validationTextarea {
+        border: 1px solid $border-color;
+
+        &:focus {
+          box-shadow: none;
+          border: 1px solid $primary;
+        }
+      }
+    }
+  }
+
+  .hos-all-doc {
+    @extend .color-secondary;
+  }
+}
+
+//-- Menu --//
+.menu-bar {
+  background: $white;
+  @extend .shadow2;
+
+  .navbar {
+
+    .search-wrapper .search-categories ul {
+      border-top: 1px solid $primary;
+    }
+
+    .navbar-brand {
+      border-right: 1px solid $border-color;
+    }
+  }
+}
+
+.dropdown-menu {
+  border-top: 1px solid $primary !important;
+
+  .dropdown-item {
+    @extend .color-light;
+
+    &:hover {
+      background: none;
+     @extend .color-primary;
+
+      i {
+        color: $primary !important;
+      }
+    }
+  }
+}
+
+// Modals
+.modal-header {
+  .modal-title i {
+    @extend .color-light;
+  }
+}
+
+.btn-outline-secondary {
+  @extend .color-secondary;
+  border: 1px solid $secondary !important;
+}
+
+.btn-outline-danger {
+  @extend .color-danger;
+  border: 1px solid $danger !important;
+}
+
+.dropdown-sub-menu {
+  .sub-menu {
+    background: #fff;
+    border-top: 2px solid $secondary;
+    box-shadow: rgba(100, 100, 100, 0.2) 6px 2px 10px;
+
+    a {
+      @extend .color-light;
+    }
+
+    span {
+      &:before {
+        border-top: 10px solid $primary;
+        border-right: 10px solid $primary;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid transparent;
+      }
+    }
+  }
+}
+
+// devent Search Home
+.header {
+  background: linear-gradient(to right, $primary, $secondary);
+
+  .header-category {
+    ul {
+      background: rgba($white, 0.15);
+
+      li {
+        a {
+          color: rgba($white, 0.8);
+
+          &:hover {
+            @extend .color-secondary;
+          }
+
+          .active {
+            color: rgba($white, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+.header,
+.breadcrumb {
+  .display-text-two {
+    color: $white;
+  }
+}
+
+//-- Search --//
+.search-wrapper {
+  .search_module {
+    .search_area {
+      form {
+        .input-group {
+          .form-control {
+            background: $white;
+            border: 1px solid transparent;
+
+            &:focus {
+              outline: 0;
+              box-shadow: none;
+            }
+          }
+
+          &::placeholder {
+            color: #adb3cd;
+          }
+        }
+      }
+    }
+  }
+
+  .search-categories {
+    border: 1px solid rgba(#fff, 0.2);
+    box-shadow: 0 5px remy(10px) rgba($dark, 0.1);
+    background: #fff;
+
+    ul {
+      li {
+        a {
+            @extend .color-gray;
+
+          span {
+            color: #fff;
+          }
+        }
+
+        &:hover {
+          a {
+           @extend .color-primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+.search-bar-wrapper {
+  .search_module {
+    .search_trigger {
+      @extend .color-light;
+    }
+
+    .search_area_inner {
+      background: #ffffff;
+
+      form {
+        .input-group {
+          input {
+            border: 0 none;
+            box-shadow: none;
+
+            &:focus {
+              border: 0 none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

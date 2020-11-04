@@ -1,0 +1,767 @@
+@media (min-width: 1199px) and(max-width: 1480px) {}
+
+// Learge devices (Laptop, Monitor 1199px and up)
+@media (max-width: 1199px) {
+
+    // Home Page
+    // header hedaer-catergory
+    .header .hedaer-catergory ul {
+        background-image: linear-gradient(to left, $primary, $secondary);
+    }
+
+    .nav-right-side-content {
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 40%;
+    }
+
+    .search-bar-wrapper {
+        padding-right: 15px;
+    }
+
+    .menu-bar .navbar .nav-right-side-content .menu-sign-btn {
+        margin: 0;
+    }
+
+    .menu-bar .navbar .nav-right-side-content .menu-doctor-btn {
+        margin-right: 0;
+    }
+
+    /* Demo 2 */
+    #demo-2 .menu-search-field {
+        margin: 0 0 15px 15px;
+    }
+
+    #demo-2 .menu-search-field-wrapper input[type=text] {
+        width: 100%;
+    }
+
+    .listing-grid-box-inner .box-footer .box-btn {
+        margin: 10px 0;
+    }
+
+    // menu-search-field
+    #demo-2 .menu-search-field input[type=text]:focus {
+        width: 100%;
+    }
+
+    .breadcrumb-wrapper {
+        width: 100%;
+        display: inline-flex;
+        margin-bottom: 7px;
+
+        .looking-field {
+            flex-basis: 50%;
+        }
+
+        .search-field {
+            flex-basis: 50%;
+            margin-right: 0;
+        }
+
+        .address-field {
+            flex-basis: 80%;
+        }
+
+        .btn.btn-secondary {
+            flex-basis: 20%;
+        }
+    }
+
+    // footer social-box
+    .social-box a i {
+        margin: 0 5px 10px 0;
+    }
+
+    // All Doctors
+    .listing-list-box .listing-list-img {
+        flex-basis: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .d-caption .module .filter-btn .btn-reset {
+        margin-bottom: 15px;
+    }
+
+    // Dashboard
+    #v-pills-tab {
+        position: static;
+        width: 100%;
+    }
+
+    .dashboard-sidebar {
+        display: none;
+    }
+
+    .dashboard-off-canvas {
+        display: block;
+    }
+
+    #menu-wrapper {
+        top: 20%;
+        left: 0%;
+        background: $primary;
+    }
+
+    #menu-container .menu-list {
+        top: 22%;
+    }
+
+    .dashboard-inner .content {
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+
+    .listing-table .table thead th {
+        padding: 15px;
+    }
+
+    .listing-table .table tr td {
+        padding: 15px;
+    }
+
+    .dashboard {
+
+        .dashboard-inner {
+            width: auto;
+            display: block;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .off-canvas {
+        #main {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 992px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 991px) {
+
+    .navbar-light .navbar-toggler{
+        border: 1px solid #f2f2f2;
+        border-radius: 0.25rem;
+        padding: 0.33333rem 0.66667rem;
+        box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+        &:focus{
+            outline:none;
+        }
+        .navbar-toggler-icon{
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .notification-area {
+        display: none;
+    }
+
+    .dashboard-off-canvas-main {
+        display: block;
+        order: 4;
+    }
+
+    .menu-bar .navbar .dropdown-menu {
+        display: none !important;
+    }
+
+    .nav-item.dropdown.show .dropdown-menu {
+        display: block !important;
+    }
+
+    .dashboard-off-canvas-main span.c-button__text i {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #ffffff;
+        width: 100%;
+        z-index: 11;
+        max-height: 300px;
+        overflow: scroll;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+        order: 1;
+    }
+
+    .search-bar-wrapper .search_module .search_area_inner.active {
+        z-index: 11;
+    }
+
+    .menu-bar .navbar .navbar-brand {
+        order: 2;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .nav-right-side-content {
+        order: 3;
+    }
+
+    ul.navbar-nav {
+        padding: 20px;
+        padding-left: 0;
+        padding-bottom:15px;
+    }
+
+    .menu-bar .navbar .navbar-brand {
+        border-right: 0;
+    }
+
+    .navbar-nav {
+        border-top: 1px solid $border-color;
+    }
+
+    .menu-bar .navbar ul li a.nav-link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .menubar-lg-btn {
+        display: none;
+    }
+
+    .menu-bar .navbar{
+        .menu-sign-btn {
+            margin: 5px 0;
+        }
+        .menu-login-btn{
+            margin: 5px 0;
+        }
+    }
+
+    .menu-bar .navbar .menubar-btn {
+        display: block;
+        margin: 0px 0 25px 25px;
+        .menu-doctor-btn{
+            margin-left:0;
+        }
+    }
+
+    .navbar-nav {
+        margin: 0 0 0 25px;
+    }
+
+    .notification-area {
+        order: 4;
+    }
+
+    // Header
+    .header {
+        display: block !important;
+        text-align: center;
+
+        .display-text-two {
+            margin-top: 50px;
+            text-align: left;
+            line-height: 35px;
+        }
+
+        .header-box-wrapper {
+            display: block !important;
+
+            .header-search-box {
+                display: inline-flex;
+                width: 100%;
+
+                .looking-field {
+                    flex-basis: 50%;
+                    margin-right: 7px;
+                }
+
+                .search-field {
+                    flex-basis: 50%;
+                    margin-right: 0;
+                }
+
+                .address-field {
+                    flex-basis: 75%;
+                    margin-top: 15px;
+                    margin-right: 7px;
+                }
+
+                .btn {
+                    margin-top: 13px;
+                    flex-basis: 25%;
+                }
+            }
+        }
+
+        .shape-1 {
+            position: unset;
+            z-index: 0;
+            margin: 30px 0 -1px 0;
+        }
+    }
+
+    .listing-grid .listing-grid-wrapper .filters ul {
+        padding-bottom: 10px;
+
+        li {
+            margin-bottom: 0;
+        }
+    }
+
+    .listing-grid-box-inner .box-footer .box-btn {
+        margin: 0;
+    }
+
+    //Breadcrumb
+    .breadcrumb {
+        .looking-field {
+            flex-basis: 50%;
+            text-align: left;
+        }
+
+        .search-field {
+            flex-basis: 50%;
+            text-align: left;
+            margin-right: 0;
+        }
+    }
+
+    // features
+    .features .features-box {
+        margin-top: 30px;
+    }
+
+    // Doctor Details
+    .atbd_listing_action_area_inner {
+        display: inline-flex;
+        margin-top: 30px;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .atbd_action {
+            margin-right: 5px;
+        }
+    }
+
+    // About 
+    .team {
+        padding-bottom: 70px;
+    }
+
+    .team-wrapper {
+        margin-bottom: 30px;
+    }
+
+    // ALl Doctors
+    .doctor-sidebar .d-caption .module .filter-btn .btn-reset {
+        margin-bottom: 0;
+    }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 767.98px) {
+
+    // Header
+    .header {
+        .header-box-wrapper {
+            .header-search-box {
+                .address-field {
+                    flex-basis: 70%;
+                }
+
+                .btn {
+                    flex-basis: 30%;
+                }
+            }
+        }
+    }
+
+    .breadcrumb-wrapper {
+        .address-field {
+            flex-basis: 70%;
+        }
+
+        .btn.btn-secondary {
+            flex-basis: 30%;
+        }
+    }
+
+    // About
+    .about-header {
+        padding: 100px 0;
+    }
+
+    // Listing grid - listing-grid-box-inner - box-title
+    .listing-grid-box-inner {
+        .box-title {
+            padding-bottom: 10px;
+
+            p {
+                line-height: 20px;
+                margin-top: 6px;
+            }
+        }
+
+        .box-footer {
+            .box-btn {
+                margin-top: 7px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .reviews .reviews-carousel-wrapper .reviews-footer .reviews-footer-comment {
+        margin-bottom: 10px;
+    }
+
+    .reviews .owl-dots {
+        margin-top: 0;
+    }
+
+    // All Doctor
+    .listing-list-box {
+        flex-wrap: wrap;
+    }
+
+    .listing-list-box .listing-list-img {
+        flex-basis: 100%;
+        padding: 30px;
+        padding-bottom: 0;
+    }
+
+    .listing-list-box .listing-list-box-inner {
+        flex-basis: 100%;
+        padding: 0 10px;
+    }
+
+    .all-doctor .generic-header {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .listing-action {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }    
+
+    // Appointment Doctor
+    .appointment-doctor .atbd_content_module .appointment-doctor-title h3 {
+        margin-bottom: 15px;
+    }
+
+    div#ui-datepicker-div {
+        width: 350px;
+    }
+
+    .ui-state-default, .ui-widget-content .ui-state-default {
+        padding: 10px 0;
+    }
+
+    // Hospitals Details
+    .doctor-profile .doctor-profile-img {
+        width: 100%;
+        text-align: center;
+    }
+    .doctor-profile .doctor-profile-box-inner {
+        margin: 30px 0 0 0;
+        width: 100%;
+        text-align: center;
+
+        .box-title .box-title-inner {
+            width: 100%;
+
+            h2 {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .atbd_listing_action_area_inner {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    // Dashboard
+
+
+    // About
+    a.video-iframe.play-btn-two {
+        margin-bottom: 60px;
+    }
+
+    .testimonial-wrapper .testimonial-carousel .carousel-single .author-comment {
+        padding: 0 70px;
+    }
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .menu-bar .nav-right-side-content {
+        .mobile-menu {
+            width: 100%;
+
+            .looking-field {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .menu-bar .navbar .navbar-brand {
+        width: 30%;
+    }
+
+    .team .team-wrapper {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .menu-bar .navbar .navbar-brand {
+        padding-right: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .menu-bar .nav-right-side-content {
+        padding-bottom: 0;
+    }
+
+    .search-bar-wrapper .search_module .search_area_inner.active {
+        width: 250px;
+    }
+
+    .menu-bar .navbar .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .categories-slider,
+    .listing-grid,
+    .partner,
+    .reviews {
+        padding: 46px 0;
+    }
+
+    .listing-grid {
+        .title {
+            margin-bottom: 20px;
+        }
+    }
+
+    .features {
+        padding: 25px 0;
+    }
+
+    .reviews .title {
+        margin-bottom: 15px;
+    }
+
+    .footer .footer-top {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .hedaer-catergory ul li {
+        margin-right: 15px;
+    }
+
+    .mobile-menu .search_module .search_area form .input-group .form-control {
+        border: 0;
+        height: 38px;
+    }
+
+    .menu-bar .nav-right-side-content .mobile-menu .looking-field {
+        margin-bottom: 0;
+    }
+
+    .header .header-box-wrapper .header-search-box .address-field {
+        flex-basis: 60%;
+    }
+
+    .header .header-box-wrapper .header-search-box .btn {
+        flex-basis: 40%;
+    }
+
+    .counter-inner {
+        margin: 15px 0;
+    }
+
+    .search-bar-wrapper {
+        order: 3;
+        padding: 0 0 0 20px;
+    }
+
+    .search-bar-wrapper .search_module .search_area_inner {
+        right: 35px;
+    }
+
+    .listing-grid-inner {
+        .box-title {
+            padding-bottom: 5px;
+        }
+
+        .listing-grid-box .listing-grid-img img {
+            width: 100%;
+        }
+    }
+
+    .breadcrumb-wrapper {
+        .address-field {
+            flex-basis: 55%;
+        }
+
+        .btn.btn-secondary {
+            flex-basis: 45%;
+        }
+    }
+
+    // Appointment Doctors
+    .appointment-doctor .atbd_content_module {
+        margin-bottom: 60px;
+    }
+
+    .doctor-profile .breadcrumb-title h1 {
+        top: 30px;
+    }
+
+    div#ui-datepicker-div {
+        width: 250px;
+    }
+
+    .ui-state-default, .ui-widget-content .ui-state-default {
+        padding: 5px 0;
+    }
+
+    // Hospitals Details
+    .modal-body .form-excerpts .social-login p a {
+        margin: 5px;
+    }
+
+    // features
+    .features .features-box {
+        margin: 25px 0;
+    }
+
+    .features-box h3 {
+        margin: 20px 0 10px 0;
+    }
+
+    .help-wrapper {
+        margin-top: 50px;
+    }
+
+    // Doctor Details
+    .listing-grid-box-inner .listing-data-list ul {
+        margin: 10px 0 5px 0;
+    }
+
+    .atbd_content_module .atbdb_content_module_contents .rating-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner .rating-box {
+        flex-basis: 100%;
+    }
+
+    .doctor-profile .doctor-profile-box-inner {
+        margin: 30px 0 0 0;
+        flex-basis: 100%;
+    }
+
+    // Dashboard
+    .dashboard {
+        margin-top: 70px;
+    }
+
+    #menu-wrapper {
+        top: 10%;
+    }
+
+    #menu-container .menu-list .sidebar {
+        padding-top: 85px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    // Header
+    .header {
+        .header-box-wrapper {
+            .header-search-box {
+                .address-field {
+                    flex-basis: 55%;
+                }
+
+                .btn {
+                    flex-basis: 45%;
+                }
+            }
+        }
+    }
+
+    .search-bar-wrapper .search_module .search_area_inner.active {
+        width: 200px;
+    }
+
+    .nav-right-side-content {
+        width: 28%;
+        margin-right: 10px;
+    }
+
+    .doctor-profile .doctor-profile-box-wrapper {
+        display: block;
+
+        .doctor-profile-box-inner {
+            margin: 30px 0 0 0;
+        }
+    }
+
+    .atbd_content_module .atbdb_content_module_contents {
+        display: block !important;
+    }
+
+    .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner {
+        margin-bottom: 30px;
+    }
+
+    .atbd_content_module .atbdb_content_module_contents p {
+        width: 100%;
+    }
+
+    .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p:last-child {
+        margin-top: 0;
+    }
+
+    .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner .rating-box {
+        flex-basis: 100%;
+    }
+
+    // All Doctor
+    .listing-list-box .listing-list-img {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .listing-list-box .listing-list-box-inner {
+        padding: 0;
+    }
+}

@@ -1,0 +1,242 @@
+@import "../mixins/functions";
+@import "../../../assets/vendor_assets/css/bootstrap/config.bs.scss";
+
+.transparent {
+    background-color: transparent;
+}
+
+//Box Shadow
+.shadow1 {
+    box-shadow: 0 5px 10px rgba($text-light, 0.20);
+}
+.shadow3 {
+    box-shadow: 0 5px 20px rgba($text-light, 0.20);
+}
+.shadow7 {
+    box-shadow: 0 5px 10px rgba($text-light, 0.10);
+}
+
+.shadow6{
+    box-shadow:0 5px 8px rgba(#aab0ca, .1);
+}
+.shadow2 {
+    box-shadow: 0 8px 10px rgba($text-light, 0.1);
+}
+
+.shadow5{
+    box-shadow:0 10px 10px rgba($text-light, .1);
+}
+
+.shadow4 {
+    box-shadow: 0 1px 2px rgba(143, 142, 159, 0.25);
+}
+
+
+//Radius
+.radius-xl {
+    border-radius: $border-radius-xl;
+}
+
+.radius-lg {
+    border-radius: $border-radius-lg;
+}
+
+.radius-xs {
+    border-radius: $border-radius-xs;
+}
+
+.radius-md {
+    border-radius: $border-radius-md;
+}
+
+.radius-sm {
+    border-radius: $border-radius-sm;
+}
+
+//Font Weight
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-normal {
+    font-weight: normal;
+}
+
+//button
+.btn-md {
+    line-height: $btn-line-height-md;
+    padding: $btn-padding-y-md $btn-padding-x-md;
+}
+
+.btn-xs {
+    line-height: $btn-line-height-xs;
+    padding: $btn-padding-y-xs $btn-padding-x-xs;
+}
+
+//button radius
+.btn {
+    &.btn-radius-xs {
+        border-radius: $border-radius-xs;
+    }
+
+    &.btn-radius-sm {
+        border-radius: $border-radius-sm;
+    }
+
+    &.btn-radius-md {
+        border-radius: $border-radius-md;
+    }
+
+    &.btn-radius-lg {
+        border-radius: $border-radius-lg;
+    }
+
+    &.btn-radius-xl {
+        border-radius: $border-radius-xl;
+    }
+}
+
+//button size
+.btn-lg-size {
+    @include ofs($btn-lg-size, null, null);
+}
+
+.btn-xs-size {
+    @include ofs($btn-xs-size, null, null);
+}
+
+//Global Line Height
+.lh-normal {
+    line-height: normal;
+}
+
+//Display
+.d-grid {
+    display: grid;
+}
+
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.form-control.box-shadow-none:focus,
+input.box-shadow-none {
+    box-shadow: none !important;
+}
+
+.space-nowrap {
+    white-space: nowrap;
+}
+
+.cursor-true {
+    cursor: pointer;
+}
+
+//default link hover
+a:hover {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @extend .color-primary;
+    }
+}
+
+//transition
+.transition,
+a {
+    transition: $transition-base;
+}
+
+//Paragraph
+.pera {
+    @include ofs(17px, lh(17px, 29px), null);
+}
+
+.lead {
+    @include ofs(15px, lh(15px, 27px), null);
+}
+
+
+//Spacing class
+.p-top-100 {
+    padding-top: 100px;
+}
+
+.p-bottom-100 {
+    padding-bottom: 100px;
+}
+
+.p-top-30 {
+    padding-top: 30px;
+}
+
+.p-bottom-50 {
+    padding-bottom: 50px;
+}
+
+
+//button gradient
+.btn-gradient {
+    color: #fff;
+    font-weight: 700;
+    border: 0 none;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-gradient:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 3px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+
+.btn-gradient:hover {
+    color: #fff;
+}
+
+.btn-gradient:hover:before {
+    opacity: 1;
+}
+
+.btn-gradient.btn-gradient-one {
+    background: linear-gradient(to right, $secondary, $warning);
+}
+
+.btn-gradient.btn-gradient-two {
+    background: linear-gradient(to right, $warning, $secondary);
+}
+
+.btn-gradient.btn-gradient-one:before {
+    background: linear-gradient(to right, $warning, $secondary);
+}
+
+.btn-gradient.btn-gradient-two:before {
+    background: linear-gradient(to right, $secondary, $warning);
+}

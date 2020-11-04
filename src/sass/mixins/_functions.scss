@@ -1,0 +1,8 @@
+@function remy($value, $base: 15px) {
+  @return ($value / $base) * 1rem;
+}
+
+//get "unitless" line height
+@function lh($font-size, $line-height) {
+  @return $line-height / $font-size;
+}

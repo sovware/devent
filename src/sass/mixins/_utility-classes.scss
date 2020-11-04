@@ -1,0 +1,15 @@
+@import "../../../assets/vendor_assets/css/bootstrap/config.bs.scss";
+
+
+//width height generator
+@mixin area_generator($from, $to, $jump) {
+  @for $i from $from through $to {
+    @if $i%$jump == 0 {
+      .icon-#{$i}x#{$i} {
+        width: #{$i}px;
+        height: #{$i}px;
+      }
+    }
+  }
+}
+@include area_generator(10, 100, 10);

@@ -1,0 +1,311 @@
+//Modal
+.registraion-form,
+.direo-login{
+    input::placeholder{
+        color:$light;
+    }
+}
+
+.modal-backdrop.show {
+    z-index: 1;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 420px;
+        margin: 1.75rem auto;
+    }
+}
+
+#modal-item-remove {
+    .modal-body {
+        &>span {
+            font-size: remy(75px);
+        }
+    }
+}
+
+#login_modal,
+#signup_modal {
+    .modal-header {
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+
+        .modal-title {
+            @extend .color-dark;
+
+            i {
+                @include ofs(20px,null,null);
+                @extend .color-light;
+            }
+        }
+
+        .close {
+            width: 30px;
+            height: 30px;
+            padding: 0;
+            margin: 0;
+            background: rgba(#000, 0.1);
+            border-radius: 50%;
+            color: rgba(#000, 0.5);
+            text-shadow: none;
+            opacity: 1;
+            @extend .transition;
+            font-size: 18px;
+            outline: none;
+
+            &:hover {
+                color: #fff;
+                @extend .bg-secondary;
+            }
+
+            span {
+                position: relative;
+                top: -1px;
+            }
+        }
+    }
+
+    .modal-body {
+        padding: remy(30px);
+
+        .form-control,
+        .btn {
+            margin-bottom: remy(20px);
+            @include ofs(16px, null,null);
+        }
+
+        .form-excerpts {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .social-login {
+                text-align: center;
+
+                span,
+                a {
+                    display: inline-block;
+                }
+
+                p {
+                    margin: remy(15px) 0 0 0;
+
+                    a {
+                        margin: 0 remy(5px);
+                    }
+                }
+            }
+        }
+        p{
+            @include ofs(15px, null, null);
+            text-align: left;
+            white-space: normal;
+        }
+    }
+}
+
+#login_modal .modal-body .form-excerpts {
+    margin-top: 10px;
+}
+
+#login_modal {
+    .atbdp_login_form_shortcode {
+        padding: 0;
+    }
+
+    .recover-pass-form {
+        fieldset {
+            margin-top: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-top: 15px;
+            @extend .color-gray;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            border: 1px solid $border-color;
+            height: 45px;
+            padding: 0 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+    .social-connector {
+        margin: 15px 0 0;
+    }
+
+    .social-login {
+        margin: 0 -3px 20px;
+        @extend .content-center;
+        flex-wrap: wrap;
+
+        a[class^="fb-"] {
+            flex: 1;
+        }
+    }
+
+    .status {
+        margin-top: -5px;
+
+        span.color-danger {
+            @extend .bg-danger;
+            background: rgba($danger, 0.1);
+            display: block;
+            padding: 7px 15px;
+            border-radius: 3px;
+        }
+
+        span.color-success {
+            @extend .bg-success;
+            background: rgba($success, 0.1);
+            display: block;
+            padding: 7px 15px;
+            border-radius: 3px;
+        }
+    }
+
+    .form-excerpts {
+        ul {
+            margin: 0;
+
+            li a {
+                font-weight: 600;
+                @extend .color-dark;
+
+                &:hover {
+                    @extend .color-secondary;
+                }
+            }
+        }
+
+        .recover-pass-link:hover {
+            @extend .color-secondary;
+        }
+    }
+}
+
+#signup_modal {
+    .directory_register_form_wrap {
+        padding: 0;
+    }
+
+    .directory_regi_btn {
+        margin: 0;
+    }
+
+    .alert {
+        padding: 0;
+        margin: 0;
+
+        &.alert-danger,
+        &.alert-success {
+            margin: 0 0 10px;
+        }
+
+        span {
+            display: block;
+            padding: 5px 10px;
+            border: 0 none;
+        }
+
+        p {
+            padding: 7px 15px;
+        }
+    }
+
+    .form-excerpts {
+        ul {
+            margin: 0;
+
+            li a {
+                font-weight: 600;
+                @extend .color-dark;
+
+                &:hover {
+                    @extend .color-secondary;
+                }
+            }
+        }
+    }
+
+    .social-connector {
+        margin: 0;
+    }
+
+    .social-login {
+        margin: 0 -3px 20px;
+        display: flex;
+        justify-content: center;
+
+        a[class^="fb-"] {
+            flex: 1;
+        }
+    }
+}
+
+#login_modal,
+#signup_modal{
+    .modal-body .keep_signed {
+        text-align: left;
+        .custom-control-label{
+            @extend .color-light;
+        }
+        .custom-control-input:checked ~ .custom-control-label::before{
+            border-color:$secondary;
+            background-color: $secondary;
+        }
+        .custom-control-input:focus:not(:checked) ~ .custom-control-label::before{
+            border-color:$secondary;
+        }
+    }
+} 
+
+.direo-login{
+    input{
+        height: 48px;
+    }
+}
+
+.recover-pass-link{
+    @extend .color-light;
+}
+
+//Social Connector
+.social-connector {
+    overflow: hidden;
+    text-align: center;
+    span{
+        @extend .color-light;
+    }
+  }
+  
+  .social-connector:before, .social-connector:after {
+    background-color: #EBECEF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .social-connector:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .social-connector:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  

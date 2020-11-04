@@ -1,0 +1,514 @@
+//Widget Default
+.sidebar-widget-area {
+  margin-top: 60px;
+}
+
+.widget {
+  padding: 0 0 30px 0;
+  border: 1px solid $border-color;
+  margin-bottom: 30px;
+
+  //Widget title
+  .widget-title {
+    padding: 20px 30px;
+    font-weight: 600;
+    border-bottom: 1px solid $border-color;
+    text-transform: capitalize;
+    @extend .color-dark;
+    @include ofs(16px, null, null);
+  }
+
+  //Widget body
+  ul,
+  .tagcloud,
+  .search-form,
+  .subscribe-form,
+  .social-box {
+    padding: 25px 30px 0 30px;
+  }
+
+  ul {
+
+    // Widget List
+    li {
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+
+      a {
+        @extend .color-gray;
+
+        &:hover {
+          @extend .color-primary;
+        }
+      }
+    }
+  }
+}
+
+// Widget Post
+.widget_devent_post {
+  .azin-item {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .azin-thumb {
+    margin-right: 20px;
+
+    img {
+      max-width: 60px;
+      height: 60px;
+      border-radius: 5px;
+    }
+  }
+
+  .azin-content {
+    .azin-date {
+      line-height: 1.43;
+      @extend .color-light;
+      @include ofs(14px, null, null);
+    }
+
+    .azin-title {
+      font-weight: 600;
+      margin: 6px 0 0;
+      @include ofs(14px, null, null);
+
+      a {
+        @extend .color-dark;
+      }
+    }
+  }
+}
+
+// Widget select
+.widget {
+
+  label,
+  select {
+    width: 291px;
+    margin: 25px 0 0 30px;
+
+    @include xxs {
+      width: 250px;
+
+    }
+  }
+
+  label {
+    font-weight: 700;
+    @extend .color-dark;
+  }
+
+  select {
+    padding: 10px 15px;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    appearance: none;
+    height: 50px;
+    border-radius: 6px;
+    @include ofs(14px, null, null);
+    position: relative;
+
+    &:after {
+      content: 'red';
+      font: normal normal normal 16px/1 LineAwesome;
+      font-size: 0.66667rem;
+      padding-left: 0;
+      right: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-weight: 900;
+    }
+
+    &:focus {
+      border: 1px solid $border-color;
+      outline: none;
+    }
+  }
+}
+
+// Widget Calendar
+.widget_calendar {
+  .calendar_wrap {
+    padding: 0 30px;
+    padding-top: 7px;
+  }
+
+  #wp-calendar {
+    position: relative;
+    width: 100%;
+    border-collapse: separate !important;
+    border-spacing: 5px 8px !important;
+
+    caption {
+      caption-side: top;
+      text-align: center;
+      padding-bottom: 0;
+      @extend .color-gray;
+    }
+
+    tfoot {
+      position: absolute;
+      top: 1px;
+      left: 0;
+
+      td {
+        @include ofs(14px, null, null);
+
+        a {
+          color: $body-color;
+        }
+      }
+    }
+
+    thead {
+      th {
+        font-size: 14px;
+        height: 32px;
+        @extend .color-gray;
+      }
+    }
+
+    tbody {
+      td {
+        font-weight: 600;
+        height: 32px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        border: 1px solid rgba(#ffffff, .20);
+        @extend .color-dark;
+        @extend .shadow4;
+        @include ofs(13px, null, null);
+
+        &#today {
+          @extend .border-primary;
+          @extend .color-primary;
+
+        }
+      }
+    }
+
+    th,
+    td {
+      text-align: center;
+      vertical-align: middle;
+      min-width: 32px;
+      width: 32px;
+      height: 24px;
+      line-height: 24px;
+      font-size: 12px;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+  }
+}
+
+// Widget rss
+.widget_rss {
+  a.rsswidget{
+    font-weight: 600;
+    @extend .color-dark;
+  }
+  ul li {
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+
+    a.rsswidget {
+      font-weight: 600;
+      @extend .color-dark;
+      @include ofs(14px, null, null);
+
+      &:hover {
+        @extend .color-primary;
+      }
+    }
+
+    .rss-date {
+      font-size: 12.5px;
+      display: block;
+      margin-top: 2px;
+      @extend .color-light;
+    }
+
+    .rssSummary {
+      margin-top: 7px;
+      margin-bottom: 8px;
+      @extend .color-gray;
+      @include ofs(14px, null, null);
+    }
+
+    cite {
+      font-size: 13px;
+      padding-left: 25px;
+      position: relative;
+      @extend .color-gray;
+
+      &:after {
+        position: absolute;
+        width: 20px;
+        height: 1px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        @extend .bg-dark;
+        content: "";
+      }
+    }
+  }
+}
+
+// Widget Search
+.search-form {
+  .custom-search-input {
+    border-radius: 5px;
+    min-height: 46px;
+
+    input {
+      width: 100%;
+      border-radius: 1.66667rem !important;
+      background: #f5f4f7;
+      border: none;
+      height: 3.33333rem;
+      padding: 0 4rem 0 1.66667rem;
+
+      &::placeholder {
+        @include ofs(14px, null, null);
+        font-weight: 600;
+        color: $text-gray;
+      }
+    }
+
+    button {
+      margin: 0px 10px;
+      background-color: transparent;
+      padding: 0 1.33333rem;
+      border-radius: 1.66667rem;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 3.33333rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    i {
+      color: #8f8e9f;
+    }
+  }
+}
+
+
+// Widget Text
+.widget_text {
+  .textwidget {
+    padding: 18px 30px 0 30px;
+
+    strong {
+      display: inline-block;
+      font-weight: 600;
+      margin-bottom: 12px;
+      @extend .color-gray;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    .wp-caption-text {
+      @extend .color-gray;
+    }
+
+    select {
+      margin: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Widget Tags
+.tagcloud {
+  margin: -5px;
+
+  a {
+    font-size: 13px !important;
+    line-height: 1.4;
+    font-weight: 600;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #8f8e9f;
+    border: 1px solid $border-color-two;
+    transition: $transition-base;
+
+    &:hover {
+      border-color: $primary;
+      color: #fff;
+      @extend .bg-primary;
+    }
+  }
+}
+
+//Widget Social
+
+.social-box {
+
+  ul {
+    display: flex;
+    margin: -4px;
+    padding: 0;
+    flex-wrap: wrap;
+
+    li {
+      margin: 4px;
+
+      a i {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        @include rfs(18);
+        transition: $transition-base;
+        background: #36394a;
+        color: $white;
+
+        &:hover {
+          @extend .bg-primary;
+        }
+      }
+    }
+  }
+}
+
+//Subscribe 
+.subscribe-form {
+  form {
+    border-radius: 4px;
+    border: 1px solid $border-color;
+  }
+
+  input {
+    padding: 11px 18px;
+    border: none;
+    width: 100%;
+
+    &::placeholder {
+      font-weight: 400;
+      color: $text-light;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+
+    .submit-btn {
+      display: flex;
+      align-items: center;
+      margin: 0px 15px;
+
+      i {
+        @extend .color-primary;
+        @include ofs(24px, null, null);
+      }
+    }
+  }
+}
+
+//App download
+.apps-download {
+  margin-bottom: 25px;
+
+  ul li {
+    margin-bottom: 10px;
+
+    a {
+      @include rfs(14);
+      font-weight: 700;
+      border-radius: 2px;
+      color: white !important;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+//Widget about
+.widget_devent_about {
+
+  .azin-img,
+  p {
+    padding: 25px 30px 0 30px;
+  }
+
+  .azin-img img {
+    max-width: 100%;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.widget {
+  .azin-socials {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+
+    li {
+      margin: 5px;
+
+      a {
+        width: 34px;
+        height: 34px;
+        @extend .content-center;
+        background: #f1f3f8;
+        border-radius: 3px;
+        @extend .color-light;
+        flex-wrap: wrap;
+        @include ofs(14px, null, null);
+
+        &:hover {
+          @extend .bg-dark;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+//Widget nav
+.footer-box.widget.widget_nav_menu ul.sub-menu {
+  padding: 15px 20px 0;
+}

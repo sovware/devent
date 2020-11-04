@@ -1,0 +1,37 @@
+//Pagination
+.pagination-area ul {
+    margin-top: 30px;
+    @extend .content-center;
+
+    li {
+        &:last-child a {
+            margin-right: 0;
+        }
+
+        a {
+            width: 2.66667rem;
+            height: 2.66667rem;
+            border: 1px solid $border-color;
+            background: #fff;
+            margin-right: 0.4rem;
+            font-size: 0.93333rem;
+            transition: $transition-base;
+            border-radius: 0;
+            cursor: pointer;
+            @extend .content-center;
+            @extend .color-dark;
+            &:hover{
+                @extend .border-primary;
+                @extend .color-primary;
+            }
+        }
+
+        &.active {
+            a {
+                @extend .bg-primary;
+                color: white;
+                border: 1px solid $border-color;
+            }
+        }
+    }
+}

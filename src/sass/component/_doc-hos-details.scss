@@ -1,0 +1,410 @@
+// Doctor Hospital Details
+.doctor-sidebar {
+   margin-top: 30px;
+
+   h6 {
+      padding: 22px 25px 20px 25px;
+      margin-bottom: 0;
+      font-weight: 600;
+   }
+}
+
+.d-caption {
+   width: 100%;
+
+   .module {
+      padding: 18px 25px 16px 25px;
+
+      .caption {
+         display: inline-flex;
+         justify-content: space-between;
+         width: 100%;
+
+         p {
+            font-weight: 600;
+         }
+
+         .icon-roll {
+            font-weight: 600;
+         }
+      }
+
+      .body {
+         form {
+            margin-top: 12px;
+
+            input[type=checkbox]+label {
+               display: block;
+               margin: 5px 0;
+               cursor: pointer;
+               padding: 0.2em;
+            }
+
+            input[type=checkbox] {
+               display: none;
+            }
+
+            input[type=checkbox]+label:before {
+               content: "\f17b";
+               font-family: "LineAwesome";
+               border-radius: 0.2em;
+               display: inline-flex;
+               width: 18px;
+               height: 18px;
+               margin-right: 10px;
+               color: transparent;
+               transition: $transition-base;
+               @include rfs(10);
+               justify-content: center;
+               align-items: center;
+            }
+
+            input[type=checkbox]+label:active:before {
+               transform: scale(0);
+            }
+
+            input[type=checkbox]:disabled+label:before {
+               transform: scale(1);
+            }
+
+            input[type=checkbox]:checked:disabled+label:before {
+               transform: scale(1);
+            }
+
+            label {
+               @include rfs(14);
+            }
+         }
+
+         // Price Range Slider
+         .form-group {
+            margin-bottom: 5px;
+         }
+
+         .price-range.rs-primary .amount {
+            @include rfs(14);
+            font-weight: 700;
+         }
+
+         .price-range .ui-slider-horizontal {
+            height: 3px;
+            border-radius: 1.66667rem;
+            margin: 23px 0 15px 0;
+         }
+
+         .price-range .ui-slider-horizontal .ui-slider-handle {
+            border-radius: 20rem;
+            cursor: pointer;
+            outline: 0;
+            top: -7px;
+            margin-left: 0;
+         }
+
+         .price-range .amount-two {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.33333rem;
+         }
+
+         .price-range .amount-two span {
+            line-height: 2.66667rem;
+            min-width: 6.66667rem;
+            display: inline-block;
+            text-align: center;
+            @include rfs(17);
+            font-weight: 500;
+         }
+
+         /* slider range */
+         .range-slider {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+         }
+
+         .range-slider p {
+            flex: 0;
+            margin: 0;
+            min-width: 4.66667rem;
+         }
+
+         .range-slider .slider-range-min {
+            flex: 1;
+         }
+
+         .range-slider .ui-slider-horizontal .ui-slider-handle {
+            border-radius: 20rem;
+            cursor: pointer;
+            outline: 0;
+            top: -0.46667rem;
+            margin-left: -1.2rem;
+            margin-right: -1.2rem;
+         }
+
+         /* range slider */
+         .ui-slider {
+            position: relative;
+            text-align: left;
+         }
+
+         .ui-slider .ui-slider-range {
+            position: absolute;
+            z-index: 1;
+            @include rfs(11);
+            display: block;
+            border: 0;
+            background-position: 0 0;
+         }
+
+         .ui-slider .ui-slider-handle {
+            position: absolute;
+            z-index: 2;
+            width: 1.2em;
+            height: 1.2em;
+            cursor: default;
+            -ms-touch-action: none;
+            touch-action: none;
+         }
+
+         .price-range.rs-primary .ui-slider-horizontal .ui-slider-range {
+            height: 100%;
+         }
+      }
+
+      .filter-btn {
+         padding: 7px 0 15px 0;
+
+         .btn {
+            padding: 14px 32px;
+         }
+
+         .btn-reset {
+            margin-right: 10px;
+         }
+      }
+   }
+}
+
+.d-btn-more {
+   padding: 0 0 25px 25px;
+
+   a {
+      @include rfs(14);
+   }
+}
+
+.listing-list-box {
+   display: inline-flex;
+   width: 100%;
+   align-items: center;
+
+   .listing-list-img {
+      position: relative;
+      flex-basis: 30%;
+      padding: 20px 0 20px 20px;
+
+      .listing-img-inner {
+         position: relative;
+
+         &:before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            opacity: 0.15;
+         }
+      }
+
+      .clean-icon {
+         position: absolute;
+         bottom: 15px;
+         left: 0;
+      }
+   }
+
+   .listing-list-box-inner {
+      flex-basis: 70%;
+      border: 0;
+
+      .box-title {
+         padding: 30px 25px 0 25px;
+      }
+
+      .listing-data-list {
+         padding: 0 25px 0 25px;
+
+         .doc-degree {
+            @include rfs(14);
+            line-height: 24px;
+            padding: 6px 0 13px 0;
+
+            a {
+               font-weight: 700;
+            }
+         }
+      }
+
+      .box-footer .box-btn .favorite-icon i {
+         width: 30px;
+         height: 30px;
+         display: inline-flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 100%;
+         margin-right: 10px;
+      }
+   }
+}
+
+.clean-icon {
+   position: absolute;
+   bottom: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   width: 100%;
+   padding: 0 15px;
+
+   .check-icon {
+      @include rfs(13);
+      font-weight: 600;
+
+      i {
+         @include rfs(10);
+         padding: 4px;
+         border-radius: 100%;
+         margin-right: 5px;
+      }
+   }
+
+   .favorite-icon {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+   }
+}
+
+.atbdb_hospital_carousel {
+   position: relative;
+   padding-bottom: 61px;
+}
+
+.atbdb_hospital_photos_carousel {
+   padding-bottom: 0;
+
+   .hospital-photos-carousel {
+      padding-top: 7px;
+      overflow: hidden;
+   }
+
+   .owl-nav {
+      text-align: center;
+   }
+}
+
+// Doctor Sidebar Inner
+.doctor-sidebar-inner {
+   .contact-info {
+      margin-bottom: 30px;
+   }
+}
+
+.contact-info-inner {
+   h6 {
+      padding: 22px 25px 20px;
+      margin-bottom: 0;
+      @include rfs(16);
+      font-weight: 600;
+   }
+
+   ul {
+      padding: 25px;
+
+      li {
+         position: relative;
+         padding-left: 45px;
+         margin-bottom: 15px;
+
+         span {
+            display: block;
+         }
+
+         i {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            @include rfs(16);
+         }
+
+         span {
+            @include rfs(14);
+            line-height: 20px;
+         }
+
+         .info {
+            @include rfs(13);
+         }
+
+         &:last-child {
+            margin-bottom: 0;
+         }
+      }
+   }
+
+   .contact-info-footer {
+      padding: 25px 25px 31px 25px;
+
+      .social {
+
+         a {
+            width: 35px;
+            height: 35px;
+            @include rfs(15);
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            margin-bottom: 25px;
+            margin-right: 2px;
+            transition: $transition-base;
+         }
+      }
+   }
+
+   .office-hours {
+      li {
+         margin: 0;
+         padding: 0;
+         display: inline-flex;
+         justify-content: space-between;
+         width: 100%;
+         padding: 13px 0 11px 0;
+
+         &:first-child {
+            padding-top: 0;
+         }
+
+         &:last-child {
+            border: 0;
+            padding-bottom: 0;
+         }
+
+         span {
+            @include rfs(13);
+            font-weight: 600;
+         }
+      }
+   }
+}

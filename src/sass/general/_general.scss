@@ -1,0 +1,86 @@
+@import "../mixins/functions";
+@import "../../../assets/vendor_assets/css/bootstrap/config.bs.scss";
+@import "../general/all_colors.scss";
+@import "../general/utility-classes.scss";
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  @include rfs(16);
+}
+
+body {
+  height: 100%;
+  padding: 0;
+}
+
+p {
+  @include rfs(16);
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clear {
+  clear: both;
+}
+
+a.theme-back-to-top {
+  @extend .bg-primary;
+  color: #ffffff;
+  display: block;
+  position: fixed;
+  z-index: 5;
+  bottom: -50px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.5s cubic-bezier(0, 0, 0.15, 1.88);
+
+  i {
+    display: inline-block;
+    transition: all 0.5s ease-out;
+    font-weight: 900;
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+
+  &.tbtt-visible {
+    bottom: 20px;
+  }
+}
+
+//WordPress Default
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    @extend .color-dark;
+  }
+}

@@ -1,0 +1,255 @@
+//banner area
+.adv-filter-content {
+    background: white;
+    padding: 30px;
+    border-radius: 3px;
+    @extend .shadow5;
+
+    @include e(tab) {
+        .nav-pills {
+            margin: -3px;
+
+            .nav-item {
+                margin: 3px;
+
+                .nav-link {
+                    @include ofs(14px, lh(14px, 24px), 600);
+                    @extend .color-gray;
+                    @extend .border-normal;
+                    padding: 7px 25px;
+
+                    &.active {
+                        @extend .bg-secondary;
+                        @extend .border-secondary;
+                        border-radius: 3px;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .search-wrapper {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        //select override
+        .select2-container--default {
+            .select2-selection--single {
+                .select2-selection__arrow {
+                    height: unset;
+                }
+
+                .select2-selection__clear {
+                    right: 30px;
+                }
+            }
+
+
+            .select2-selection--single,
+            .select2-selection--multiple {
+                @extend .border-normal;
+                height: 48px;
+                border-radius: 3px;
+            }
+
+            &.select2-container--focus {
+
+                .select2-selection--multiple,
+                .select2-selection--single {
+                    @extend .border-normal;
+                }
+            }
+        }
+
+        .select2-container {
+            width: 100% !important;
+        }
+    }
+
+    .adv-address-field .form-control {
+        border: 1px solid #e3e6ef;
+        border-radius: 3px;
+        height: 48px;
+
+        &::placeholder {
+            color: $light;
+            font-weight: 400;
+            @include ofs(14px, null, null);
+        }
+    }
+}
+
+//Select
+.select2-container--open .select2-dropdown--below.banner-filed {
+    padding: 0;
+}
+
+.banner-filed {
+    .select2-results__option {
+        font-size: 14px;
+        font-weight: 400;
+        @extend .color-gray;
+        padding: 7px 30px;
+    }
+
+
+}
+
+.select2-container--default .banner-filed .select2-results>.select2-results__options {
+    padding: 17px 0;
+}
+
+.adv-filter {
+    position: relative;
+    padding: 180px 0 180px 0;
+    @include md(){
+        padding: 130px 0 130px 0;
+    }
+
+    @include e(bg) {
+        position: absolute;
+        content: '';
+        width: 830px;
+        height: 100%;
+        right: 0;
+        top: -52px;
+        @include xxl{
+            width: 700px;
+        }
+        @include cMq($tablet-width-1, $laptop-width-1){
+            width: 860px;
+        }
+        @include md{
+            display: none;
+        }
+    }
+
+    @include e(header) {
+        padding: 0 40px 36px 0;
+
+        .section-title {
+            margin-bottom: 0;
+            text-align: left;
+        }
+
+        p {
+            font-weight: 600;
+            @extend .color-dark;
+            margin-bottom: 0;
+            @include ofs(36px, null, null);
+            line-height: 1.2;
+
+            strong {
+                font-weight: 700;
+                @extend .color-primary;
+            }
+        }
+    }
+
+    @include e(btn) {
+        @include ofs(14px, null, null);
+
+        i {
+            @include ofs(22px, null, null);
+        }
+    }
+
+    @include e(image) {
+        display: flex;
+        justify-content: flex-end;
+
+        @include md() {
+            margin-bottom: 50px;
+        }
+
+        img {
+            width: 570px;
+            @include cMq($desktop-width-2, $desktop-width-1){
+                width: 430px;
+            }
+        }
+    }
+}
+
+
+//Slider Ranges
+.price-range-slider {
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+    .range-value {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        margin-bottom: 8px;
+
+        input {
+            width: 100%;
+            background: none;
+            box-shadow: none;
+            border: none;
+            @extend .color-primary;
+            @include ofs(14px, null, 700);
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        span {
+            @extend .color-gray;
+            @include ofs(14px, null, null);
+            margin-right: 5px;
+        }
+    }
+
+    .range-bar {
+        border: none;
+        background: rgba($primary, .2);
+        height: 4px;
+        max-width: 100%;
+        border-radius: 2px;
+
+        .ui-slider-range {
+            @extend .bg-primary;
+        }
+
+        .ui-slider-handle {
+            border-radius: 25px;
+            background: #fff;
+            height: 16px;
+            width: 16px;
+            top: -0.52em;
+            cursor: pointer;
+            margin: 2px 0 0 0;
+            @extend .border-primary;
+        }
+
+    }
+}
+
+
+//custom grid
+.adv-xl-6 {
+    @media (min-width: 1600px) {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.adv-xl-8 {
+    @media (min-width: 1600px) {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    @include cMq($desktop-width-2, $desktop-width-1){
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        transform: translate(-50%, -50%);
+    }
+
+}

@@ -1,0 +1,955 @@
+// Listing Grid
+.appointment-breadcrumb {
+  .doctor-profile-box {
+    margin-bottom: 80px;
+
+    .doctor-profile-img img {
+      border-radius: 100%;
+    }
+
+    .doctor-profile-img-hospital img {
+      border-radius: 0;
+    }
+  }
+
+  .doctor-profile-box-inner {
+    flex-basis: 47%;
+  }
+}
+
+.listing-grid {
+  padding: 100px 0;
+}
+
+.listing-grid-wrapper {
+  .filters {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+    ul {
+      margin: 0;
+      padding: 0 17px;
+      list-style: none;
+      display: inline-flex;
+      border-radius: 25px;
+      flex-wrap: wrap;
+      align-items: center;
+
+      li {
+        margin: 10px 3px;
+        padding: 7px 15px;
+        border-radius: 20px;
+        @include rfs(13);
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      .dropdown {
+        margin-left: 50px;
+
+        a {
+          span {
+            width: 5px;
+            height: 5px;
+            display: inline-flex;
+            border-radius: 100%;
+          }
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.listing-grid-inner {
+  .listing-grid-box {
+    clear: both;
+    margin-bottom: 40px;
+
+    .listing-grid-img {
+      position: relative;
+
+      &:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 40%;
+        bottom: 0;
+        opacity: 0.6;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .btn-white {
+    @include rfs(14);
+    font-weight: 600;
+  }
+}
+
+.listing-grid-box-inner {
+  .upper-badge {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    display: grid;
+    text-align: left;
+
+    .badge {
+      margin-top: 5px;
+      border-radius: 0;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      @include rfs(10);
+      font-weight: 700;
+    }
+  }
+
+  .box-title {
+    padding: 22px 25px 0 25px;
+
+    h6 {
+      font-weight: 600;
+      margin: 0;
+    }
+
+    p {
+      @include rfs(14);
+      font-weight: 400;
+    }
+  }
+
+  .listing-data-list {
+    padding: 0 0 11px 25px;
+
+    ul {
+      padding: 0;
+      list-style: none;
+      margin: 0;
+
+      li {
+        p {
+          margin: 0;
+          font-weight: 400;
+          @include rfs(14);
+
+          span {
+            margin-right: 7px;
+            font-weight: 600;
+          }
+
+          a {
+            @include rfs(14);
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  .box-footer {
+    padding: 13px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .rating {
+      i {
+        margin: 0 -5px 0 2px;
+        @include rfs(15);
+      }
+
+      span {
+        @include rfs(13);
+        margin-left: 6px;
+      }
+    }
+
+    .box-btn .btn {
+      padding: 6px 12px;
+      border-radius: 2px;
+      @include rfs(13);
+      font-weight: 600;
+      transition: $transition-base;
+    }
+  }
+}
+
+// Listing List
+.all-doctor {
+  padding: 50px 0 100px 0;
+
+  .generic-header {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .generic-header-title {
+      margin-bottom: 0;
+      @include rfs(14);
+      font-weight: 400;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    .listing-action {
+      .dropdown {
+        a {
+          @include rfs(14);
+
+          span {
+            margin-left: 5px;
+          }
+        }
+      }
+
+      .short a {
+        font-weight: 400;
+        margin-right: 10px;
+      }
+
+      .match a {
+        font-weight: 600;
+      }
+
+      .view-mode {
+        margin-left: 35px;
+
+        .ab-grid {
+          @include rfs(18);
+          font-weight: 500;
+        }
+
+        .ab-list {
+          margin-left: 15px;
+          @include rfs(18);
+          font-weight: 500;
+        }
+
+        .active span {
+          width: 35px;
+          height: 35px;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  nav {
+    margin-top: 40px;
+
+    .page-item {
+      margin-left: 6px;
+
+      .page-link {
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include rfs(14);
+
+        i {
+          @include rfs(14);
+        }
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+.appointment-doctor {
+  overflow: hidden;
+
+  .atbd_content_module {
+    padding: 30px;
+    margin-bottom: 160px;
+
+    .appointment-doctor-title {
+      display: inline-flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 43px;
+      flex-wrap: wrap;
+
+      h3 {
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+
+      .btn {
+        margin-top: 0;
+      }
+    }
+
+    input {
+      width: 100%;
+      padding: 14px 20px;
+    }
+
+    .doc-time-plan {
+      margin-top: 40px;
+
+      h6 {
+        @include rfs(14);
+        font-weight: 400;
+        margin-bottom: 22px;
+
+        b {
+          font-weight: 600;
+        }
+      }
+
+      .btn {
+        padding: 12px 20px;
+        margin: 5px 0;
+      }
+    }
+
+    .radio {
+      margin: 42px 0 15px 0;
+
+      .radio-wrapper {
+        margin-bottom: 17px;
+
+        h6 {
+          @include rfs(15);
+          font-weight: 600;
+        }
+
+        .radios {
+          margin-top: 8px;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+        }
+
+        .radio-inner input {
+          position: absolute;
+          pointer-events: none;
+          visibility: hidden;
+        }
+
+        .radio-inner label {
+          display: flex;
+          align-items: center;
+          height: 28px;
+          border-radius: 14px;
+          margin-right: 10px;
+          padding: 0 8px 0 0;
+          cursor: pointer;
+        }
+
+        .radio-inner .checker {
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          margin-right: 8px;
+        }
+      }
+    }
+
+    h6 {
+      @include rfs(15);
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+
+    form {
+      display: inline-flex;
+      width: 100%;
+    }
+
+    .form-control {
+      margin-bottom: 20px;
+      height: 55px;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .textarea {
+      height: 150px;
+      margin-bottom: 36px;
+    }
+
+    p {
+      margin-top: 20px;
+    }
+  }
+}
+
+.appointment-doctor-two {
+  .atbd_listing_details {
+    h2 {
+      margin-bottom: 15px;
+      display: inline-flex;
+      align-items: center;
+      font-weight: 600;
+
+      i {
+        @include rfs(36);
+        margin-right: 10px;
+      }
+    }
+
+    p {
+      margin: 0 0 7px 0;
+    }
+  }
+}
+
+// All categories
+.all-doctor-list {
+  margin: 64px 0 244px 0;
+
+  .doctor-listing-inner {
+    margin-top: 30px;
+
+    .doctor-listing-title {
+      display: flex;
+      text-align: left;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      justify-content: center;
+      align-items: center;
+      @include rfs(16);
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+
+    a {
+      display: block;
+      @include rfs(15);
+      margin-bottom: 14px;
+      transition: $transition-base;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.all-location-list {
+  .location-listing {
+    .location-listing-inner {
+      span.location-listing-title {
+        display: block;
+        padding: 8px 20px;
+        border-radius: 20px;
+        margin-bottom: 22px;
+        @include rfs(16);
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// calender
+.ui-datepicker {
+  width: 500px;
+}
+
+.ui-datepicker .ui-state-default,
+.ui-datepicker .ui-widget-content .ui-state-default {
+  padding: 15px 0;
+  border: 0;
+}
+
+.ui-datepicker {
+  .ui-datepicker-header {
+    padding: 0;
+  }
+
+  .ui-datepicker-title {
+    margin: 0;
+    padding: 10px 0;
+  }
+}
+
+.ui-datepicker {
+  .ui-datepicker-prev,
+  .ui-datepicker-next {
+    width: 0;
+  }
+
+  .ui-datepicker-prev span {
+    margin-left: -1px;
+    margin-top: -2px;
+    display: block;
+  }
+
+  .ui-datepicker-next span {
+    margin-left: -26px;
+    margin-top: -2px;
+    display: block;
+  }
+}
+
+.listing-table {
+  .table {
+    thead {
+      th {
+        border: 0;
+        padding: 20px 0 19px 30px;
+        @include rfs(14);
+      }
+    }
+
+    tr {
+      td {
+        padding-left: 30px;
+        vertical-align: middle;
+
+        .table-inner {
+          display: inline-flex;
+          align-items: center;
+          justify-content: flex-start;
+          width: 100%;
+          padding: 6px 0;
+
+          img {
+            margin-right: 15px;
+          }
+
+          p {
+            font-weight: 600;
+          }
+
+          .rating {
+            display: inline-flex;
+
+            li {
+              span.atbd_count {
+                font-size: 13px;
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        .dropdown a i {
+          font-size: 8px;
+        }
+
+        .btn {
+          padding: 10px 20px;
+          border-radius: 20px;
+          font-size: 13px;
+          font-weight: 600;
+        }
+
+        .remaining-listing span {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  nav {
+    padding: 30px;
+
+    ul.pagination .page-item {
+      margin-right: 6px;
+
+      a.page-link {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.dashboard-inner {
+  display: inline-flex;
+  width: 100%;
+
+  .sidebar {
+    flex-basis: 15%;
+  }
+
+  .content {
+    flex-basis: 85%;
+    padding-right: 30px;
+  }
+}
+
+// Listing Details
+.doctor-details {
+  padding: 118px 0 100px 0;
+}
+
+.doctor-profile {
+  width: 100%;
+  margin-top: 67px;
+  margin-bottom: -130px;
+
+  .breadcrumb-title {
+    width: 100%;
+    text-align: center;
+
+    h1 {
+      position: absolute;
+      left: 50%;
+      top: 44px;
+      transform: translateX(-50%);
+      font-weight: 700;
+    }
+  }
+
+  .doctor-profile-box {
+    flex-wrap: wrap;
+  }
+
+  .doctor-profile-img {
+    .btn {
+      padding: 12px 30px;
+    }
+  }
+
+  .doctor-profile-box-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .doctor-profile-box-inner {
+    margin-left: 30px;
+    overflow: hidden;
+
+    .box-title {
+      display: inline-flex;
+      display: -webkit-inline-box;
+      width: 100%;
+
+      .box-title-inner {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2px;
+
+        h2 {
+          margin-bottom: 0;
+          font-weight: 700;
+        }
+      }
+
+      .clean-icon {
+        position: unset;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 5px;
+      }
+    }
+
+    p {
+      margin: 2px 0 3px;
+    }
+
+    .listing-data-list {
+      ul li {
+        .rating {
+          margin: 2px 0 9px;
+
+          b {
+            @include rfs(13);
+            margin-right: 6px;
+          }
+
+          i {
+            margin: 0 -2px;
+            @include rfs(16);
+          }
+
+          span {
+            @include rfs(13);
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+
+    .box-footer {
+      margin-top: 20px;
+
+      .box-btn a {
+        @include rfs(14);
+        font-weight: 400;
+      }
+    }
+
+    .clean-icon {
+      position: unset;
+      padding: 0;
+    }
+
+    .box-footer {
+      .box-btn .btn {
+        padding: 10px 18px;
+      }
+    }
+  }
+
+  .atbd_listing_action_area {
+    display: flex;
+    justify-content: flex-end;
+
+    .atbd_action {
+      .doctor-profile-btn {
+        width: 150px;
+        display: block;
+        padding: 11px 0 9px;
+        margin-bottom: 10px;
+        text-align: center;
+        @include rfs(13);
+      }
+    }
+  }
+}
+
+.atbd_content_module {
+  margin-bottom: 20px;
+
+  .atbd_content_module__tittle_area {
+    padding: 21px 30px 19px;
+
+    .atbd_area_title {
+      flex-wrap: wrap;
+
+      .btn {
+        margin: 15px 0;
+      }
+    }
+  }
+
+  .atbd_content_module .atbdb_content_module_contents .rating-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  h4 {
+    margin-bottom: 0;
+    @include rfs(16);
+    font-weight: 600;
+  }
+
+  h6 {
+    @include rfs(13);
+  }
+
+  .btn {
+    margin: -6px 0 -3px 0;
+  }
+
+  .atbdb_content_module_contents-reviews {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .atbdb_content_module_contents {
+    padding: 23px 30px 21px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    ul.social-links-list {
+      padding: 2px 0 3px;
+
+      li {
+        position: relative;
+        margin-bottom: 6px;
+        @include rfs(14);
+        padding-left: 15px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &:before {
+          position: absolute;
+          content: "";
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 5px;
+          height: 5px;
+          border-radius: 100%;
+        }
+      }
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      padding: 7px 0 9px;
+    }
+
+    .rating-box {
+      width: 40%;
+
+      .average-ratings {
+        display: inline-flex;
+        align-items: center;
+
+        .atbd_listing_rating {
+          @include rfs(26);
+          padding: 10px;
+          display: block;
+          font-weight: 700;
+        }
+
+        .average-ratings-inner {
+          margin-left: 12px;
+          @include rfs(13);
+
+          span {
+            display: block;
+            margin: 0;
+
+            i {
+              margin: -2px;
+            }
+          }
+        }
+      }
+    }
+
+    .atbd_area_title {
+      margin-bottom: 12px;
+
+      .atbd_area_box {
+        span i {
+          margin: 0 -2px;
+        }
+      }
+
+      .atbd_area_title_inner {
+        h6 {
+          @include rfs(14);
+          font-weight: 600;
+        }
+
+        p {
+          @include rfs(14);
+          margin-top: 0 !important;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    ul.pagination {
+      padding: 7px 0 9px;
+
+      li.page-item {
+        margin-right: 6px;
+
+        a.page-link {
+          transition: $transition-base;
+        }
+      }
+    }
+
+    .review-rating {
+      padding-bottom: 25px;
+
+      .review-rating-inner {
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+
+        p {
+          flex-basis: 20%;
+          margin-bottom: 0;
+          @include rfs(14);
+
+          &:last-child {
+            font-weight: 600;
+          }
+        }
+
+        .rating-box {
+          flex-basis: 20%;
+          margin: 5px 10px 5px 0;
+          @extend .content-center;
+          border-radius: 20px;
+          padding: 10px 20px;
+
+          i {
+            margin: 0 2px;
+            border-radius: 100%;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            @include rfs(12);
+          }
+
+          .active {
+            opacity: 0.2;
+          }
+        }
+      }
+    }
+
+    form {
+      margin-bottom: 13px;
+
+      textarea#validationTextarea {
+        padding: 20px 25px;
+        height: 200px;
+        margin-bottom: 36px;
+      }
+
+      .form-control:invalid {
+        background-image: none;
+      }
+    }
+  }
+
+  h6 {
+    margin-bottom: 0;
+  }
+
+  .hos-all-doc {
+    padding-left: 30px;
+    position: absolute;
+    @include rfs(13);
+    bottom: 35px;
+  }
+}

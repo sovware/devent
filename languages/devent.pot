@@ -1,0 +1,1319 @@
+# Copyright (C) 2020 devent
+# This file is distributed under the same license as the devent package.
+msgid ""
+msgstr ""
+"Project-Id-Version: devent\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: aazztech <info@aazztech.com>\n"
+"Report-Msgid-Bugs-To: support@aazztech.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: comments.php:19
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: directorist-support/header-profile.php:23
+msgid "My Listings"
+msgstr ""
+
+#: directorist-support/header-profile.php:29
+msgid "My Profile"
+msgstr ""
+
+#: directorist-support/header-profile.php:34
+msgid "Favorite Listing"
+msgstr ""
+
+#: directorist-support/header-profile.php:40, inc/options/header.php:56
+msgid "Add Listing"
+msgstr ""
+
+#: directorist-support/header-profile.php:46
+msgid "Logout"
+msgstr ""
+
+#: directorist-support/header-search.php:15, elementor-support/dir-location-box/class.php:40
+msgid "Location"
+msgstr ""
+
+#: directorist-support/header-search.php:16
+msgid "Restaurant, breakfast, lunch, dinner ..."
+msgstr ""
+
+#: directorist-support/init.php:45
+msgid "%s <span>in</span> %s"
+msgstr ""
+
+#: directorist-support/top-filter.php:14
+msgid "Price"
+msgstr ""
+
+#: directorist-support/top-filter.php:21
+msgid "Rating"
+msgstr ""
+
+#: directorist-support/top-filter.php:38, directorist-support/filter-buttons/more-filter.php:202, directorist-support/filter-buttons/more-filter.php:210
+msgid "Open Now"
+msgstr ""
+
+#: directorist-support/top-filter.php:42
+msgid "Reservation"
+msgstr ""
+
+#: directorist-support/top-filter.php:46
+msgid "More Filters"
+msgstr ""
+
+#: elementor-support/init.php:29
+msgid "Theme Elements"
+msgstr ""
+
+#: inc/general.php:59
+msgid "Primary"
+msgstr ""
+
+#: inc/general.php:74
+msgid "Sidebar"
+msgstr ""
+
+#: inc/general.php:83
+msgid "Footer 1"
+msgstr ""
+
+#: inc/general.php:84
+msgid "Footer 2"
+msgstr ""
+
+#: inc/general.php:85
+msgid "Footer 3"
+msgstr ""
+
+#: inc/general.php:86
+msgid "Footer 4"
+msgstr ""
+
+#: inc/general.php:184
+msgid "Social Links"
+msgstr ""
+
+#: inc/helper.php:127
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/helper.php:132
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/helper.php:137
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/helper.php:142
+msgid "Github Link"
+msgstr ""
+
+#: inc/helper.php:147
+msgid "Youtube Link"
+msgstr ""
+
+#: inc/helper.php:152
+msgid "Pinterest Link"
+msgstr ""
+
+#: inc/helper.php:157
+msgid "Instagram Link"
+msgstr ""
+
+#: template-parts/comments-callback.php:22
+msgid "Edit"
+msgstr ""
+
+#: template-parts/comments-callback.php:26
+msgid " Reply"
+msgstr ""
+
+#: template-parts/comments-callback.php:35
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: template-parts/content-blog.php:41
+msgid "Read more..."
+msgstr ""
+
+#: template-parts/content-header.php:27
+msgid "Sign Up"
+msgstr ""
+
+#: template-parts/content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>"
+msgstr ""
+
+#: template-parts/content-single-pagination.php:21
+msgid "Previous Post:"
+msgstr ""
+
+#: template-parts/content-single-pagination.php:25, template-parts/content-single-pagination.php:40, template-parts/content-single-related.php:54
+msgid "- In"
+msgstr ""
+
+#: template-parts/content-single-pagination.php:36
+msgid "Next Post:"
+msgstr ""
+
+#: template-parts/content-single-related.php:38
+msgid "Related Posts"
+msgstr ""
+
+#: template-parts/content-single.php:46
+msgid "by"
+msgstr ""
+
+#: template-parts/content-single.php:50
+msgid "in"
+msgstr ""
+
+#: template-parts/content-single.php:54
+msgid "No comments yet"
+msgstr ""
+
+#: template-parts/content-single.php:54
+msgid "1 comment"
+msgstr ""
+
+#: template-parts/content-single.php:54
+msgid "% comments"
+msgstr ""
+
+#: template-parts/content-single.php:54
+msgid "Comments are off"
+msgstr ""
+
+#: template-parts/content-single.php:78
+msgid "About"
+msgstr ""
+
+#: template-parts/social-share.php:55
+msgid "Share On:"
+msgstr ""
+
+#: templates/blank.php:3
+msgid "Blank Template"
+msgstr ""
+
+#: templates/dashboard.php:2
+msgid "Dashboard"
+msgstr ""
+
+#: widgets/about.php:15
+msgid "devent: About"
+msgstr ""
+
+#: widgets/about.php:16
+msgid "devent: About( Footer )"
+msgstr ""
+
+#: widgets/about.php:101, widgets/post.php:92, widgets/post.php:98, elementor-support/cta/class.php:42, elementor-support/cta/class.php:84, elementor-support/cta/class.php:130, elementor-support/dir-category-slider/class.php:142, elementor-support/dir-category-slider/class.php:164, elementor-support/dir-location-box/class.php:145, elementor-support/dir-location-box/class.php:167, elementor-support/info-box/class.php:56, elementor-support/title/class.php:32, elementor-support/title/class.php:54, elementor-support/title/class.php:78, inc/options/error.php:27
+msgid "Title"
+msgstr ""
+
+#: widgets/about.php:105, inc/options/general.php:20
+msgid "Logo"
+msgstr ""
+
+#: widgets/about.php:109
+msgid "Description"
+msgstr ""
+
+#: widgets/about.php:113
+msgid "Facebook URL"
+msgstr ""
+
+#: widgets/about.php:117
+msgid "Twitter URL"
+msgstr ""
+
+#: widgets/about.php:121
+msgid "Linkedin URL"
+msgstr ""
+
+#: widgets/about.php:125
+msgid "Pinterest URL"
+msgstr ""
+
+#: widgets/about.php:129
+msgid "Instagram URL"
+msgstr ""
+
+#: widgets/about.php:133
+msgid "YouTube URL"
+msgstr ""
+
+#: widgets/about.php:137
+msgid "Rss Feed URL"
+msgstr ""
+
+#: widgets/post.php:15, widgets/post.php:16
+msgid "devent: Posts"
+msgstr ""
+
+#: widgets/post.php:84
+msgid "All Categories"
+msgstr ""
+
+#: widgets/post.php:91
+msgid "Date (Recents comes first)"
+msgstr ""
+
+#: widgets/post.php:93
+msgid "Custom Order (Available via Order field inside Page Attributes box)"
+msgstr ""
+
+#: widgets/post.php:102
+msgid "Category"
+msgstr ""
+
+#: widgets/post.php:107
+msgid "Order by"
+msgstr ""
+
+#: widgets/post.php:112
+msgid "Number of Post"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:12
+msgid "Address"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:13
+msgid "Fax"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:14
+msgid "Email"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:15
+msgid "Website"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:16
+msgid "Tag"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:17
+msgid "Zip"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:125
+msgid "Price Range"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:130
+msgid "Min Price"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:135
+msgid "Max Price"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:165
+msgid "Filter by Ratings"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:167
+msgid "Select Ratings"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:170
+msgid "5 Star"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:173
+msgid "4 Star & Up"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:176
+msgid "3 Star & Up"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:179
+msgid "2 Star & Up"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:182
+msgid "1 Star & Up"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:192
+msgid "Radius Search"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:265
+msgid "Show More"
+msgstr ""
+
+#: directorist-support/filter-buttons/more-filter.php:296
+msgid "Phone Number"
+msgstr ""
+
+#: directorist-support/filter-buttons/price.php:54
+msgid "Min"
+msgstr ""
+
+#: directorist-support/filter-buttons/price.php:59
+msgid "Max"
+msgstr ""
+
+#: directorist-support/filter-buttons/price.php:66, directorist-support/filter-buttons/rating.php:29
+msgid "Clear"
+msgstr ""
+
+#: directorist-support/filter-buttons/price.php:67, directorist-support/filter-buttons/rating.php:30, elementor-support/dir-search/view.php:36
+msgid "Search"
+msgstr ""
+
+#: elementor-support/cta/class.php:17
+msgid "Call to Action"
+msgstr ""
+
+#: elementor-support/cta/class.php:27, elementor-support/dir-category-slider/class.php:39, elementor-support/dir-location-box/class.php:35, elementor-support/dir-review-slider/class.php:32, elementor-support/info-box/class.php:27, elementor-support/title/class.php:27, inc/options/general.php:14
+msgid "General"
+msgstr ""
+
+#: elementor-support/cta/class.php:32, elementor-support/cta/class.php:79, elementor-support/dir-category-slider/class.php:137, elementor-support/dir-location-box/class.php:140, elementor-support/info-box/class.php:79, elementor-support/title/class.php:49
+msgid "Style"
+msgstr ""
+
+#: elementor-support/cta/class.php:34
+msgid "Style 1"
+msgstr ""
+
+#: elementor-support/cta/class.php:35
+msgid "Style 2"
+msgstr ""
+
+#: elementor-support/cta/class.php:49, elementor-support/cta/class.php:91, elementor-support/cta/class.php:138, elementor-support/info-box/class.php:62
+msgid "Content"
+msgstr ""
+
+#: elementor-support/cta/class.php:55, elementor-support/info-box/class.php:49
+msgid "Image"
+msgstr ""
+
+#: elementor-support/cta/class.php:60
+msgid "Button Text"
+msgstr ""
+
+#: elementor-support/cta/class.php:67
+msgid "Button URL"
+msgstr ""
+
+#: elementor-support/cta/class.php:100, elementor-support/cta/class.php:107, elementor-support/dir-location-box/class.php:102, elementor-support/dir-location-box/class.php:109
+msgid "Background"
+msgstr ""
+
+#: elementor-support/cta/class.php:113
+msgid "Border Radius"
+msgstr ""
+
+#: elementor-support/cta/class.php:124, elementor-support/dir-category-slider/class.php:158, elementor-support/dir-location-box/class.php:161, elementor-support/title/class.php:72, inc/options/typography.php:14
+msgid "Typography"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:17
+msgid "Directory Category Slider"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:44
+msgid "Categories"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:47
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:52
+msgid "Hide Empty"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:53, elementor-support/dir-category-slider/class.php:62, elementor-support/dir-location-box/class.php:48, elementor-support/dir-location-box/class.php:56
+msgid "On"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:54, elementor-support/dir-category-slider/class.php:63, elementor-support/dir-location-box/class.php:49, elementor-support/dir-location-box/class.php:57
+msgid "Off"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:56
+msgid "Hide Categories that has no listings. Default: On"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:61
+msgid "Listing Counts"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:65
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr ""
+
+#: elementor-support/dir-category-slider/class.php:148, elementor-support/dir-category-slider/class.php:171, elementor-support/dir-location-box/class.php:151, elementor-support/dir-location-box/class.php:174
+msgid "Counter"
+msgstr ""
+
+#: elementor-support/dir-category-slider/view.php:23
+msgid "%s+ listings"
+msgstr ""
+
+#: elementor-support/dir-location-box/class.php:17
+msgid "Directory Location Box"
+msgstr ""
+
+#: elementor-support/dir-location-box/class.php:25
+msgid "Select a Location"
+msgstr ""
+
+#: elementor-support/dir-location-box/class.php:47
+msgid "Show Listing Counts"
+msgstr ""
+
+#: elementor-support/dir-location-box/class.php:55
+msgid "Enable Link"
+msgstr ""
+
+#: elementor-support/dir-location-box/class.php:71
+msgid "Max Width"
+msgstr ""
+
+#: elementor-support/dir-location-box/class.php:91
+msgid "Box Height"
+msgstr ""
+
+#: elementor-support/dir-location-box/class.php:115
+msgid "Overlay"
+msgstr ""
+
+#: elementor-support/dir-location-box/view.php:10
+msgctxt "Number of listings"
+msgid "%s doctor"
+msgid_plural "%s doctors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: elementor-support/dir-review-slider/class.php:17
+msgid "Directory Review Slider"
+msgstr ""
+
+#: elementor-support/dir-review-slider/class.php:37
+msgid "Review Type"
+msgstr ""
+
+#: elementor-support/dir-review-slider/class.php:39
+msgid "Recent Reviews"
+msgstr ""
+
+#: elementor-support/dir-review-slider/class.php:40
+msgid "Custom"
+msgstr ""
+
+#: elementor-support/dir-review-slider/class.php:47
+msgid "Review ID's, seperated by commas"
+msgstr ""
+
+#: elementor-support/dir-review-slider/class.php:48
+msgid "Put the comma seperated ID's here eg. 23,26,89"
+msgstr ""
+
+#: elementor-support/dir-review-slider/view.php:24
+msgid "Wrote a review for"
+msgstr ""
+
+#: elementor-support/dir-search/class.php:17
+msgid "Directory Search"
+msgstr ""
+
+#: elementor-support/dir-search/view.php:17
+msgid "Find"
+msgstr ""
+
+#: elementor-support/dir-search/view.php:19
+msgid "Restaurant, breakfast, lunch, dinner..."
+msgstr ""
+
+#: elementor-support/dir-search/view.php:26
+msgid "Where"
+msgstr ""
+
+#: elementor-support/dir-search/view.php:28
+msgid "Address, city, zip..."
+msgstr ""
+
+#: elementor-support/info-box/class.php:17
+msgid "Info Box"
+msgstr ""
+
+#: elementor-support/info-box/class.php:32
+msgid "Icon Type"
+msgstr ""
+
+#: elementor-support/info-box/class.php:34, elementor-support/info-box/class.php:42
+msgid "Icon"
+msgstr ""
+
+#: elementor-support/info-box/class.php:35
+msgid "Custom Image"
+msgstr ""
+
+#: elementor-support/info-box/class.php:51
+msgid "Recommended image size is 100x100 px.<br/>You can upload SVG format as well, to get SVG images click here: <a target=\"_blank\" href=\"https://www.flaticon.com/\">flaticon.com</a>"
+msgstr ""
+
+#: elementor-support/info-box/class.php:68
+msgid "Link (Optional)"
+msgstr ""
+
+#: elementor-support/info-box/class.php:84, inc/options/header.php:77, inc/options/layout.php:54
+msgid "Background Color"
+msgstr ""
+
+#: elementor-support/info-box/class.php:90
+msgid "Icon Color"
+msgstr ""
+
+#: elementor-support/info-box/class.php:96
+msgid "Title Color"
+msgstr ""
+
+#: elementor-support/info-box/class.php:102
+msgid "Title Hover Color"
+msgstr ""
+
+#: elementor-support/info-box/class.php:108
+msgid "Content Color"
+msgstr ""
+
+#: elementor-support/info-box/class.php:115
+msgid "Title Typography"
+msgstr ""
+
+#: elementor-support/info-box/class.php:122
+msgid "Content Typography"
+msgstr ""
+
+#: elementor-support/title/class.php:17
+msgid "Section Title"
+msgstr ""
+
+#: elementor-support/title/class.php:38, elementor-support/title/class.php:61, elementor-support/title/class.php:85
+msgid "Subtitle"
+msgstr ""
+
+#: inc/options/advanced.php:14
+msgid "Advanced"
+msgstr ""
+
+#: inc/options/advanced.php:20
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/options/blog.php:14
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/options/blog.php:20, inc/options/post.php:38
+msgid "Display Categories"
+msgstr ""
+
+#: inc/options/blog.php:26, inc/options/post.php:26
+msgid "Display Author Name"
+msgstr ""
+
+#: inc/options/blog.php:32
+msgid "Display Date"
+msgstr ""
+
+#: inc/options/color.php:14
+msgid "Colors"
+msgstr ""
+
+#: inc/options/color.php:19
+msgid "Sitewide Colors"
+msgstr ""
+
+#: inc/options/color.php:25
+msgid "Primary Color"
+msgstr ""
+
+#: inc/options/color.php:32
+msgid "Main Menu"
+msgstr ""
+
+#: inc/options/color.php:37
+msgid "Menu Color"
+msgstr ""
+
+#: inc/options/color.php:42
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/options/color.php:47
+msgid "Submenu Color"
+msgstr ""
+
+#: inc/options/color.php:53
+msgid "Submenu Hover Color"
+msgstr ""
+
+#: inc/options/color.php:59
+msgid "Submenu Hover Background Color"
+msgstr ""
+
+#: inc/options/color.php:64
+msgid "Banner Area"
+msgstr ""
+
+#: inc/options/color.php:69
+msgid "Banner Title Color"
+msgstr ""
+
+#: inc/options/color.php:74
+msgid "Footer Area"
+msgstr ""
+
+#: inc/options/color.php:80
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/options/color.php:87
+msgid "Footer Title Text Color"
+msgstr ""
+
+#: inc/options/color.php:94
+msgid "Footer Body Text Color"
+msgstr ""
+
+#: inc/options/color.php:101
+msgid "Footer Body Link Color"
+msgstr ""
+
+#: inc/options/color.php:108
+msgid "Footer Body Link Hover Color"
+msgstr ""
+
+#: inc/options/error.php:14
+msgid "Error Page Settings"
+msgstr ""
+
+#: inc/options/error.php:20
+msgid "404 Image"
+msgstr ""
+
+#: inc/options/error.php:28
+msgid "Oops! That page can’t be found. Perhaps searching can help."
+msgstr ""
+
+#: inc/options/export.php:13
+msgid "Import/Export"
+msgstr ""
+
+#: inc/options/footer.php:14
+msgid "Footer"
+msgstr ""
+
+#: inc/options/footer.php:20
+msgid "Display Footer Area"
+msgstr ""
+
+#: inc/options/footer.php:26
+msgid "Display Copyright Area"
+msgstr ""
+
+#: inc/options/footer.php:32
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/options/general.php:27
+msgid "Preloader"
+msgstr ""
+
+#: inc/options/general.php:33
+msgid "Preloader Image"
+msgstr ""
+
+#: inc/options/general.php:34
+msgid "Please upload your choice of preloader image. Transparent GIF format is recommended"
+msgstr ""
+
+#: inc/options/general.php:42
+msgid "Back to Top Arrow"
+msgstr ""
+
+#: inc/options/header.php:14
+msgid "Header"
+msgstr ""
+
+#: inc/options/header.php:20
+msgid "Responsive Header Screen Width"
+msgstr ""
+
+#: inc/options/header.php:21
+msgid "Screen width in which mobile menu activated. Recommended value is: 991"
+msgstr ""
+
+#: inc/options/header.php:31
+msgid "Header Search"
+msgstr ""
+
+#: inc/options/header.php:37
+msgid "Login Button"
+msgstr ""
+
+#: inc/options/header.php:43
+msgid "Sign Up Button"
+msgstr ""
+
+#: inc/options/header.php:49
+msgid "Add Listing Button"
+msgstr ""
+
+#: inc/options/header.php:55
+msgid "Add Listing Button Text"
+msgstr ""
+
+#: inc/options/header.php:62, inc/options/layout.php:28
+msgid "Banner"
+msgstr ""
+
+#: inc/options/header.php:68, inc/options/layout.php:39
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/options/header.php:75, inc/options/layout.php:51
+msgid "Banner Background Type"
+msgstr ""
+
+#: inc/options/header.php:78, inc/options/layout.php:55
+msgid "Background Image"
+msgstr ""
+
+#: inc/options/header.php:86, inc/options/layout.php:71
+msgid "Banner Background Color"
+msgstr ""
+
+#: inc/options/header.php:95, inc/options/layout.php:63
+msgid "Banner Background Image"
+msgstr ""
+
+#: inc/options/header.php:103
+msgid "Banner Background Opacity"
+msgstr ""
+
+#: inc/options/init.php:25
+msgid "Theme Options"
+msgstr ""
+
+#: inc/options/layout.php:17
+msgid "Layout"
+msgstr ""
+
+#: inc/options/layout.php:19
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/options/layout.php:20
+msgid "Full Width"
+msgstr ""
+
+#: inc/options/layout.php:21
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/options/layout.php:30, inc/options/layout.php:41, inc/options/layout.php:53
+msgid "Default"
+msgstr ""
+
+#: inc/options/layout.php:31, inc/options/layout.php:42
+msgid "Enabled"
+msgstr ""
+
+#: inc/options/layout.php:32, inc/options/layout.php:43
+msgid "Disabled"
+msgstr ""
+
+#: inc/options/layout.php:82
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/options/layout.php:93
+msgid "Page"
+msgstr ""
+
+#: inc/options/layout.php:103
+msgid "Blog / Archive"
+msgstr ""
+
+#: inc/options/layout.php:113
+msgid "Post Single"
+msgstr ""
+
+#: inc/options/layout.php:123
+msgid "Search Layout"
+msgstr ""
+
+#: inc/options/layout.php:134
+msgid "Error 404 Layout"
+msgstr ""
+
+#: inc/options/post.php:14
+msgid "Post Settings"
+msgstr ""
+
+#: inc/options/post.php:20
+msgid "Display Post Date"
+msgstr ""
+
+#: inc/options/post.php:32
+msgid "Display Comment Number"
+msgstr ""
+
+#: inc/options/post.php:44
+msgid "Display Tags"
+msgstr ""
+
+#: inc/options/post.php:50
+msgid "Display Social Sharing"
+msgstr ""
+
+#: inc/options/post.php:57
+msgid "Social Sharing Icons"
+msgstr ""
+
+#: inc/options/post.php:81
+msgid "Display About Author"
+msgstr ""
+
+#: inc/options/post.php:87
+msgid "Display Previous/Next Post Link"
+msgstr ""
+
+#: inc/options/post.php:93
+msgid "Display Related Posts"
+msgstr ""
+
+#: inc/options/typography.php:20
+msgid "Body"
+msgstr ""
+
+#: inc/options/typography.php:38
+msgid "Header h1"
+msgstr ""
+
+#: inc/options/typography.php:56
+msgid "Header h2"
+msgstr ""
+
+#: inc/options/typography.php:74
+msgid "Header h3"
+msgstr ""
+
+#: inc/options/typography.php:92
+msgid "Header h4"
+msgstr ""
+
+#: inc/options/typography.php:110
+msgid "Header h5"
+msgstr ""
+
+#: inc/options/typography.php:128
+msgid "Header h6"
+msgstr ""
+
+#: inc/options/typography.php:146
+msgid "Main Menu Items"
+msgstr ""
+
+#: inc/options/typography.php:151
+msgid "Menu Font"
+msgstr ""
+
+#: inc/options/typography.php:168
+msgid "Sub Menu Items"
+msgstr ""
+
+#: inc/options/typography.php:173
+msgid "Submenu Font"
+msgstr ""
+
+#: inc/options/typography.php:190
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/options/typography.php:195
+msgid "Mobile Menu Font"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:257
+msgid "Browse:"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:258
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:259
+msgid "Home"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:260
+msgid "404 Not Found"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:261
+msgid "Archives"
+msgstr ""
+
+#. translators: %s is the search query.
+#: lib/az-breadcrumb/breadcrumb.php:263
+msgid "Search results for: %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: lib/az-breadcrumb/breadcrumb.php:265
+msgid "Page %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: lib/az-breadcrumb/breadcrumb.php:267
+msgid "Comment Page %s"
+msgstr ""
+
+#. translators: Minute archive title. %s is the minute time format.
+#: lib/az-breadcrumb/breadcrumb.php:269
+msgid "Minute %s"
+msgstr ""
+
+#. translators: Weekly archive title. %s is the week date format.
+#: lib/az-breadcrumb/breadcrumb.php:271
+msgid "Week %s"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:731
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:748
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:765
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:781, lib/az-breadcrumb/breadcrumb.php:810, lib/az-breadcrumb/breadcrumb.php:837, lib/az-breadcrumb/breadcrumb.php:864, lib/az-breadcrumb/breadcrumb.php:1205
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:782, lib/az-breadcrumb/breadcrumb.php:838
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:783
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: lib/az-breadcrumb/breadcrumb.php:811
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:386
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:387, lib/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: lib/tgm/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#. translators: %s: version number
+#: lib/tgm/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: lib/tgm/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
