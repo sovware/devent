@@ -54,17 +54,17 @@ switch ( $footer_columns ) {
 	<?php } ?>
 
 	<?php if ( Theme::$options['copyright_area'] ) { ?>
-			<div class="footer-bottom">
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="footer-copyright">
-								<p> <?php echo wp_kses_post( Theme::$options['copyright_text'] ); ?> </p>
-							</div>
+		<div class="footer-bottom">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="footer-copyright">
+							<p> <?php echo wp_kses_post( Theme::$options['copyright_text'] ); ?> </p>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 	<?php } ?>
 </footer>
 
