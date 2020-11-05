@@ -57,87 +57,89 @@ a:hover h2,
 a:hover h3,
 a:hover h4,
 a:hover h5,
-a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.current-menu-item > a, .main-menu .menu > .menu-item.current-menu-parent > a, .main-menu .menu > .menu-item.current-menu-ancestor > a, .main-menu .menu > .menu-item a:hover, .main-menu .menu .sub-menu .menu-item.current-menu-item > a, .main-menu .menu .sub-menu .menu-item.current-menu-parent > a, .main-menu .menu .sub-menu .menu-item > a:hover, .login-area__item:hover, .search__item:hover, .search__item:hover i, .footer .widget ul li a:hover, .devent_blog-card .blog-content .blog-title:hover a, .devent_blog-card .blog-content .blog-cats a:hover, .devent_blog-card .blog-meta ul li a:hover, .devent_blog-card .blog-meta .blog-read-more, .post-single .post-meta ul li a:hover, .post-single .post-content ol li:before, .post-single .post-pagination .post-pagination-each .post-pagination-title:hover a, .related-post-each .related-post-title:hover a, .widget.widget_recent_comments ul li a, .comment-respond .logged-in-as a:hover, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .reply:hover,
-.comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover, .widget ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .widget_rss ul li a.rsswidget:hover, .subscribe-form .form-group .submit-btn i, .select2-container--default .select2-results__option--highlighted[aria-selected], .adv-filter__header p strong, .price-range-slider .range-value input, .features-box--1 .features-box__img .cat-icon {
-  color: #3b81f1;
+a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.current-menu-item > a, .main-menu .menu > .menu-item.current-menu-parent > a, .main-menu .menu > .menu-item.current-menu-ancestor > a, .main-menu .menu > .menu-item a:hover, .main-menu .menu .sub-menu .menu-item.current-menu-item > a, .main-menu .menu .sub-menu .menu-item.current-menu-parent > a, .main-menu .menu .sub-menu .menu-item > a:hover, .login-area__item:hover, .search__item:hover, .search__item:hover i, .footer .widget ul li a:hover, .devent_blog-card .blog-content .blog-title:hover a, .devent_blog-card .blog-content .blog-cats a:hover, .devent_blog-card .blog-meta ul li i,
+.devent_blog-card .blog-meta ul li svg,
+.devent_blog-card .blog-meta ul li img, .devent_blog-card .blog-meta ul li a:hover, .post-single .blog-title a:hover, .post-single .post-meta ul li a:hover, .post-single .post-content ol li:before, .post-single .post-pagination .post-pagination-each .post-pagination-title:hover a, .post-single .post-pagination .post-pagination-each .post-pagination-meta .post-pagination-cats a, .related-post-each .related-post-title:hover a, .related-post-each .related-post-meta .related-post-cats a, .widget.widget_recent_comments ul li a, .comment-respond .logged-in-as a:hover, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .reply:hover,
+.comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover, .widget ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .widget_rss ul li a.rsswidget:hover, .subscribe-form .form-group .submit-btn i, .select2-container--default .select2-results__option--highlighted[aria-selected], .dropdown-menu a:hover, .adv-filter__header p strong, .price-range-slider .range-value input, .features-box--1 .features-box__img .cat-icon {
+  color: #fd4956;
 }
 
 .bg-primary, .categories-slider .categories-carousel-inner .single-categories-carousel .categories-btn, .notification-area ul li .author-dropdown-menu .author-user, .recent-activities .recent-activities-wrapper .icon-primary, .recent-activities .pagination li.page-item a.page-link:hover, .recent-activities .pagination li.page-item .active .page-link, .dashboard-off-canvas-main span.c-button__text i, .dashboard-off-canvas-main .notification-area-sidebar ul li .messages i,
 .dashboard-off-canvas-main .notification-area-sidebar ul li .notification-icon i, .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu .author-user, .d-caption .module .body form input[type="checkbox"]:checked + label:before, .d-caption .module .body .price-range.rs-primary .ui-slider-horizontal .ui-slider-range, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a:hover, .owl-nav i:hover, .listing-grid .listing-grid-wrapper .filters ul .active, .listing-grid-box-inner .box-footer .box-btn .btn:hover, .all-doctor nav .active .page-link, .appointment-doctor .atbd_content_module .radio .radio-wrapper .radio-inner input:focus + label, .all-doctor-list .doctor-listing-inner .doctor-listing-title, .ui-datepicker .ui-state-highlight,
 .ui-datepicker .ui-widget-content .ui-state-highlight, .ui-datepicker .ui-datepicker-title, .listing-table nav ul.pagination .page-item a.page-link:hover, .listing-table nav ul.pagination .page-item.active .page-link, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item a.page-link:hover, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item .active, a.theme-back-to-top, .pagination-area ul li.active a, .post-single .post-content ul li:after, .post-single .post-footer .post-tags a:hover, .tagcloud a:hover, .social-box ul li a i:hover, .price-range-slider .range-bar .ui-slider-range {
-  background: #3b81f1;
+  background: #fd4956;
 }
 
 .outline-primary {
-  border: 1px solid #3b81f1;
-  color: #3b81f1;
+  border: 1px solid #fd4956;
+  color: #fd4956;
 }
 
 .active-color-primary label input:checked + span {
-  background: #3b81f1;
-  border-color: #3b81f1;
+  background: #fd4956;
+  border-color: #fd4956;
 }
 
 .circle-primary {
-  color: #3b81f1;
-  background: rgba(59, 129, 241, 0.1);
+  color: #fd4956;
+  background: rgba(253, 73, 86, 0.1);
 }
 
 .border-primary, .pagination-area ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .price-range-slider .range-bar .ui-slider-handle {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .bg-opacity-primary {
-  background: rgba(59, 129, 241, 0.15);
+  background: rgba(253, 73, 86, 0.15);
 }
 
 .order-bg-opacity-primary {
-  background: rgba(59, 129, 241, 0.1);
+  background: rgba(253, 73, 86, 0.1);
 }
 
 .hover-primary:hover {
-  background: #3b81f1;
+  background: #fd4956;
   color: #ffffff;
 }
 
 .color-secondary, .sidebar .btn-transparent, .sidebar .btn-transparent i, .notification-area ul li .author-dropdown-menu .btn, .notification-area ul li .author-dropdown-menu .btn i, .notification-area ul li .author-dropdown-menu .btn:hover, .notification-area ul li .author-dropdown-menu .btn:hover i, .doctor-sidebar-inner .contact-info .contact-info-inner ul li i, .listing-grid-box-inner .listing-data-list ul li p span, .appointment-doctor .atbd_content_module p a, .atbd_content_module .hos-all-doc, .btn-outline-secondary, .header .header-category ul li a:hover, #login_modal .form-excerpts ul li a:hover, #login_modal .form-excerpts .recover-pass-link:hover, #signup_modal .form-excerpts ul li a:hover, .features-box--2 .features-box__img .cat-icon {
-  color: #ff6461;
+  color: #23c8b9;
 }
 
 .bg-secondary, .categories-slider .owl-nav button i:hover, .recent-activities .recent-activities-wrapper .icon-secondary, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .sidebar-modal .modal-content .modal-header, .atbd_content_module .atbdb_content_module_contents ul.social-links-list li:before, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner .rating-box i, #login_modal .modal-header .close:hover,
 #signup_modal .modal-header .close:hover, .adv-filter-content__tab .nav-pills .nav-item .nav-link.active {
-  background: #ff6461;
+  background: #23c8b9;
 }
 
 .outline-secondary {
-  border: 1px solid #ff6461;
-  color: #ff6461;
+  border: 1px solid #23c8b9;
+  color: #23c8b9;
 }
 
 .active-color-secondary label input:checked + span {
-  background: #ff6461;
-  border-color: #ff6461;
+  background: #23c8b9;
+  border-color: #23c8b9;
 }
 
 .circle-secondary {
-  color: #ff6461;
-  background: rgba(255, 100, 97, 0.1);
+  color: #23c8b9;
+  background: rgba(35, 200, 185, 0.1);
 }
 
 .border-secondary, .adv-filter-content__tab .nav-pills .nav-item .nav-link.active {
-  border: 1px solid #ff6461;
+  border: 1px solid #23c8b9;
 }
 
 .bg-opacity-secondary {
-  background: rgba(255, 100, 97, 0.15);
+  background: rgba(35, 200, 185, 0.15);
 }
 
 .order-bg-opacity-secondary {
-  background: rgba(255, 100, 97, 0.1);
+  background: rgba(35, 200, 185, 0.1);
 }
 
 .hover-secondary:hover {
-  background: #ff6461;
+  background: #23c8b9;
   color: #ffffff;
 }
 
@@ -302,42 +304,42 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .color-light, .content .tab-content .nav-tabs li.nav-item .nav-link, .content .tab-content .nav-tabs p, .content .tab-content .appointments-menu .appointments-menu-inner .short a, .content .tab-content .card .card-header .dropdown-toggle i, .content .tab-content .card .card-body p, .content .tab-content .card .card-body ul li, .recent-activities .recent-activities-wrapper .notification h6, .recent-activities .recent-activities-wrapper .notification p, .user_pro_img_area .image-info span, .dashboard-content-box.change-pass .form-group input, .atbd_content_module .atbdb_content_module_contents .form-group input, .d-caption .module .body form label i,
-.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
+.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
 .footer .widget.widget_devent_about .azin-socials li a svg, .footer .widget.subscribe-widget .subscribe-form input::-webkit-input-placeholder, .footer .widget.widget_text .textwidget p, .devent_blog-card .blog-content .blog-cats a, .devent_blog-card .blog-meta ul li span,
 .devent_blog-card .blog-meta ul li a, .post-single .post-meta ul li, .comment-respond .logged-in-as a, .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply, .widget_devent_post .azin-content .azin-date, .widget_rss ul li .rss-date, .widget .azin-socials li a, #login_modal .modal-header .modal-title i,
 #signup_modal .modal-header .modal-title i, #login_modal .modal-body .keep_signed .custom-control-label,
-#signup_modal .modal-body .keep_signed .custom-control-label, .recover-pass-link, .social-connector span, .features-box__title p span, .counter-wrapper .counter-inner p, .team .team-wrapper .team-wrapper-inner p, .testimonial-wrapper .title p, .testimonial-wrapper .testimonial-carousel .carousel-single p {
+#signup_modal .modal-body .keep_signed .custom-control-label, .recover-pass-link, .social-connector span, .dropdown-menu a, .features-box__title p span, .counter-wrapper .counter-inner p, .team .team-wrapper .team-wrapper-inner p, .testimonial-wrapper .title p, .testimonial-wrapper .testimonial-carousel .carousel-single p {
   color: #9299b8;
 }
 
 .color-light, .content .tab-content .nav-tabs li.nav-item .nav-link, .content .tab-content .nav-tabs p, .content .tab-content .appointments-menu .appointments-menu-inner .short a, .content .tab-content .card .card-header .dropdown-toggle i, .content .tab-content .card .card-body p, .content .tab-content .card .card-body ul li, .recent-activities .recent-activities-wrapper .notification h6, .recent-activities .recent-activities-wrapper .notification p, .user_pro_img_area .image-info span, .dashboard-content-box.change-pass .form-group input, .atbd_content_module .atbdb_content_module_contents .form-group input, .d-caption .module .body form label i,
-.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
+.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
 .footer .widget.widget_devent_about .azin-socials li a svg, .footer .widget.subscribe-widget .subscribe-form input::-moz-placeholder, .footer .widget.widget_text .textwidget p, .devent_blog-card .blog-content .blog-cats a, .devent_blog-card .blog-meta ul li span,
 .devent_blog-card .blog-meta ul li a, .post-single .post-meta ul li, .comment-respond .logged-in-as a, .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply, .widget_devent_post .azin-content .azin-date, .widget_rss ul li .rss-date, .widget .azin-socials li a, #login_modal .modal-header .modal-title i,
 #signup_modal .modal-header .modal-title i, #login_modal .modal-body .keep_signed .custom-control-label,
-#signup_modal .modal-body .keep_signed .custom-control-label, .recover-pass-link, .social-connector span, .features-box__title p span, .counter-wrapper .counter-inner p, .team .team-wrapper .team-wrapper-inner p, .testimonial-wrapper .title p, .testimonial-wrapper .testimonial-carousel .carousel-single p {
+#signup_modal .modal-body .keep_signed .custom-control-label, .recover-pass-link, .social-connector span, .dropdown-menu a, .features-box__title p span, .counter-wrapper .counter-inner p, .team .team-wrapper .team-wrapper-inner p, .testimonial-wrapper .title p, .testimonial-wrapper .testimonial-carousel .carousel-single p {
   color: #9299b8;
 }
 
 .color-light, .content .tab-content .nav-tabs li.nav-item .nav-link, .content .tab-content .nav-tabs p, .content .tab-content .appointments-menu .appointments-menu-inner .short a, .content .tab-content .card .card-header .dropdown-toggle i, .content .tab-content .card .card-body p, .content .tab-content .card .card-body ul li, .recent-activities .recent-activities-wrapper .notification h6, .recent-activities .recent-activities-wrapper .notification p, .user_pro_img_area .image-info span, .dashboard-content-box.change-pass .form-group input, .atbd_content_module .atbdb_content_module_contents .form-group input, .d-caption .module .body form label i,
-.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
+.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
 .footer .widget.widget_devent_about .azin-socials li a svg, .footer .widget.subscribe-widget .subscribe-form input::-ms-input-placeholder, .footer .widget.widget_text .textwidget p, .devent_blog-card .blog-content .blog-cats a, .devent_blog-card .blog-meta ul li span,
 .devent_blog-card .blog-meta ul li a, .post-single .post-meta ul li, .comment-respond .logged-in-as a, .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply, .widget_devent_post .azin-content .azin-date, .widget_rss ul li .rss-date, .widget .azin-socials li a, #login_modal .modal-header .modal-title i,
 #signup_modal .modal-header .modal-title i, #login_modal .modal-body .keep_signed .custom-control-label,
-#signup_modal .modal-body .keep_signed .custom-control-label, .recover-pass-link, .social-connector span, .features-box__title p span, .counter-wrapper .counter-inner p, .team .team-wrapper .team-wrapper-inner p, .testimonial-wrapper .title p, .testimonial-wrapper .testimonial-carousel .carousel-single p {
+#signup_modal .modal-body .keep_signed .custom-control-label, .recover-pass-link, .social-connector span, .dropdown-menu a, .features-box__title p span, .counter-wrapper .counter-inner p, .team .team-wrapper .team-wrapper-inner p, .testimonial-wrapper .title p, .testimonial-wrapper .testimonial-carousel .carousel-single p {
   color: #9299b8;
 }
 
 .color-light, .content .tab-content .nav-tabs li.nav-item .nav-link, .content .tab-content .nav-tabs p, .content .tab-content .appointments-menu .appointments-menu-inner .short a, .content .tab-content .card .card-header .dropdown-toggle i, .content .tab-content .card .card-body p, .content .tab-content .card .card-body ul li, .recent-activities .recent-activities-wrapper .notification h6, .recent-activities .recent-activities-wrapper .notification p, .user_pro_img_area .image-info span, .dashboard-content-box.change-pass .form-group input, .atbd_content_module .atbdb_content_module_contents .form-group input, .d-caption .module .body form label i,
-.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
+.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
 .footer .widget.widget_devent_about .azin-socials li a svg, .footer .widget.subscribe-widget .subscribe-form input::placeholder, .footer .widget.widget_text .textwidget p, .devent_blog-card .blog-content .blog-cats a, .devent_blog-card .blog-meta ul li span,
 .devent_blog-card .blog-meta ul li a, .post-single .post-meta ul li, .comment-respond .logged-in-as a, .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply, .widget_devent_post .azin-content .azin-date, .widget_rss ul li .rss-date, .widget .azin-socials li a, #login_modal .modal-header .modal-title i,
 #signup_modal .modal-header .modal-title i, #login_modal .modal-body .keep_signed .custom-control-label,
-#signup_modal .modal-body .keep_signed .custom-control-label, .recover-pass-link, .social-connector span, .features-box__title p span, .counter-wrapper .counter-inner p, .team .team-wrapper .team-wrapper-inner p, .testimonial-wrapper .title p, .testimonial-wrapper .testimonial-carousel .carousel-single p {
+#signup_modal .modal-body .keep_signed .custom-control-label, .recover-pass-link, .social-connector span, .dropdown-menu a, .features-box__title p span, .counter-wrapper .counter-inner p, .team .team-wrapper .team-wrapper-inner p, .testimonial-wrapper .title p, .testimonial-wrapper .testimonial-carousel .carousel-single p {
   color: #9299b8;
 }
 
-.bg-light, .devent_blog-card .blog-content .blog-cats a:after, .point-dot:after {
+.bg-light, .point-dot:after {
   background: #9299b8;
 }
 
@@ -378,7 +380,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 .section-title h3,
 .section-title h4,
 .section-title h5,
-.section-title h6, .pagination-area ul li a, .main-menu .menu .sub-menu, .footer .widget .widget-title, .devent_blog-card .blog-content .blog-title, .devent_blog-card .blog-content .blog-title a, .post-single .blog-title a, .post-single .post-meta ul li span,
+.section-title h6, .pagination-area ul li a, .navbar-main .navbar-left .event-option .form-control, .main-menu .menu > .menu-item a, .main-menu .menu .sub-menu, .footer .widget .widget-title, .devent_blog-card .blog-content .blog-title, .devent_blog-card .blog-content .blog-title a, .post-single .blog-title a, .post-single .post-meta ul li span,
 .post-single .post-meta ul li a, .post-single .post-content h1,
 .post-single .post-content h2,
 .post-single .post-content h3,
@@ -455,7 +457,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
   background: #9299b8;
 }
 
-.color-gray, .sidebar .nav-pills .nav-link, .content .tab-content .nav-tabs li.nav-item .nav-link span.count, .content .tab-content .appointments-menu .appointments-menu-inner .match a, .content .tab-content .card .card-body p span, .notification-area ul li .notification-dropdown-menu a, .user_pro_img_area .custom-file-upload label, .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu a, .d-caption .module .body form label, .doctor-sidebar-inner .contact-info .contact-info-inner ul li span, .listing-grid-inner .btn-white, .appointment-doctor .atbd_content_module .appointment-doctor-title h3, .appointment-doctor .atbd_content_module .doc-time-plan h6, .all-doctor-list h1, .all-doctor-list .doctor-listing-inner a, .listing-table .table thead th, .atbd_content_module .atbdb_content_module_contents p, .atbd_content_module .atbdb_content_module_contents ul.social-links-list li, .search-wrapper .search-categories ul li a, .main-menu .menu > .menu-item a, .login-area__item, .search__item, .post-single .post-content p, .post-single .post-content ul li, .post-single .post-content ol li, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top a, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-edit-link, .widget ul li a, .widget_calendar #wp-calendar caption, .widget_calendar #wp-calendar thead th, .widget_rss ul li .rssSummary, .widget_rss ul li cite, .widget_text .textwidget strong, .widget_text .textwidget .wp-caption-text, .select2-container--default .select2-selection--single .select2-selection__arrow:after, .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow:after, .select2-container .select2-selection--single .select2-selection__rendered,
+.color-gray, .sidebar .nav-pills .nav-link, .content .tab-content .nav-tabs li.nav-item .nav-link span.count, .content .tab-content .appointments-menu .appointments-menu-inner .match a, .content .tab-content .card .card-body p span, .notification-area ul li .notification-dropdown-menu a, .user_pro_img_area .custom-file-upload label, .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu a, .d-caption .module .body form label, .doctor-sidebar-inner .contact-info .contact-info-inner ul li span, .listing-grid-inner .btn-white, .appointment-doctor .atbd_content_module .appointment-doctor-title h3, .appointment-doctor .atbd_content_module .doc-time-plan h6, .all-doctor-list h1, .all-doctor-list .doctor-listing-inner a, .listing-table .table thead th, .atbd_content_module .atbdb_content_module_contents p, .atbd_content_module .atbdb_content_module_contents ul.social-links-list li, .search-wrapper .search-categories ul li a, .login-area__item, .search__item, .post-single .post-content p, .post-single .post-content ul li, .post-single .post-content ol li, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top a, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-edit-link, .widget ul li a, .widget_calendar #wp-calendar caption, .widget_calendar #wp-calendar thead th, .widget_rss ul li .rssSummary, .widget_rss ul li cite, .widget_text .textwidget strong, .widget_text .textwidget .wp-caption-text, .select2-container--default .select2-selection--single .select2-selection__arrow:after, .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow:after, .select2-container .select2-selection--single .select2-selection__rendered,
 .select2-container--default .select2-selection--single .select2-selection__placeholder, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-results__option, #login_modal .recover-pass-form label, .adv-filter-content__tab .nav-pills .nav-item .nav-link, .banner-filed .select2-results__option, .price-range-slider .range-value span, .testimonial-wrapper .testimonial-carousel .carousel-single .author-info span, .testimonial-wrapper .testimonial-carousel .carousel-single .author-comment {
   color: #666d92;
 }
@@ -486,11 +488,11 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
   background: #fafbfc;
 }
 
-.bg-soft, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .sidebar-modal .btn-light, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .footer .widget.widget_devent_about .azin-socials li a {
+.bg-soft, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .sidebar-modal .btn-light, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .navbar-main .navbar-left .event-option.location-event, .footer .widget.widget_devent_about .azin-socials li a {
   background: #f5f7fc;
 }
 
-.bg-medium {
+.bg-medium, .blog .footer {
   background: #f1f3f8;
 }
 
@@ -623,13 +625,13 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .btn-shadow-primary {
-  -webkit-box-shadow: 0 10px 20px rgba(59, 129, 241, 0.2);
-  box-shadow: 0 10px 20px rgba(59, 129, 241, 0.2);
+  -webkit-box-shadow: 0 10px 20px rgba(253, 73, 86, 0.2);
+  box-shadow: 0 10px 20px rgba(253, 73, 86, 0.2);
 }
 
 .btn-shadow-secondary {
-  -webkit-box-shadow: 0 10px 20px rgba(255, 100, 97, 0.2);
-  box-shadow: 0 10px 20px rgba(255, 100, 97, 0.2);
+  -webkit-box-shadow: 0 10px 20px rgba(35, 200, 185, 0.2);
+  box-shadow: 0 10px 20px rgba(35, 200, 185, 0.2);
 }
 
 .btn-shadow-success {
@@ -663,15 +665,15 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .outline-lg-primary {
-  border: 2px solid #3b81f1;
+  border: 2px solid #fd4956;
   background: none;
-  color: #3b81f1;
+  color: #fd4956;
 }
 
 .outline-lg-secondary {
-  border: 2px solid #ff6461;
+  border: 2px solid #23c8b9;
   background: none;
-  color: #ff6461;
+  color: #23c8b9;
 }
 
 .outline-lg-success {
@@ -711,12 +713,12 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .checkbox-primary .custom-control-label::before {
-  background: #3b81f1;
+  background: #fd4956;
 }
 
 .checkbox-primary .custom-control-input:checked ~ .custom-control-label::before {
-  background: #3b81f1;
-  border: 1px solid #3b81f1;
+  background: #fd4956;
+  border: 1px solid #fd4956;
 }
 
 .checkbox-primary .custom-control-input:checked ~ .custom-control-label::after {
@@ -724,12 +726,12 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .checkbox-secondary .custom-control-label::before {
-  background: #ff6461;
+  background: #23c8b9;
 }
 
 .checkbox-secondary .custom-control-input:checked ~ .custom-control-label::before {
-  background: #ff6461;
-  border: 1px solid #ff6461;
+  background: #23c8b9;
+  border: 1px solid #23c8b9;
 }
 
 .checkbox-secondary .custom-control-input:checked ~ .custom-control-label::after {
@@ -819,8 +821,8 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .checkbox-outline-primary .custom-control-input:checked ~ .custom-control-label::before {
-  border: 1px solid #3b81f1;
-  background: #3b81f1;
+  border: 1px solid #fd4956;
+  background: #fd4956;
 }
 
 .checkbox-outline-primary .custom-control-input:checked ~ .custom-control-label::after {
@@ -832,8 +834,8 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .checkbox-outline-secondary .custom-control-input:checked ~ .custom-control-label::before {
-  border: 1px solid #ff6461;
-  background: #ff6461;
+  border: 1px solid #23c8b9;
+  background: #23c8b9;
 }
 
 .checkbox-outline-secondary .custom-control-input:checked ~ .custom-control-label::after {
@@ -953,7 +955,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .categories-slider .categories-carousel-inner .single-categories-carousel .categories-img {
-  background: rgba(255, 100, 97, 0.08);
+  background: rgba(35, 200, 185, 0.08);
 }
 
 .categories-slider .categories-carousel-inner .single-categories-carousel .categories-btn {
@@ -974,7 +976,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 
 .sidebar .nav-pills .nav-link.active {
   background-color: #fff;
-  border-left: 3px solid #3b81f1;
+  border-left: 3px solid #fd4956;
   -webkit-box-shadow: 5px 0 5px rgba(146, 153, 184, 0.05);
           box-shadow: 5px 0 5px rgba(146, 153, 184, 0.05);
 }
@@ -984,7 +986,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .sidebar .btn-transparent {
-  border: 1px solid #ff6461;
+  border: 1px solid #23c8b9;
 }
 
 .content .tab-content .nav-tabs {
@@ -995,11 +997,11 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .content .tab-content .nav-tabs li.nav-item .active {
-  color: #3b81f1 !important;
+  color: #fd4956 !important;
 }
 
 .content .tab-content .nav-tabs li.nav-item .active span.count {
-  background: rgba(59, 129, 241, 0.15);
+  background: rgba(253, 73, 86, 0.15);
 }
 
 .content .tab-content .nav-tabs li.nav-item .appointment-request {
@@ -1058,7 +1060,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 
 .notification-area ul li .notification-dropdown-menu {
   background: #ffffff;
-  border-top: 1px solid #3b81f1;
+  border-top: 1px solid #fd4956;
   -webkit-box-shadow: 3px 0 30px rgba(146, 153, 184, 0.2);
           box-shadow: 3px 0 30px rgba(146, 153, 184, 0.2);
 }
@@ -1068,7 +1070,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .notification-area ul li .author-dropdown-menu .btn {
-  border: 1px solid #ff6461;
+  border: 1px solid #23c8b9;
 }
 
 .recent-activities {
@@ -1115,15 +1117,15 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .dashboard-content-box.change-pass .form-group input:focus {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .dashboard-content-box.change-pass .form-group .btn-transparent {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .atbd_content_module .atbdb_content_module_contents .form-group input:focus {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 #menu-wrapper #hamburger-menu span {
@@ -1172,7 +1174,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 
 .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu {
   background: #ffffff;
-  border-top: 1px solid #3b81f1;
+  border-top: 1px solid #fd4956;
   -webkit-box-shadow: 3px 0 30px rgba(146, 153, 184, 0.2);
           box-shadow: 3px 0 30px rgba(146, 153, 184, 0.2);
 }
@@ -1205,7 +1207,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .d-caption .module .body form input[type="checkbox"]:checked + label:before {
-  border-color: #3b81f1;
+  border-color: #fd4956;
   color: #fff;
 }
 
@@ -1219,12 +1221,12 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .d-caption .module .body .price-range .ui-slider-horizontal {
-  background: rgba(59, 129, 241, 0.2);
+  background: rgba(253, 73, 86, 0.2);
 }
 
 .d-caption .module .body .price-range .ui-slider-horizontal .ui-slider-handle {
   background: #fff;
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .d-caption .module .body .price-range .amount-two span {
@@ -1239,7 +1241,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 
 .d-caption .module .body .price-range.rs-primary .ui-slider-horizontal .ui-slider-handle,
 .d-caption .module .body .range-slider.rs-primary .ui-slider-horizontal .ui-slider-handle {
-  border-color: #3b81f1;
+  border-color: #fd4956;
 }
 
 .d-caption .module .filter-btn .btn-reset {
@@ -1281,10 +1283,10 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 .punctuality,
 .helpfulness,
 .knowledge {
-  background-image: -webkit-gradient(linear, left top, right top, from(#3b81f1), to(#ff6461));
-  background-image: -webkit-linear-gradient(left, #3b81f1, #ff6461);
-  background-image: -o-linear-gradient(left, #3b81f1, #ff6461);
-  background-image: linear-gradient(to right, #3b81f1, #ff6461);
+  background-image: -webkit-gradient(linear, left top, right top, from(#fd4956), to(#23c8b9));
+  background-image: -webkit-linear-gradient(left, #fd4956, #23c8b9);
+  background-image: -o-linear-gradient(left, #fd4956, #23c8b9);
+  background-image: linear-gradient(to right, #fd4956, #23c8b9);
 }
 
 .doctor-sidebar-inner .contact-info {
@@ -1302,7 +1304,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .doctor-sidebar-inner .contact-info .contact-info-inner ul li i {
-  background: rgba(255, 100, 97, 0.1);
+  background: rgba(35, 200, 185, 0.1);
 }
 
 .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a {
@@ -1331,7 +1333,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .sidebar-modal .modal-content .modal-body .form-group .form-control:focus {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .sidebar-modal .modal-content .modal-body input::-webkit-input-placeholder {
@@ -1448,7 +1450,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .listing-grid-box-inner .box-footer .box-btn .btn {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .listing-grid-box-inner .box-footer .box-btn .btn:hover {
@@ -1480,11 +1482,11 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .appointment-doctor .atbd_content_module .appointment-doctor-title .btn {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .appointment-doctor .atbd_content_module input:focus {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .appointment-doctor .atbd_content_module .radio .radio-wrapper .radio-inner input:focus + label .checker {
@@ -1492,8 +1494,8 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .appointment-doctor .atbd_content_module .radio .radio-wrapper .radio-inner input:checked + label .checker {
-  -webkit-box-shadow: inset 0 0 0 6px #3b81f1;
-          box-shadow: inset 0 0 0 6px #3b81f1;
+  -webkit-box-shadow: inset 0 0 0 6px #fd4956;
+          box-shadow: inset 0 0 0 6px #fd4956;
 }
 
 .appointment-doctor .atbd_content_module .radio .radio-wrapper .radio-inner label {
@@ -1507,8 +1509,8 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .appointment-doctor .atbd_content_module .radio .radio-wrapper .radio-inner label:hover .checker {
-  -webkit-box-shadow: inset 0 0 0 2px #3b81f1;
-          box-shadow: inset 0 0 0 2px #3b81f1;
+  -webkit-box-shadow: inset 0 0 0 2px #fd4956;
+          box-shadow: inset 0 0 0 2px #fd4956;
 }
 
 .appointment-doctor .atbd_content_module .radio .radio-wrapper .radio-inner .checker {
@@ -1528,7 +1530,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 .appointment-doctor .atbd_content_module .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .appointment-doctor .atbd_content_module .textarea {
@@ -1540,7 +1542,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .all-location-list .location-listing .location-listing-inner span.location-listing-title {
-  background: rgba(59, 129, 241, 0.05);
+  background: rgba(253, 73, 86, 0.05);
 }
 
 .ui-datepicker .ui-state-default,
@@ -1555,7 +1557,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .ui-datepicker .ui-widget.ui-widget-content {
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .ui-datepicker span {
@@ -1689,7 +1691,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 .atbd_content_module .atbdb_content_module_contents form textarea#validationTextarea:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #3b81f1;
+  border: 1px solid #fd4956;
 }
 
 .menu-bar {
@@ -1697,15 +1699,11 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .menu-bar .navbar .search-wrapper .search-categories ul {
-  border-top: 1px solid #3b81f1;
-}
-
-.menu-bar .navbar .navbar-brand {
-  border-right: 1px solid #e9ebf4;
+  border-top: 1px solid #fd4956;
 }
 
 .dropdown-menu {
-  border-top: 1px solid #3b81f1 !important;
+  border-top: 1px solid #fd4956 !important;
 }
 
 .dropdown-menu .dropdown-item:hover {
@@ -1713,11 +1711,11 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .dropdown-menu .dropdown-item:hover i {
-  color: #3b81f1 !important;
+  color: #fd4956 !important;
 }
 
 .btn-outline-secondary {
-  border: 1px solid #ff6461 !important;
+  border: 1px solid #23c8b9 !important;
 }
 
 .btn-outline-danger {
@@ -1726,23 +1724,23 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 
 .dropdown-sub-menu .sub-menu {
   background: #fff;
-  border-top: 2px solid #ff6461;
+  border-top: 2px solid #23c8b9;
   -webkit-box-shadow: rgba(100, 100, 100, 0.2) 6px 2px 10px;
           box-shadow: rgba(100, 100, 100, 0.2) 6px 2px 10px;
 }
 
 .dropdown-sub-menu .sub-menu span:before {
-  border-top: 10px solid #3b81f1;
-  border-right: 10px solid #3b81f1;
+  border-top: 10px solid #fd4956;
+  border-right: 10px solid #fd4956;
   border-bottom: 10px solid transparent;
   border-left: 10px solid transparent;
 }
 
 .header {
-  background: -webkit-gradient(linear, left top, right top, from(#3b81f1), to(#ff6461));
-  background: -webkit-linear-gradient(left, #3b81f1, #ff6461);
-  background: -o-linear-gradient(left, #3b81f1, #ff6461);
-  background: linear-gradient(to right, #3b81f1, #ff6461);
+  background: -webkit-gradient(linear, left top, right top, from(#fd4956), to(#23c8b9));
+  background: -webkit-linear-gradient(left, #fd4956, #23c8b9);
+  background: -o-linear-gradient(left, #fd4956, #23c8b9);
+  background: linear-gradient(to right, #fd4956, #23c8b9);
 }
 
 .header .header-category ul {
@@ -2003,6 +2001,10 @@ a {
   padding-bottom: 100px;
 }
 
+.p-bottom-110 {
+  padding-bottom: 110px;
+}
+
 .p-top-30 {
   padding-top: 30px;
 }
@@ -2044,31 +2046,31 @@ a {
 }
 
 .btn-gradient.btn-gradient-one {
-  background: -webkit-gradient(linear, left top, right top, from(#ff6461), to(#fa8b0c));
-  background: -webkit-linear-gradient(left, #ff6461, #fa8b0c);
-  background: -o-linear-gradient(left, #ff6461, #fa8b0c);
-  background: linear-gradient(to right, #ff6461, #fa8b0c);
+  background: -webkit-gradient(linear, left top, right top, from(#23c8b9), to(#fa8b0c));
+  background: -webkit-linear-gradient(left, #23c8b9, #fa8b0c);
+  background: -o-linear-gradient(left, #23c8b9, #fa8b0c);
+  background: linear-gradient(to right, #23c8b9, #fa8b0c);
 }
 
 .btn-gradient.btn-gradient-two {
-  background: -webkit-gradient(linear, left top, right top, from(#fa8b0c), to(#ff6461));
-  background: -webkit-linear-gradient(left, #fa8b0c, #ff6461);
-  background: -o-linear-gradient(left, #fa8b0c, #ff6461);
-  background: linear-gradient(to right, #fa8b0c, #ff6461);
+  background: -webkit-gradient(linear, left top, right top, from(#fa8b0c), to(#23c8b9));
+  background: -webkit-linear-gradient(left, #fa8b0c, #23c8b9);
+  background: -o-linear-gradient(left, #fa8b0c, #23c8b9);
+  background: linear-gradient(to right, #fa8b0c, #23c8b9);
 }
 
 .btn-gradient.btn-gradient-one:before {
-  background: -webkit-gradient(linear, left top, right top, from(#fa8b0c), to(#ff6461));
-  background: -webkit-linear-gradient(left, #fa8b0c, #ff6461);
-  background: -o-linear-gradient(left, #fa8b0c, #ff6461);
-  background: linear-gradient(to right, #fa8b0c, #ff6461);
+  background: -webkit-gradient(linear, left top, right top, from(#fa8b0c), to(#23c8b9));
+  background: -webkit-linear-gradient(left, #fa8b0c, #23c8b9);
+  background: -o-linear-gradient(left, #fa8b0c, #23c8b9);
+  background: linear-gradient(to right, #fa8b0c, #23c8b9);
 }
 
 .btn-gradient.btn-gradient-two:before {
-  background: -webkit-gradient(linear, left top, right top, from(#ff6461), to(#fa8b0c));
-  background: -webkit-linear-gradient(left, #ff6461, #fa8b0c);
-  background: -o-linear-gradient(left, #ff6461, #fa8b0c);
-  background: linear-gradient(to right, #ff6461, #fa8b0c);
+  background: -webkit-gradient(linear, left top, right top, from(#23c8b9), to(#fa8b0c));
+  background: -webkit-linear-gradient(left, #23c8b9, #fa8b0c);
+  background: -o-linear-gradient(left, #23c8b9, #fa8b0c);
+  background: linear-gradient(to right, #23c8b9, #fa8b0c);
 }
 
 html {
@@ -2149,6 +2151,32 @@ a.theme-back-to-top.tbtt-visible {
 .section-title h5,
 .section-title h6 {
   font-weight: 600;
+}
+
+.more-action {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -1.5px;
+}
+
+.more-action span {
+  width: 5px;
+  height: 5px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 1px solid #6d7497;
+  margin: 1.5px;
+}
+
+.more-action.more-align-h {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
 }
 
 .main {
@@ -2411,7 +2439,11 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .pagination-area ul {
-  margin-top: 30px;
+  margin: 17px -3px -3px -3px;
+}
+
+.pagination-area ul li {
+  margin: 3px;
 }
 
 .pagination-area ul li:last-child a {
@@ -2419,23 +2451,161 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .pagination-area ul li a {
-  width: 2.66667rem;
-  height: 2.66667rem;
-  border: 1px solid #e9ebf4;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e3e6ef;
   background: #fff;
-  margin-right: 0.4rem;
-  font-size: 0.93333rem;
+  font-size: 14px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  -webkit-border-radius: 0;
-          border-radius: 0;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
   cursor: pointer;
 }
 
 .pagination-area ul li.active a {
   color: white;
   border: 1px solid #e9ebf4;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-main .navbar-left {
+    display: none !important;
+  }
+}
+
+.navbar-main .navbar-left .event-option {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 65px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.navbar-main .navbar-left .event-option.location-event {
+  padding: 0 20px;
+  line-height: 2.5;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .navbar-main .navbar-left .event-option.location-event {
+    padding: 0 15px;
+  }
+}
+
+.navbar-main .navbar-left .event-option .icon-marker {
+  margin-right: 8px;
+}
+
+.navbar-main .navbar-left .event-option.location-event.arrow-default {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.navbar-main .navbar-left .event-option.location-event.arrow-default:after {
+  margin-left: 8px;
+  font-size: 10px;
+  font-family: 'Line Awesome Free';
+  content: '\f107';
+  font-weight: 900;
+}
+
+.navbar-main .navbar-left .event-option.location-event.arrow-default .location-label {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .navbar-main .navbar-left .event-option.location-event.arrow-default .location-label {
+    display: none;
+  }
+}
+
+.navbar-main .navbar-left .event-option.location-event.arrow-default .dropdown-menu {
+  margin-top: 15px;
+}
+
+.navbar-main .navbar-left .event-option.location-event.arrow-default .dropdown-menu a {
+  line-height: 1.45;
+}
+
+.navbar-main .navbar-left .event-option .form-control {
+  padding: 0;
+  border: 0 none;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-main .navbar-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-main .navbar-right .main-menu {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-main .navbar-right .btn-create {
+    margin: 0 20px 30px;
+  }
+}
+
+.navbar-main .navbar-more {
+  margin: -4px 0 0 30px;
+  padding: 25px 0;
+}
+
+@media only screen and (max-width: 1399px) {
+  .navbar-main .navbar-more {
+    margin: -4px 0 0 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-main .navbar-more {
+    display: none;
+  }
+}
+
+.navbar-main .adv_search {
+  width: 100%;
+  height: 48px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .navbar-main .adv_search {
+    margin-right: 15px !important;
+  }
+}
+
+.navbar-main .adv_search .select2 {
+  padding-left: 17px;
+}
+
+.navbar-main .adv_search .search-wrapper input {
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2508,34 +2678,12 @@ a.theme-back-to-top.tbtt-visible {
   position: relative;
 }
 
-.menu-bar .navbar .navbar-nav .menu-item-has-children > a:after {
-  content: '\f110';
-  font: normal normal normal 16px/1 LineAwesome;
-  font-size: 0.66667rem;
-  padding-left: 0;
-  right: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  font-weight: 900;
-}
-
 @media only screen and (max-width: 991px) {
-  .menu-bar .navbar .navbar-nav .menu-item-has-children > a:after {
-    top: 19px;
-    right: 0;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+  .menu-bar .navbar .navbar-nav {
+    margin-left: 0;
   }
-}
-
-@media only screen and (max-width: 991px) {
   .menu-bar .navbar .navbar-nav > li.menu-item .sub-menu {
     position: static;
-    padding: 0;
     margin: 0;
     visibility: visible;
     opacity: 1;
@@ -2543,13 +2691,6 @@ a.theme-back-to-top.tbtt-visible {
     -webkit-box-shadow: none;
             box-shadow: none;
     display: none;
-  }
-  .menu-bar .navbar .navbar-nav > li.menu-item.active .sub-menu {
-    display: block;
-    background: rgba(146, 153, 184, 0.05);
-    padding: 10px 0;
-    -webkit-border-radius: 3px;
-            border-radius: 3px;
   }
 }
 
@@ -2579,11 +2720,16 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .menu-bar .navbar .navbar-brand {
-  padding-right: 30px;
   padding-top: 21px;
   padding-bottom: 21px;
   margin-right: 30px;
   height: 100%;
+}
+
+@media only screen and (max-width: 1399px) {
+  .menu-bar .navbar .navbar-brand {
+    margin-right: 15px;
+  }
 }
 
 .menu-bar .navbar ul li {
@@ -2634,13 +2780,42 @@ a.theme-back-to-top.tbtt-visible {
   margin-bottom: 0;
 }
 
+.main-menu .menu {
+  margin-right: 30px;
+  padding: 0 15px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .main-menu .menu {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main-menu .menu {
+    padding: 15px 25px;
+  }
+}
+
 .main-menu .menu > .menu-item {
   display: inline-block;
   position: relative;
 }
 
+@media only screen and (max-width: 991px) {
+  .main-menu .menu > .menu-item {
+    display: block;
+  }
+}
+
 .main-menu .menu > .menu-item:not(:last-child) {
   margin-right: 30px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .main-menu .menu > .menu-item:not(:last-child) {
+    margin-right: 15px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -2649,17 +2824,60 @@ a.theme-back-to-top.tbtt-visible {
   }
 }
 
+.main-menu .menu > .menu-item.menu-item-has-children > a:after {
+  content: '\f107';
+  font-family: 'Line Awesome Free';
+  font-size: 0.66667rem;
+  padding-left: 0;
+  right: -8px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 991px) {
+  .main-menu .menu > .menu-item.menu-item-has-children > a:after {
+    top: 19px;
+    right: 0;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+.main-menu .menu > .menu-item.menu-item-has-children .menu-item-has-children > a:after {
+  content: '\f105';
+  font-family: 'Line Awesome Free';
+  font-size: 0.66667rem;
+  padding-left: 0;
+  right: 10px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: 900;
+}
+
 .main-menu .menu > .menu-item a {
   display: block;
-  padding: 0.5rem 0;
-  padding-right: 15px;
-  font-size: 15px;
-  font-weight: 600;
+  padding: 1.85rem 8px 1.84rem 0px;
+  font-size: 14px;
+  font-weight: 500;
   text-transform: capitalize;
 }
 
+@media only screen and (max-width: 991px) {
+  .main-menu .menu > .menu-item a {
+    padding: 10px 0;
+  }
+}
+
 .main-menu .menu > .menu-item:hover > .sub-menu {
-  top: 40px;
+  top: 80px;
   opacity: 1;
   visibility: visible;
 }
@@ -2698,13 +2916,16 @@ a.theme-back-to-top.tbtt-visible {
           border-radius: 0 0 3px 3px;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
-  border-top: 1px solid #3b81f1;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  border-top: 1px solid #fd4956;
   opacity: 0;
   visibility: hidden;
   z-index: 10;
+}
+
+@media only screen and (max-width: 991px) {
+  .main-menu .menu .sub-menu {
+    padding: 0 15px;
+  }
 }
 
 .main-menu .menu .sub-menu .menu-item {
@@ -2719,14 +2940,15 @@ a.theme-back-to-top.tbtt-visible {
 
 .main-menu .menu .sub-menu .menu-item > a {
   font-size: 14px;
-  padding: 5px 20px 5px 0;
+  font-weight: 400;
+  padding: 8px 20px 8px 0;
   width: 100%;
   display: block;
 }
 
 @media only screen and (max-width: 991px) {
   .main-menu .menu .sub-menu .menu-item > a {
-    padding: 5px 20px 3px 20px;
+    padding: 5px 0px 3px 0px;
   }
 }
 
@@ -2735,9 +2957,6 @@ a.theme-back-to-top.tbtt-visible {
   top: 0;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .dropdown-menu {
@@ -2845,7 +3064,7 @@ a.theme-back-to-top.tbtt-visible {
 .login-area__menu {
   -webkit-border-radius: 0 0 3px 3px;
           border-radius: 0 0 3px 3px;
-  border-top: 1px solid #3b81f1;
+  border-top: 1px solid #fd4956;
   margin-top: 27px;
 }
 
@@ -2914,7 +3133,7 @@ a.theme-back-to-top.tbtt-visible {
   padding: 14px 0;
   -webkit-border-radius: 0 0 3px 3px;
           border-radius: 0 0 3px 3px;
-  border-top: 1px solid #3b81f1;
+  border-top: 1px solid #fd4956;
   margin-top: 12px;
 }
 
@@ -2925,20 +3144,6 @@ a.theme-back-to-top.tbtt-visible {
   -webkit-transition: .50s ease-in-out;
   -o-transition: .50s ease-in-out;
   transition: .50s ease-in-out;
-}
-
-.adv_search {
-  max-width: 370px;
-  width: 100%;
-  background: #f8f9fc;
-  height: 48px;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  border: 1px solid #e9ebf4;
-}
-
-.adv_search .select2 {
-  padding-left: 17px;
 }
 
 .offcanvas-dashboard {
@@ -3043,9 +3248,6 @@ a.theme-back-to-top.tbtt-visible {
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
   transform: translateY(0%);
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .menu--transparent.headroom--not-top {
@@ -6035,31 +6237,30 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .devent_blog-card {
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
-  -webkit-box-shadow: 0 15px 30px rgba(143, 142, 159, 0.1);
-          box-shadow: 0 15px 30px rgba(143, 142, 159, 0.1);
+  border: 1px solid #e3e6ef;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: 0 5px 8px rgba(146, 153, 184, 0.08);
+          box-shadow: 0 5px 8px rgba(146, 153, 184, 0.08);
   margin-bottom: 30px;
 }
 
 .devent_blog-card .blog-thumbnail img {
-  -webkit-border-radius: 10px 10px 0 0;
-          border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+          border-radius: 8px 8px 0 0;
   width: 100%;
   max-width: 100%;
 }
 
-.devent_blog-card .blog-content-area {
-  padding: 30px;
+.devent_blog-card .blog-content {
+  padding: 25px 30px 22px;
 }
 
 .devent_blog-card .blog-content .blog-title {
   font-size: 22px;
   font-weight: 700;
-  margin-top: 12px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e9ebf4;
+  margin: 10px 0 6px 0;
+  line-height: 1.5;
 }
 
 .devent_blog-card .blog-content .blog-title a {
@@ -6069,37 +6270,30 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .devent_blog-card .blog-content .blog-cats .post-categories {
-  margin: -3px;
+  list-style: none;
+  margin: -6px;
 }
 
 .devent_blog-card .blog-content .blog-cats .post-categories li {
   display: inline-block;
-  margin: 3px;
+  margin: 6px;
 }
 
 .devent_blog-card .blog-content .blog-cats a {
   position: relative;
   display: inline-block;
   font-size: 14px;
-  padding-left: 10px;
 }
 
-.devent_blog-card .blog-content .blog-cats a:after {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: 4px;
-  height: 4px;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  content: "";
+.devent_blog-card .blog-content .blog-summary p {
+  font-size: 15px;
+  line-height: 1.867;
+  margin-bottom: 0;
 }
 
 .devent_blog-card .blog-meta {
-  margin-top: 8px;
+  padding: 18px 30px;
+  border-top: 1px solid #e3e6ef;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6109,12 +6303,12 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .devent_blog-card .blog-meta ul {
-  margin: -3px;
+  margin: -10px;
 }
 
 .devent_blog-card .blog-meta ul li {
   display: inline-block;
-  margin: 3px;
+  margin: 10px;
 }
 
 .devent_blog-card .blog-meta ul li i,
@@ -6129,7 +6323,9 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .devent_blog-card .blog-meta .blog-read-more {
+  font-weight: 500;
   font-size: 14px;
+  color: #657bff;
 }
 
 .post-single img {
@@ -6140,13 +6336,12 @@ a.theme-back-to-top.tbtt-visible {
 .post-single .blog-title {
   font-size: 30px;
   font-weight: 700;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 36px 0 18px;
 }
 
 .post-single .post-meta {
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #e9ebf4;
 }
 
@@ -6187,10 +6382,10 @@ a.theme-back-to-top.tbtt-visible {
           border-radius: 10px;
   border: 1px solid #ebecef;
   margin: 45px 0 0;
-  background: -webkit-gradient(linear, left top, right top, from(#3b81f1), to(#ff6461));
-  background: -webkit-linear-gradient(left, #3b81f1, #ff6461);
-  background: -o-linear-gradient(left, #3b81f1, #ff6461);
-  background: linear-gradient(to right, #3b81f1, #ff6461);
+  background: -webkit-gradient(linear, left top, right top, from(#fd4956), to(#23c8b9));
+  background: -webkit-linear-gradient(left, #fd4956, #23c8b9);
+  background: -o-linear-gradient(left, #fd4956, #23c8b9);
+  background: linear-gradient(to right, #fd4956, #23c8b9);
 }
 
 .post-single .post-content .wp-block-quote p {
@@ -6318,7 +6513,7 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .post-single .post-pagination .post-pagination-each .post-pagination-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin: 10px 0;
 }
@@ -6331,6 +6526,10 @@ a.theme-back-to-top.tbtt-visible {
 
 .post-single .post-pagination .post-pagination-each .post-pagination-meta span {
   font-size: 15px;
+}
+
+.post-single .post-pagination .post-pagination-each .post-pagination-meta .post-pagination-cats a {
+  font-size: 14px;
 }
 
 .related-post-area {
@@ -6351,18 +6550,19 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .related-post-each .related-post-title {
+  font-size: 15px;
   line-height: 1.384;
-  font-weight: 600;
-  padding: 20px 25px 0 25px;
+  font-weight: 700;
+  padding: 15px 15px 0 15px;
   margin-bottom: 5px;
 }
 
 .related-post-each .related-post-meta {
-  padding: 0 25px 25px 25px;
+  padding: 0 15px 15px;
 }
 
 .related-post-each .related-post-meta span {
-  font-size: 0.93333rem;
+  font-size: 14px;
 }
 
 .comments-wrapper h1,
@@ -6424,13 +6624,6 @@ a.theme-back-to-top.tbtt-visible {
   width: auto;
 }
 
-.comments-area {
-  padding: 30px 30px 20px 30px;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
-  border: 1px solid #ebecef;
-}
-
 .comments-area .comment-title {
   margin-bottom: 1.66667rem;
   text-align: center;
@@ -6439,6 +6632,13 @@ a.theme-back-to-top.tbtt-visible {
 .comments-area .comment-title h3 {
   position: relative;
   margin-bottom: 0;
+}
+
+.comments-area .comment-lists {
+  padding: 30px 30px 20px 30px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  border: 1px solid #ebecef;
 }
 
 .comments-area .comment-lists ul .depth-1 .media {
@@ -6465,7 +6665,7 @@ a.theme-back-to-top.tbtt-visible {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .comments-area .comment-lists ul .depth-1 .media .media-body .media_top h6 {
@@ -6489,12 +6689,12 @@ a.theme-back-to-top.tbtt-visible {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .reply:hover,
 .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover {
-  border-color: #3b81f1;
+  border-color: #fd4956;
 }
 
 .comments-area .comment-lists ul .depth-1 .media .media-body .comment-status-notice {
@@ -6516,8 +6716,7 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .comments-area .comment-lists ul .depth-2 {
-  padding: 30px 30px 0 30px;
-  border: 1px solid #ebecef;
+  padding: 30px 0 0 30px;
   -webkit-border-radius: 0.26667rem;
           border-radius: 0.26667rem;
   margin-bottom: 2rem;
@@ -6546,7 +6745,7 @@ a.theme-back-to-top.tbtt-visible {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .comments-area .comment-lists ul .depth-2 .media .media-body .media_top h6 {
@@ -6569,7 +6768,7 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply:hover {
-  border-color: #3b81f1;
+  border-color: #fd4956;
 }
 
 .comments-area .comment-lists ul .depth-2 .media .media-body .comment-status-notice {
@@ -6589,6 +6788,20 @@ a.theme-back-to-top.tbtt-visible {
   padding-left: 2.66667rem;
   padding-top: 2rem;
   border-top: 1px solid #ebecef;
+}
+
+.comments-area .comment .media-body p {
+  font-size: 15px;
+}
+
+.comments-area .comment .heading_left .media-heading {
+  font-size: 15px;
+  margin-bottom: .4rem;
+  text-transform: capitalize;
+}
+
+.comments-area .comment .heading_left .media-heading span {
+  font-size: 15px;
 }
 
 .comment-form {
@@ -6947,7 +7160,7 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .tagcloud a:hover {
-  border-color: #3b81f1;
+  border-color: #fd4956;
   color: #fff;
 }
 
@@ -7272,7 +7485,7 @@ a.theme-back-to-top.tbtt-visible {
 
 .select2-container--open .select2-dropdown--below {
   padding: 11px 0;
-  border-top: 1px solid #3b81f1;
+  border-top: 1px solid #fd4956;
 }
 
 .select2-dropdown {
@@ -7605,13 +7818,13 @@ a.theme-back-to-top.tbtt-visible {
 
 #login_modal .modal-body .keep_signed .custom-control-input:checked ~ .custom-control-label::before,
 #signup_modal .modal-body .keep_signed .custom-control-input:checked ~ .custom-control-label::before {
-  border-color: #ff6461;
-  background-color: #ff6461;
+  border-color: #23c8b9;
+  background-color: #23c8b9;
 }
 
 #login_modal .modal-body .keep_signed .custom-control-input:focus:not(:checked) ~ .custom-control-label::before,
 #signup_modal .modal-body .keep_signed .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #ff6461;
+  border-color: #23c8b9;
 }
 
 .direo-login input {
@@ -7641,6 +7854,11 @@ a.theme-back-to-top.tbtt-visible {
 .social-connector:after {
   left: 0.5em;
   margin-right: -50%;
+}
+
+.dropdown-menu a {
+  padding: 6px 0;
+  display: block;
 }
 
 .adv-filter-content {
@@ -7882,7 +8100,7 @@ a.theme-back-to-top.tbtt-visible {
 
 .price-range-slider .range-bar {
   border: none;
-  background: rgba(59, 129, 241, 0.2);
+  background: rgba(253, 73, 86, 0.2);
   height: 4px;
   max-width: 100%;
   -webkit-border-radius: 2px;
@@ -8172,7 +8390,7 @@ a.theme-back-to-top.tbtt-visible {
 .reviews .owl-dots .owl-dot span {
   width: 8px;
   height: 8px;
-  background: rgba(59, 129, 241, 0.2);
+  background: rgba(253, 73, 86, 0.2);
   display: inline-block;
   margin: 0 3px;
   -webkit-border-radius: 100%;
@@ -8189,7 +8407,7 @@ a.theme-back-to-top.tbtt-visible {
 .reviews .owl-dots .active span {
   width: 12px;
   height: 12px;
-  background: #3b81f1;
+  background: #fd4956;
   display: inline-block;
   margin: 0 3px;
   -webkit-border-radius: 100%;
@@ -8212,7 +8430,7 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .counter-wrapper .counter-inner h6 {
-  color: #ff6461;
+  color: #23c8b9;
   font-size: 30px;
   font-weight: 700;
 }
@@ -8320,7 +8538,7 @@ a.theme-back-to-top.tbtt-visible {
 .play-btn-two .icon {
   width: 52px;
   height: 52px;
-  background: #3b81f1;
+  background: #fd4956;
   color: #272b41;
   font-size: 22px;
   display: -webkit-box;
@@ -8352,7 +8570,7 @@ a.theme-back-to-top.tbtt-visible {
   height: 78px;
   -webkit-border-radius: 300px;
           border-radius: 300px;
-  background: rgba(59, 129, 241, 0.1);
+  background: rgba(253, 73, 86, 0.1);
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -8372,7 +8590,7 @@ a.theme-back-to-top.tbtt-visible {
   height: 110px;
   -webkit-border-radius: 300px;
           border-radius: 300px;
-  background: rgba(59, 129, 241, 0.1);
+  background: rgba(253, 73, 86, 0.1);
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -8673,7 +8891,7 @@ a.theme-back-to-top.tbtt-visible {
   font-size: 2.66667rem;
   margin-bottom: 0;
   line-height: initial;
-  color: #3b81f1;
+  color: #fd4956;
   font-weight: 700;
   text-align: left;
 }
@@ -8718,7 +8936,7 @@ a.theme-back-to-top.tbtt-visible {
 }
 
 .pricing-plan .atbd_pricing_special .pricing__title {
-  background: #3b81f1;
+  background: #fd4956;
 }
 
 .pricing-plan .atbd_pricing_special .pricing__title h4 {
@@ -8727,10 +8945,10 @@ a.theme-back-to-top.tbtt-visible {
 
 @media (max-width: 1199px) {
   .header .hedaer-catergory ul {
-    background-image: -webkit-gradient(linear, right top, left top, from(#3b81f1), to(#ff6461));
-    background-image: -webkit-linear-gradient(right, #3b81f1, #ff6461);
-    background-image: -o-linear-gradient(right, #3b81f1, #ff6461);
-    background-image: linear-gradient(to left, #3b81f1, #ff6461);
+    background-image: -webkit-gradient(linear, right top, left top, from(#fd4956), to(#23c8b9));
+    background-image: -webkit-linear-gradient(right, #fd4956, #23c8b9);
+    background-image: -o-linear-gradient(right, #fd4956, #23c8b9);
+    background-image: linear-gradient(to left, #fd4956, #23c8b9);
   }
   .nav-right-side-content {
     display: -webkit-inline-box;
@@ -8816,7 +9034,7 @@ a.theme-back-to-top.tbtt-visible {
   #menu-wrapper {
     top: 20%;
     left: 0%;
-    background: #3b81f1;
+    background: #fd4956;
   }
   #menu-container .menu-list {
     top: 22%;
