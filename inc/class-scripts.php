@@ -186,7 +186,7 @@ class Scripts {
 	private function fonts_url() {
 		$fonts_url = '';
 		if ( 'off' !== _x( 'on', 'Google fonts - Inter : on or off', 'devent' ) ) {
-			$fonts_url = add_query_arg( 'family', urlencode( 'Nunito Sans:400,600,700,800&display=swap' ), 'https://fonts.googleapis.com/css' );
+			$fonts_url = add_query_arg( 'family', urlencode( 'Noto Sans:400,700&display=swap|Poppins:400,500,600,700&display=swap' ), 'https://fonts.googleapis.com/css' );
 		}
 		return $fonts_url;
 	}

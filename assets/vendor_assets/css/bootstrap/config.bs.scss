@@ -159,6 +159,7 @@ $enable-shadows: true;
 $font-family-base: "Nunito Sans", sans-serif; //'Nunito Sans', sans-serif;
 
 ///Headings Font Sizes
+$heading-font: 'Poppins', sans-serif;
 $h1-font-size: 1.875rem; //30px
 $h2-font-size: 1.5rem; //24px
 $h3-font-size: 1.375rem; //22px
@@ -194,7 +195,7 @@ $btn-padding-y-xs: 0;
 
 $btn-line-height: 1.6875rem;
 $btn-line-height-lg: 1.6875rem;
-$btn-line-height-sm: 1.6875rem;
+$btn-line-height-sm: 2.35rem;
 //Custom
 $btn-line-height-md: 1.6875rem;
 $btn-line-height-xs: 1.25rem;
@@ -230,6 +231,9 @@ $lead-font-size: 15px;
 $lead-font-weight: 400;
 $lead-medium-font-size: ($font-size-base * 1.6);
 $lead-medium-font-weight: 500;
+
+// Dropdown
+$dropdown-box-shadow: 0 5px 20px rgba(146, 153, 184, 0.2);
 
 // Modal
 $modal-header-padding: 0 0; // Keep this for backwards compatibility

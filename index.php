@@ -12,12 +12,12 @@ $post_class = Helper::has_sidebar() ? 'col-sm-12 col-12' : 'col-lg-6 col-md-12 c
 
 <?php get_header(); ?>
 
-<div id="primary" class="content-area site-index">
+<div id="primary" class="content-area site-index p-bottom-110">
 	<div class="container">
 		<div class="row justify-content-center">
 			<?php Helper::left_sidebar(); ?>
 			<div class="<?php Helper::the_layout_class(); ?>">
-				<div id="main-content" class="main-content pt-50 mt-10 p-bottom-100">
+				<div id="main-content" class="main-content pt-50 mt-10">
 					<?php if ( have_posts() ) : ?>
 						<div class="row blog-isotope">
 							<?php

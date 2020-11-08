@@ -3737,7 +3737,7 @@ fieldset:disabled a.btn {
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.0313rem 0.6875rem;
   font-size: 14px;
-  line-height: 1.6875rem;
+  line-height: 2.35rem;
   -webkit-border-radius: 3px;
           border-radius: 3px;
 }
@@ -3827,8 +3827,8 @@ input[type="button"].btn-block {
   border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 5px 20px rgba(146, 153, 184, 0.2);
+          box-shadow: 0 5px 20px rgba(146, 153, 184, 0.2);
 }
 
 .dropdown-menu-left {

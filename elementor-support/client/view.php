@@ -19,51 +19,43 @@ if ( ! defined( 'ABSPATH' ) ) {
 <section class="partner">
 	<div class="container">
 		<div class="row">
-			<?php if ( ! empty( $data['title'] ) ) { ?>
-				<div class="col-lg-12">
-					<div class="section-title">
+			<div class="col-lg-12">
+				<div class="section-title section-title--two">
+					<div>
 						<h1><?php echo esc_attr( $data['title'] ); ?></h1>
+						<p>Browse worldwide leading event organisers</p>
+					</div>
+					<a href="" class="view-all">View All <i class="la la-long-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="col-lg-12">
+				<div class="brand-logo-wrapper owl-carousel">
+					<div class="brand-logo-single">
+						<img src="https://via.placeholder.com/90" alt="">
+					</div>
+					<div class="brand-logo-single">
+						<img src="https://via.placeholder.com/90" alt="">
+					</div>
+					<div class="brand-logo-single">
+						<img src="https://via.placeholder.com/90" alt="">
+					</div>
+					<div class="brand-logo-single">
+						<img src="https://via.placeholder.com/90" alt="">
+					</div>
+					<div class="brand-logo-single">
+						<img src="https://via.placeholder.com/90" alt="">
+					</div>
+					<div class="brand-logo-single">
+						<img src="https://via.placeholder.com/90" alt="">
+					</div>
+					<div class="brand-logo-single">
+						<img src="https://via.placeholder.com/90" alt="">
+					</div>
+					<div class="brand-logo-single">
+						<img src="https://via.placeholder.com/90" alt="">
 					</div>
 				</div>
-				<?php
-			}
-			foreach ( $items as $item ) {
-				$title = $item['title'];
-				$plc   = Helper::get_img( 'bmw.png' );
-				$imgs  = $item['img'];
-				$img   = $imgs['url'] ? $imgs['url'] : $plc;
-				$alt   = $imgs['id'] ? $imgs['id'] : $name;
-
-				if ( 1 == $style ) {
-					?>
-						<div class="brand-col-6 col-lg-3 col-md-4 col-sm-6">
-							<div class="features-box features-box--4">
-								<div class="features-box__wrapper">
-									<div class="features-box__img content-center">
-										<img src="<?php echo esc_url( $img ); ?>" class="img-fluid" alt="<?php echo esc_attr( $alt ); ?>">
-									</div>
-								</div>
-							</div>
-						</div>
-						<?php
-				} else {
-					?>
-						<div class="brand-col-8 col-lg-3 col-md-4 col-sm-6">
-							<div class="features-box features-box--3  text-center">
-								<div class="features-box__wrapper">
-									<div class="features-box__img p-20 border-color shadow6 radius-sm ">
-										<img src="<?php echo esc_url( $img ); ?>" class="img-fluid" alt="<?php echo esc_attr( $alt ); ?>">
-									</div>
-									<div class="features-box__title">
-										<p><?php echo esc_attr( $title ); ?></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<?php
-				}
-			}
-			?>
+			</div>
 		</div>
 	</div>
 </section>

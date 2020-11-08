@@ -1,0 +1,11 @@
+// Dropdown Menu
+.dropdown-menu{
+    a{
+        padding: 6px 0;
+        display: block;
+        @extend .color-light;
+        &:hover{
+            @extend .color-primary;
+        }
+    }
+}

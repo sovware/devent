@@ -39,43 +39,17 @@
       flex-wrap: wrap;
       position: relative;
 
-      .menu-item-has-children>a:after {
-        content: '\f110';
-        font: normal normal normal 16px/1 LineAwesome;
-        font-size: 0.66667rem;
-        padding-left: 0;
-        right: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        font-weight: 900;
-
-        @include md {
-          top: 19px;
-          right: 0;
-          transform: translate(-50%, -50%);
-
-        }
-      }
-
       @include md {
+        margin-left: 0;
         >li.menu-item {
           .sub-menu {
             position: static;
-            padding: 0;
             margin: 0;
             visibility: visible;
             opacity: 1;
             border: 0 none;
             box-shadow: none;
             display: none;
-          }
-
-          &.active .sub-menu {
-            display: block;
-            background: rgba(146, 153, 184, 0.05);
-            padding: 10px 0;
-            border-radius: 3px;
           }
         }
       }
@@ -113,11 +87,13 @@
     }
 
     .navbar-brand {
-      padding-right: 30px;
       padding-top: 21px;
       padding-bottom: 21px;
       margin-right: 30px;
       height: 100%;
+      @include xl{
+        margin-right: 15px;
+      }
     }
 
     ul {
@@ -172,13 +148,28 @@
 
 // Main Menu
 .main-menu .menu {
+  margin-right: 30px;
+  padding: 0 15px;
+  @include xl{
+    margin-right: 15px;
+  }
+  @include md{
+    padding: 15px 25px;
+  }
   >.menu-item {
     display: inline-block;
     position: relative;
 
+    @include md{
+      display: block;;
+    }
+
     &:not(:last-child) {
       margin-right: 30px;
 
+      @include xl{
+        margin-right: 15px;
+      }
       @include md {
         margin-right: 0;
       }
@@ -192,15 +183,50 @@
       }
     }
 
+    &.menu-item-has-children>a:after {
+      content: '\f107';
+      font-family: 'Line Awesome Free';
+      font-size: 0.66667rem;
+      padding-left: 0;
+      right: -8px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-weight: 900;
+
+      @include md {
+        top: 19px;
+        right: 0;
+        transform: translate(-50%, -50%);
+
+      }
+    }
+
+    &.menu-item-has-children .menu-item-has-children{
+      >a:after{
+        content: '\f105';
+        font-family: 'Line Awesome Free';
+        font-size: 0.66667rem;
+        padding-left: 0;
+        right: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: 900;
+      }
+    }
+
     a {
       display: block;
-      padding: 0.5rem 0;
-      padding-right: 15px;
-      @include ofs(15px, null, 600);
+      padding: 1.85rem 8px 1.84rem 0px;
+      @include ofs(14px, null, 500);
       text-transform: capitalize;
       @extend .transition;
-      @extend .color-gray;
+      @extend .color-dark;
 
+      @include md{
+        padding: 10px 0;
+      }
       &:hover {
         @extend .color-primary;
       }
@@ -208,7 +234,7 @@
 
     &:hover {
       >.sub-menu {
-        top: 40px;
+        top: 80px;
         opacity: 1;
         visibility: visible;
 
@@ -251,12 +277,14 @@
     border-radius: 0 0 3px 3px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
     border-top: 1px solid $primary;
-    transition: 0.3s;
     opacity: 0;
     visibility: hidden;
     z-index: 10;
     @extend .color-dark;
 
+    @include md{
+      padding: 0 15px;
+    }
     .menu-item {
       position: relative;
       display: block;
@@ -276,14 +304,14 @@
       }
 
       >a {
-        @include ofs(14px, null, null);
-        padding: 5px 20px 5px 0;
+        @include ofs(14px, null, 400);
+        padding: 8px 20px 8px 0;
         width: 100%;
         display: block;
         @extend .color-light;
 
         @include md {
-          padding: 5px 20px 3px 20px;
+          padding: 5px 0px 3px 0px;
         }
 
         &:hover {
@@ -297,7 +325,6 @@
       top: 0;
       opacity: 0;
       visibility: hidden;
-      transition: $transition-base;
     }
   }
 }
@@ -491,19 +518,6 @@
   }
 }
 
-.adv_search {
-  max-width: 370px;
-  width: 100%;
-  background: #f8f9fc;
-  height: 48px;
-  border-radius: 3px;
-  border: 1px solid $border-color;
-
-  .select2 {
-    padding-left: 17px;
-  }
-}
-
 //offcanvas
 .offcanvas-dashboard {
   opacity: 0;
@@ -651,9 +665,6 @@
   -webkit-transform: translateY(0%);
       -ms-transform: translateY(0%);
           transform: translateY(0%);
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .menu--transparent.headroom--not-top {

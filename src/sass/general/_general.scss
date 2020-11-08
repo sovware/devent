@@ -73,7 +73,6 @@ a.theme-back-to-top {
 .section-title {
   margin-bottom: 50px;
   text-align: center;
-
   h1,
   h2,
   h3,
@@ -83,4 +82,33 @@ a.theme-back-to-top {
     font-weight: 600;
     @extend .color-dark;
   }
+  @include m(two){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    p{
+      color: $gray;
+      margin: 8px 0 0;
+    }
+    .view-all{
+      @extend .color-primary;
+      background: #fff;
+      line-height: 40px;
+      border-radius: 3px;
+      border: 1px solid $border-color;
+      padding: 0 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
 }
