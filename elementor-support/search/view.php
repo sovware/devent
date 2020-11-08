@@ -11,7 +11,6 @@ $imgs = $data['img'];
 $img  = $imgs['url'] ? $imgs['url'] : '';
 $alt  = $imgs['id'] ? $imgs['id'] : '';
 ?>
-
 <div class="adv-filter">
 	<?php if ( $img ) { ?>
 		<div class="adv-filter__bg">
