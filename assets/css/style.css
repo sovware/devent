@@ -57,16 +57,16 @@ a:hover h2,
 a:hover h3,
 a:hover h4,
 a:hover h5,
-a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.current-menu-item > a, .main-menu .menu > .menu-item.current-menu-parent > a, .main-menu .menu > .menu-item.current-menu-ancestor > a, .main-menu .menu > .menu-item a:hover, .main-menu .menu .sub-menu .menu-item.current-menu-item > a, .main-menu .menu .sub-menu .menu-item.current-menu-parent > a, .main-menu .menu .sub-menu .menu-item > a:hover, .login-area__item:hover, .search__item:hover, .search__item:hover i, .footer .widget ul li a:hover, .devent_blog-card .blog-content .blog-title:hover a, .devent_blog-card .blog-content .blog-cats a:hover, .devent_blog-card .blog-meta ul li i,
+a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.current-menu-item > a, .main-menu .menu > .menu-item.current-menu-parent > a, .main-menu .menu > .menu-item.current-menu-ancestor > a, .main-menu .menu > .menu-item a:hover, .main-menu .menu .sub-menu .menu-item.current-menu-item > a, .main-menu .menu .sub-menu .menu-item.current-menu-parent > a, .main-menu .menu .sub-menu .menu-item > a:hover, .login-area__item:hover, .search__item:hover, .search__item:hover i, .category-card__wrapper i, .footer .widget ul li a:hover, .devent_blog-card .blog-content .blog-title:hover a, .devent_blog-card .blog-content .blog-cats a:hover, .devent_blog-card .blog-meta ul li i,
 .devent_blog-card .blog-meta ul li svg,
 .devent_blog-card .blog-meta ul li img, .devent_blog-card .blog-meta ul li a:hover, .post-single .blog-title a:hover, .post-single .post-meta ul li a:hover, .post-single .post-content ol li:before, .post-single .post-pagination .post-pagination-each .post-pagination-title:hover a, .post-single .post-pagination .post-pagination-each .post-pagination-meta .post-pagination-cats a, .related-post-each .related-post-title:hover a, .related-post-each .related-post-meta .related-post-cats a, .widget.widget_recent_comments ul li a, .comment-respond .logged-in-as a:hover, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .reply:hover,
-.comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover, .widget ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .widget_rss ul li a.rsswidget:hover, .subscribe-form .form-group .submit-btn i, .select2-container--default .select2-results__option--highlighted[aria-selected], .dropdown-menu a:hover, .adv-filter__header p strong, .price-range-slider .range-value input, .features-box--1 .features-box__img .cat-icon {
+.comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover, .widget ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .widget_rss ul li a.rsswidget:hover, .subscribe-form .form-group .submit-btn i, .select2-container--default .select2-results__option--highlighted[aria-selected], .dropdown-menu a:hover, .features-box--1 .features-box__img .cat-icon {
   color: #fd4956;
 }
 
 .bg-primary, .categories-slider .categories-carousel-inner .single-categories-carousel .categories-btn, .notification-area ul li .author-dropdown-menu .author-user, .recent-activities .recent-activities-wrapper .icon-primary, .recent-activities .pagination li.page-item a.page-link:hover, .recent-activities .pagination li.page-item .active .page-link, .dashboard-off-canvas-main span.c-button__text i, .dashboard-off-canvas-main .notification-area-sidebar ul li .messages i,
 .dashboard-off-canvas-main .notification-area-sidebar ul li .notification-icon i, .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu .author-user, .d-caption .module .body form input[type="checkbox"]:checked + label:before, .d-caption .module .body .price-range.rs-primary .ui-slider-horizontal .ui-slider-range, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a:hover, .owl-nav i:hover, .listing-grid .listing-grid-wrapper .filters ul .active, .listing-grid-box-inner .box-footer .box-btn .btn:hover, .all-doctor nav .active .page-link, .appointment-doctor .atbd_content_module .radio .radio-wrapper .radio-inner input:focus + label, .all-doctor-list .doctor-listing-inner .doctor-listing-title, .ui-datepicker .ui-state-highlight,
-.ui-datepicker .ui-widget-content .ui-state-highlight, .ui-datepicker .ui-datepicker-title, .listing-table nav ul.pagination .page-item a.page-link:hover, .listing-table nav ul.pagination .page-item.active .page-link, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item a.page-link:hover, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item .active, a.theme-back-to-top, .pagination-area ul li.active a, .post-single .post-content ul li:after, .post-single .post-footer .post-tags a:hover, .tagcloud a:hover, .social-box ul li a i:hover, .price-range-slider .range-bar .ui-slider-range {
+.ui-datepicker .ui-widget-content .ui-state-highlight, .ui-datepicker .ui-datepicker-title, .listing-table nav ul.pagination .page-item a.page-link:hover, .listing-table nav ul.pagination .page-item.active .page-link, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item a.page-link:hover, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item .active, a.theme-back-to-top, .pagination-area ul li.active a, .post-single .post-content ul li:after, .post-single .post-footer .post-tags a:hover, .tagcloud a:hover, .social-box ul li a i:hover {
   background: #fd4956;
 }
 
@@ -85,7 +85,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
   background: rgba(253, 73, 86, 0.1);
 }
 
-.border-primary, .pagination-area ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .price-range-slider .range-bar .ui-slider-handle {
+.border-primary, .pagination-area ul li a:hover, .widget_calendar #wp-calendar tbody td#today {
   border: 1px solid #fd4956;
 }
 
@@ -102,12 +102,12 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
   color: #ffffff;
 }
 
-.color-secondary, .sidebar .btn-transparent, .sidebar .btn-transparent i, .notification-area ul li .author-dropdown-menu .btn, .notification-area ul li .author-dropdown-menu .btn i, .notification-area ul li .author-dropdown-menu .btn:hover, .notification-area ul li .author-dropdown-menu .btn:hover i, .doctor-sidebar-inner .contact-info .contact-info-inner ul li i, .listing-grid-box-inner .listing-data-list ul li p span, .appointment-doctor .atbd_content_module p a, .atbd_content_module .hos-all-doc, .btn-outline-secondary, .header .header-category ul li a:hover, #login_modal .form-excerpts ul li a:hover, #login_modal .form-excerpts .recover-pass-link:hover, #signup_modal .form-excerpts ul li a:hover, .features-box--2 .features-box__img .cat-icon {
+.color-secondary, .sidebar .btn-transparent, .sidebar .btn-transparent i, .notification-area ul li .author-dropdown-menu .btn, .notification-area ul li .author-dropdown-menu .btn i, .notification-area ul li .author-dropdown-menu .btn:hover, .notification-area ul li .author-dropdown-menu .btn:hover i, .doctor-sidebar-inner .contact-info .contact-info-inner ul li i, .listing-grid-box-inner .listing-data-list ul li p span, .appointment-doctor .atbd_content_module p a, .atbd_content_module .hos-all-doc, .btn-outline-secondary, .header .header-category ul li a:hover, #login_modal .form-excerpts ul li a:hover, #login_modal .form-excerpts .recover-pass-link:hover, #signup_modal .form-excerpts ul li a:hover, .adv-filter .adv-filter-content__tab ul .nav-link i, .features-box--2 .features-box__img .cat-icon {
   color: #23c8b9;
 }
 
 .bg-secondary, .categories-slider .owl-nav button i:hover, .recent-activities .recent-activities-wrapper .icon-secondary, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .sidebar-modal .modal-content .modal-header, .atbd_content_module .atbdb_content_module_contents ul.social-links-list li:before, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner .rating-box i, #login_modal .modal-header .close:hover,
-#signup_modal .modal-header .close:hover, .adv-filter-content__tab .nav-pills .nav-item .nav-link.active {
+#signup_modal .modal-header .close:hover, .adv-filter .adv-filter-content__tab ul .nav-link.active {
   background: #23c8b9;
 }
 
@@ -126,7 +126,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
   background: rgba(35, 200, 185, 0.1);
 }
 
-.border-secondary, .adv-filter-content__tab .nav-pills .nav-item .nav-link.active {
+.border-secondary {
   border: 1px solid #23c8b9;
 }
 
@@ -393,7 +393,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 .comments-wrapper h5,
 .comments-wrapper h6, .widget.widget_recent_comments ul li .comment-author-link .url, .widget .widget-title, .widget_devent_post .azin-content .azin-title a, .widget label, .widget_calendar #wp-calendar tbody td, .widget_rss a.rsswidget, .widget_rss ul li a.rsswidget, .event-option .select2-container .select2-selection--single .select2-selection__rendered,
 .event-option .select2-container--default .select2-selection--single .select2-selection__placeholder, #login_modal .modal-header .modal-title,
-#signup_modal .modal-header .modal-title, #login_modal .form-excerpts ul li a, #signup_modal .form-excerpts ul li a, .adv-filter__header p, .features-box__title p {
+#signup_modal .modal-header .modal-title, #login_modal .form-excerpts ul li a, #signup_modal .form-excerpts ul li a, .features-box__title p {
   color: #272b41;
 }
 
@@ -458,7 +458,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
 }
 
 .color-gray, .sidebar .nav-pills .nav-link, .content .tab-content .nav-tabs li.nav-item .nav-link span.count, .content .tab-content .appointments-menu .appointments-menu-inner .match a, .content .tab-content .card .card-body p span, .notification-area ul li .notification-dropdown-menu a, .user_pro_img_area .custom-file-upload label, .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu a, .d-caption .module .body form label, .doctor-sidebar-inner .contact-info .contact-info-inner ul li span, .listing-grid-inner .btn-white, .appointment-doctor .atbd_content_module .appointment-doctor-title h3, .appointment-doctor .atbd_content_module .doc-time-plan h6, .all-doctor-list h1, .all-doctor-list .doctor-listing-inner a, .listing-table .table thead th, .atbd_content_module .atbdb_content_module_contents p, .atbd_content_module .atbdb_content_module_contents ul.social-links-list li, .search-wrapper .search-categories ul li a, .login-area__item, .search__item, .post-single .post-content p, .post-single .post-content ul li, .post-single .post-content ol li, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top a, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-edit-link, .widget ul li a, .widget_calendar #wp-calendar caption, .widget_calendar #wp-calendar thead th, .widget_rss ul li .rssSummary, .widget_rss ul li cite, .widget_text .textwidget strong, .widget_text .textwidget .wp-caption-text, .select2-container--default .select2-selection--single .select2-selection__arrow:after, .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow:after, .select2-container .select2-selection--single .select2-selection__rendered,
-.select2-container--default .select2-selection--single .select2-selection__placeholder, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-results__option, #login_modal .recover-pass-form label, .adv-filter-content__tab .nav-pills .nav-item .nav-link, .banner-filed .select2-results__option, .price-range-slider .range-value span, .testimonial-wrapper .testimonial-carousel .carousel-single .author-info span, .testimonial-wrapper .testimonial-carousel .carousel-single .author-comment {
+.select2-container--default .select2-selection--single .select2-selection__placeholder, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-results__option, #login_modal .recover-pass-form label, .testimonial-wrapper .testimonial-carousel .carousel-single .author-info span, .testimonial-wrapper .testimonial-carousel .carousel-single .author-comment {
   color: #666d92;
 }
 
@@ -470,9 +470,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
   border: 1px solid #e9ebf4;
 }
 
-.border-normal, .adv-filter-content__tab .nav-pills .nav-item .nav-link, .adv-filter-content__tab .select2-container--default .select2-selection--single,
-.adv-filter-content__tab .select2-container--default .select2-selection--multiple, .adv-filter-content__tab .select2-container--default.select2-container--focus .select2-selection--multiple,
-.adv-filter-content__tab .select2-container--default.select2-container--focus .select2-selection--single, .team .team-wrapper {
+.border-normal, .team .team-wrapper {
   border: 1px solid #e3e6ef;
 }
 
@@ -1842,7 +1840,7 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
           box-shadow: 0 8px 10px rgba(146, 153, 184, 0.1);
 }
 
-.shadow5, .adv-filter-content {
+.shadow5 {
   -webkit-box-shadow: 0 10px 10px rgba(146, 153, 184, 0.1);
           box-shadow: 0 10px 10px rgba(146, 153, 184, 0.1);
 }
@@ -2152,6 +2150,44 @@ a.theme-back-to-top.tbtt-visible {
 .section-title h5,
 .section-title h6 {
   font-weight: 600;
+}
+
+.section-title--two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+}
+
+.section-title--two p {
+  color: #666d92;
+  margin: 8px 0 0;
+}
+
+.section-title--two .view-all {
+  background: #fff;
+  line-height: 40px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #e9ebf4;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
 }
 
 .more-action {
@@ -3480,6 +3516,81 @@ a.theme-back-to-top.tbtt-visible {
 .categories-carousel-inner:hover .categories-btn {
   visibility: visible;
   opacity: 1;
+}
+
+/* category card */
+.category-card {
+  margin-bottom: 30px;
+}
+
+.category-card__wrapper {
+  position: relative;
+  border: 1px solid #f2f2f2;
+  text-align: center;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  padding: 35px;
+  overflow: hidden;
+}
+
+.category-card__wrapper:before {
+  position: absolute;
+  content: '';
+  border-left: 70px solid transparent;
+  border-bottom: 70px solid #f5f7fc;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.category-card__wrapper:after {
+  position: absolute;
+  content: '\f30b';
+  font-family: 'Line Awesome Free';
+  font-weight: 900;
+  right: 50px;
+  bottom: 10px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.category-card__wrapper i {
+  font-size: 50px;
+}
+
+.category-card__wrapper a {
+  color: #272b41;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+.category-card__wrapper:hover:before {
+  border-bottom-color: #fd4956;
+}
+
+.category-card__wrapper:hover:after {
+  right: 14px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.category-card__img {
+  margin-bottom: 15px;
+}
+
+.category-card__total-events {
+  font-size: 14px;
+  color: #9299b8;
+  display: block;
+  margin-top: 5px;
 }
 
 .appointment-breadcrumb .doctor-profile-box {
@@ -7862,143 +7973,18 @@ a.theme-back-to-top.tbtt-visible {
   display: block;
 }
 
-.adv-filter-content {
-  background: white;
-  padding: 30px;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-}
-
-.adv-filter-content__tab .nav-pills {
-  margin: -3px;
-}
-
-.adv-filter-content__tab .nav-pills .nav-item {
-  margin: 3px;
-}
-
-.adv-filter-content__tab .nav-pills .nav-item .nav-link {
-  font-size: 14px;
-  line-height: 1.71429;
-  font-weight: 600;
-  padding: 7px 25px;
-}
-
-.adv-filter-content__tab .nav-pills .nav-item .nav-link.active {
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  color: white;
-}
-
-.adv-filter-content__tab .search-wrapper {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.adv-filter-content__tab .select2-container--default .select2-selection--single .select2-selection__arrow {
-  height: unset;
-}
-
-.adv-filter-content__tab .select2-container--default .select2-selection--single .select2-selection__clear {
-  right: 30px;
-}
-
-.adv-filter-content__tab .select2-container--default .select2-selection--single,
-.adv-filter-content__tab .select2-container--default .select2-selection--multiple {
-  height: 48px;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-}
-
-.adv-filter-content__tab .select2-container {
-  width: 100% !important;
-}
-
-.adv-filter-content .adv-address-field .form-control {
-  border: 1px solid #e3e6ef;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  height: 48px;
-}
-
-.adv-filter-content .adv-address-field .form-control::-webkit-input-placeholder {
-  color: #9299b8;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.adv-filter-content .adv-address-field .form-control::-moz-placeholder {
-  color: #9299b8;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.adv-filter-content .adv-address-field .form-control::-ms-input-placeholder {
-  color: #9299b8;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.adv-filter-content .adv-address-field .form-control::placeholder {
-  color: #9299b8;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.select2-container--open .select2-dropdown--below.banner-filed {
-  padding: 0;
-}
-
-.banner-filed .select2-results__option {
-  font-size: 14px;
-  font-weight: 400;
-  padding: 7px 30px;
-}
-
-.select2-container--default .banner-filed .select2-results > .select2-results__options {
-  padding: 17px 0;
-}
-
 .adv-filter {
-  position: relative;
-  padding: 180px 0 180px 0;
-}
-
-@media only screen and (max-width: 991px) {
-  .adv-filter {
-    padding: 130px 0 130px 0;
-  }
-}
-
-.adv-filter__bg {
-  position: absolute;
-  content: '';
-  width: 830px;
-  height: 100%;
-  right: 0;
-  top: -52px;
-}
-
-@media only screen and (max-width: 1599px) {
-  .adv-filter__bg {
-    width: 700px;
-  }
-}
-
-@media only screen and (min-width: 991px) and (max-width: 1199px) {
-  .adv-filter__bg {
-    width: 860px;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .adv-filter__bg {
-    display: none;
-  }
+  height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .adv-filter__header {
-  padding: 0 40px 36px 0;
+  padding: 0 0 36px 0;
 }
 
 .adv-filter__header .section-title {
@@ -8006,146 +7992,108 @@ a.theme-back-to-top.tbtt-visible {
   text-align: left;
 }
 
-.adv-filter__header p {
+.adv-filter__header h1 {
+  font-size: 40px;
   font-weight: 600;
-  margin-bottom: 0;
-  font-size: 36px;
-  line-height: 1.2;
+  color: #272b41;
+  text-align: center;
 }
 
-@media (max-width: 1200px) {
-  .adv-filter__header p {
-    font-size: calc(18px + 1.5vw) ;
-  }
+.adv-filter__header p {
+  font-size: 18px;
+  color: #666d92;
+  text-align: center;
 }
 
-.adv-filter__header p strong {
-  font-weight: 700;
+.adv-filter .adv-filter-content__tab ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
 }
 
-.adv-filter__btn {
-  font-size: 14px;
+.adv-filter .adv-filter-content__tab ul .nav-link {
+  border: 1px solid #e9ebf4;
+  color: #666d92;
 }
 
-.adv-filter__btn i {
-  font-size: 22px;
+.adv-filter .adv-filter-content__tab ul .nav-link i {
+  display: inline-block;
+  margin-right: 3px;
 }
 
-@media (max-width: 1200px) {
-  .adv-filter__btn i {
-    font-size: calc(16.6px + 0.45vw) ;
-  }
+.adv-filter .adv-filter-content__tab ul .nav-link.active {
+  border-color: #23c8b9;
+  color: #fff;
 }
 
-.adv-filter__image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+.adv-filter .adv-filter-content__tab ul .nav-link.active i {
+  color: #fff;
 }
 
-@media only screen and (max-width: 991px) {
-  .adv-filter__image {
-    margin-bottom: 50px;
-  }
+.adv-filter .adv-filter-content__tab ul .nav-item:first-child a {
+  -webkit-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
 }
 
-.adv-filter__image img {
-  width: 570px;
+.adv-filter .adv-filter-content__tab ul .nav-item:last-child a {
+  -webkit-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
 }
 
-@media only screen and (min-width: 1399px) and (max-width: 1599px) {
-  .adv-filter__image img {
-    width: 430px;
-  }
-}
-
-.price-range-slider {
-  width: 100%;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.price-range-slider .range-value {
-  margin: 0;
+.adv-filter .adv-search-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  white-space: nowrap;
-  margin-bottom: 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.price-range-slider .range-value input {
+.adv-filter .adv-search-form .adv-input-text {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+}
+
+.adv-filter .adv-search-form .adv-input-location,
+.adv-filter .adv-search-form .adv-input-date {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.adv-filter .adv-search-form .form-group {
+  margin-right: -1px;
+}
+
+.adv-filter .adv-search-form .form-group input {
   width: 100%;
-  background: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: none;
-  font-size: 14px;
-  font-weight: 700;
+  display: block;
+  height: 58px;
+  padding: 0 25px;
+  border: 1px solid #f2f2f2;
+  outline: 0;
 }
 
-.price-range-slider .range-value input:focus {
-  outline: none;
+.adv-filter .adv-search-form .form-group .btn {
+  height: 58px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+  -webkit-border-radius: 0 6px 6px 0;
+          border-radius: 0 6px 6px 0;
 }
 
-.price-range-slider .range-value span {
-  font-size: 14px;
-  margin-right: 5px;
-}
-
-.price-range-slider .range-bar {
-  border: none;
-  background: rgba(253, 73, 86, 0.2);
-  height: 4px;
-  max-width: 100%;
-  -webkit-border-radius: 2px;
-          border-radius: 2px;
-}
-
-.price-range-slider .range-bar .ui-slider-handle {
-  -webkit-border-radius: 25px;
-          border-radius: 25px;
-  background: #fff;
-  height: 16px;
-  width: 16px;
-  top: -0.52em;
-  cursor: pointer;
-  margin: 2px 0 0 0;
-}
-
-@media (min-width: 1600px) {
-  .adv-xl-6 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-@media (min-width: 1600px) {
-  .adv-xl-8 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 66.66667%;
-            flex: 0 0 66.66667%;
-    max-width: 66.66667%;
-  }
-}
-
-@media only screen and (min-width: 1399px) and (max-width: 1599px) {
-  .adv-xl-8 {
-    position: absolute;
-    top: 50%;
-    left: 69%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
+.adv-filter .adv-search-form .form-group.adv-input-text input {
+  -webkit-border-radius: 6px 0 0 6px;
+          border-radius: 6px 0 0 6px;
 }
 
 .features-box {
@@ -8253,6 +8201,113 @@ a.theme-back-to-top.tbtt-visible {
   }
 }
 
+/* brands logo carousel */
+.brand-logo-wrapper {
+  margin: -20px 0;
+  position: relative;
+}
+
+.brand-logo-wrapper .owl-stage-outer {
+  padding: 20px 0;
+}
+
+.brand-logo-wrapper .brand-logo-single {
+  padding: 25px;
+  text-align: center;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 20px rgba(102, 109, 146, 0.1);
+          box-shadow: 0 3px 20px rgba(102, 109, 146, 0.1);
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.brand-logo-wrapper .brand-logo-single img {
+  display: inline-block;
+  width: auto;
+  max-width: 90px;
+}
+
+.brand-logo-wrapper .owl-nav {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  pointer-events: none;
+}
+
+.brand-logo-wrapper .owl-nav button {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff !important;
+  -webkit-box-shadow: 0 4px 7px rgba(102, 109, 146, 0.08);
+          box-shadow: 0 4px 7px rgba(102, 109, 146, 0.08);
+  pointer-events: all;
+  z-index: 1;
+  color: #272b41;
+  outline: 0;
+}
+
+.brand-logo-wrapper .owl-nav .owl-prev {
+  margin-left: -20px;
+}
+
+.brand-logo-wrapper .owl-nav .owl-next {
+  margin-right: -20px;
+}
+
+/* call to action */
+.cta-wrapper {
+  padding: 140px 0 145px;
+  background: #222;
+}
+
+.cta-wrapper .cta-subtitle {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cta-wrapper h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-wrapper .cta-action-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 45px -5px -5px -5px;
+}
+
+.cta-wrapper .cta-action-btns .btn {
+  margin: 5px;
+}
+
 .title {
   margin-bottom: 50px;
 }
@@ -8279,32 +8334,6 @@ a.theme-back-to-top.tbtt-visible {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.help .help-wrapper .display-3 {
-  color: #ffffff;
-  margin-bottom: 15px;
-}
-
-.help .help-wrapper h2 {
-  margin: 0 0 10px 0;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.help .help-wrapper .call {
-  font-size: 24px;
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-@media (max-width: 1200px) {
-  .help .help-wrapper .call {
-    font-size: calc(16.8px + 0.6vw) ;
-  }
-}
-
-.help .help-wrapper .help-btn {
-  margin-top: 29px;
 }
 
 .reviews {
@@ -9486,9 +9515,6 @@ a.theme-back-to-top.tbtt-visible {
   }
   .features-box h3 {
     margin: 20px 0 10px 0;
-  }
-  .help-wrapper {
-    margin-top: 50px;
   }
   .listing-grid-box-inner .listing-data-list ul {
     margin: 10px 0 5px 0;

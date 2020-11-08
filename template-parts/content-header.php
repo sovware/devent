@@ -182,18 +182,17 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 					<!-- End Advanced search -->
 				</div>
 				<div class="navbar-right d-flex align-items-center">
+
 					<div class="main-menu">
 
 						<?php wp_nav_menu( $nav_menu_args ); ?>
 
+						<?php if ( Theme::$options['add_listing_button'] ) { ?>
+							<a href="<?php echo esc_url( $add ); ?>" class="btn btn-sm btn-primary btn-create"><?php echo esc_html( Theme::$options['add_listing_button_text'] ); ?></a>
+						<?php } ?>
+
 						<?php if ( is_directorist() ) { ?>
 							<div class="menubar-btn">
-								<?php if ( Theme::$options['add_listing_button'] ) { ?>
-								<a href="<?php echo esc_url( $add ); ?>" class="btn btn-primary menu-doctor-btn" role="button"
-									aria-pressed="true">
-									<?php echo esc_html( Theme::$options['add_listing_button_text'] ); ?>
-								</a>
-								<?php } ?>
 								<?php if ( ! is_user_logged_in() && Theme::$options['login_button'] ) { ?>
 									<div class="btn-group login-area  d-lg-block d-none">
 										<div role="button"
@@ -211,7 +210,7 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 							</div>
 						<?php } ?>
 					</div>
-					<a href="#" class="btn btn-sm btn-primary btn-create">Create Event</a>
+
 					<div class="dropdown navbar-more">
 						<a href="#" class="more-action more-align-h dropdown-toggle" id="navbar-more-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<span></span>
@@ -228,36 +227,36 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 			</div>
 
 			<?php if ( is_directorist() ) { ?>
-			<div class="nav-right-side-content d-none">
-				<div class="search-bar-wrapper">
-					<div class="nav_right_module search_module">
-						<span class="la search_trigger la-search"></span>
-						<div class="search_area_inner">
-							<div class="search-wrapper looking-field">
-								<div class="nav_right_module search_module">
-									<div class="search_area">
-										<form action="/">
-											<div class="input-group input-group-light">
-												<span class="la search_trigger la-search"></span>
-												<input type="text" class="form-control search_field top-search-field"
-													placeholder="Search doctors, conditions or procedures"
-													autocomplete="off">
-											</div>
-										</form>
+				<div class="nav-right-side-content d-none">
+					<div class="search-bar-wrapper">
+						<div class="nav_right_module search_module">
+							<span class="la search_trigger la-search"></span>
+							<div class="search_area_inner">
+								<div class="search-wrapper looking-field">
+									<div class="nav_right_module search_module">
+										<div class="search_area">
+											<form action="/">
+												<div class="input-group input-group-light">
+													<span class="la search_trigger la-search"></span>
+													<input type="text" class="form-control search_field top-search-field"
+														placeholder="Search doctors, conditions or procedures"
+														autocomplete="off">
+												</div>
+											</form>
+										</div>
 									</div>
-								</div>
-								<div class="search-categories">
-									<ul class="list-unstyled">
-										<li><a href="">Doctors</a></li>
-										<li><a href="">Hospitals</a></li>
-										<li><a href="">Bload Bank</a></li>
-									</ul>
+									<div class="search-categories">
+										<ul class="list-unstyled">
+											<li><a href="">Doctors</a></li>
+											<li><a href="">Hospitals</a></li>
+											<li><a href="">Bload Bank</a></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 				<?php
 			}
 			?>
