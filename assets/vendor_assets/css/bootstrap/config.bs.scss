@@ -15,8 +15,8 @@ $border-radius-xs: 2px;
 // theme color
 
 $gray: #666d92;
-$primary: #3b81f1;
-$secondary: #ff6461;
+$primary: #fd4956;
+$secondary: #23c8b9;
 $success: #53ca2e;
 $info: #2c99ff;
 $warning: #fa8b0c;
@@ -194,7 +194,7 @@ $btn-padding-y-xs: 0;
 
 $btn-line-height: 1.6875rem;
 $btn-line-height-lg: 1.6875rem;
-$btn-line-height-sm: 1.6875rem;
+$btn-line-height-sm: 2.35rem;
 //Custom
 $btn-line-height-md: 1.6875rem;
 $btn-line-height-xs: 1.25rem;
@@ -230,6 +230,9 @@ $lead-font-size: 15px;
 $lead-font-weight: 400;
 $lead-medium-font-size: ($font-size-base * 1.6);
 $lead-medium-font-weight: 500;
+
+// Dropdown 
+$dropdown-box-shadow: 0 5px 20px rgba(146, 153, 184, 0.2);
 
 // Modal
 $modal-header-padding: 0 0; // Keep this for backwards compatibility

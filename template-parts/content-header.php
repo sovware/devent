@@ -128,91 +128,102 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<!-- Start Advanced search -->
-				<div class="location">
-					<div class="event-option arrow-default arrow-cross-none mr-3">
-						<select class="js-example-basic-single js-states form-control" id="event-locations">
-							<?php
-							$args       = array(
-								'orderby'  => 'count',
-								'parent'   => 0,
-								'number'   => 5,
-								'taxonomy' => ATBDP_LOCATION,
-							);
-							$categories = get_categories( $args );
-							foreach ( $categories as $cats ) {
-								$link = is_directorist() ? \ATBDP_Permalink::atbdp_get_category_page( (object) $cats ) : '';
-								?>
-								<option value="all"><i class="la la-map-marker"></i><?php echo sprintf( '<a href="%s">%s</a>', esc_url( $link ), esc_attr( $cats->name ) ); ?></option>
-							<?php } ?>
-						</select>
-					</div>
-				</div>
-				<div class="adv_search align-items-center d-xl-flex d-none mr-30">
-					<!-- Start Event Area -->
-					<div class="event-option arrow-default arrow-cross-none mr-3">
-						<select class="js-example-basic-single js-states form-control" id="event-option">
-							<option value="all">Event</option>
-							<option value="JAN">Venue</option>
-						</select>
-					</div>
-					<!-- End Event Area -->
-					<!-- Start Search Bar -->
-					<div class="search w-100 d-xl-block d-none">
-						<div class="search-wrapper w-100">
-							<div class="search_module position-relative">
-								<form action="#">
-									<div class="input-group">
-										<input type="text"
-											class="border-0 shadow-none top-search-field font-size14 text-lighten bg-transparent"
-											placeholder="Search for events..." autocomplete="off">
-									</div>
-								</form>
-							</div>
-							<div class="search-categories">
-								<div class="search__menu">
-									<a class="dropdown-item search__item" href="#">Education</a>
-									<a class="dropdown-item search__item" href="#">Technology</a>
-									<a class="dropdown-item search__item" href="#">Food & Drink</a>
-									<a class="dropdown-item search__item" href="#">Business</a>
-									<a class="dropdown-item search__item" href="#">Health</a>
-									<a class="dropdown-item search__item" href="#">Other</a>
-								</div>
+			<div class="collapse navbar-collapse navbar-main justify-content-between" id="navbarSupportedContent">
+				<div class="navbar-left d-flex align-items-center">
+					<!-- Start Advanced search -->
+					<div class="location position-relative">
+						<div class="event-option location-event arrow-default arrow-cross-none mr-3" id="location-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="icon-marker">
+								<i class="la la-map-marker"></i>
+							</span>
+							<span class="location-label">London</span>
+							<div class="dropdown-menu dropdown-menu-left" aria-labelledby="location-drop">
+								<a href="#">London</a>
+								<a href="#">Australia</a>
+								<a href="#">Bangladesh</a>
 							</div>
 						</div>
 					</div>
-					<!-- End Search bar-->
-				</div>
-				<!-- End Advanced search -->
-				<div class="main-menu ml-auto">
-
-					<?php wp_nav_menu( $nav_menu_args ); ?>
-
-					<?php if ( is_directorist() ) { ?>
-						<div class="menubar-btn">
-							<?php if ( Theme::$options['add_listing_button'] ) { ?>
-							<a href="<?php echo esc_url( $add ); ?>" class="btn btn-primary menu-doctor-btn" role="button"
-								aria-pressed="true">
-								<?php echo esc_html( Theme::$options['add_listing_button_text'] ); ?>
-							</a>
-							<?php } ?>
-							<?php if ( ! is_user_logged_in() && Theme::$options['login_button'] ) { ?>
-								<div class="btn-group login-area  d-lg-block d-none">
-									<div role="button"
-										class="dropdown-toggle dropdown-toggle-split shadow-none cursor pr-0 pl-xl-30 pl-15"
-										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										<i class="far fa-user"></i>
-									</div>
-									<div class="dropdown-menu dropdown-menu-right login-area__menu">
-										<a class="dropdown-item login-area__item" href="#" data-toggle="modal"
-											data-target="#exampleModalCenter"><?php echo esc_attr( Theme::$options['login_button_text'] ); ?></a>
-										<a class="dropdown-item login-area__item" href="#">Register</a>
+					<div class="adv_search align-items-center d-xl-flex d-none mr-30">
+						<!-- Start Event Area -->
+						<div class="event-option arrow-default arrow-cross-none">
+							<select class="js-example-basic-single js-states form-control" id="event-option">
+								<option value="all">Events</option>
+								<option value="JAN">Venue</option>
+							</select>
+						</div>
+						<!-- End Event Area -->
+						<!-- Start Search Bar -->
+						<div class="search w-100 d-xl-block d-none">
+							<div class="search-wrapper w-100">
+								<div class="search_module position-relative">
+									<form action="#">
+										<div class="input-group">
+											<input type="text"
+												class="border-0 shadow-none top-search-field font-size14 text-lighten bg-transparent"
+												placeholder="Search for events..." autocomplete="off">
+										</div>
+									</form>
+								</div>
+								<div class="search-categories">
+									<div class="search__menu">
+										<a class="dropdown-item search__item" href="#">Education</a>
+										<a class="dropdown-item search__item" href="#">Technology</a>
+										<a class="dropdown-item search__item" href="#">Food & Drink</a>
+										<a class="dropdown-item search__item" href="#">Business</a>
+										<a class="dropdown-item search__item" href="#">Health</a>
+										<a class="dropdown-item search__item" href="#">Other</a>
 									</div>
 								</div>
-							<?php } ?>
+							</div>
 						</div>
-					<?php } ?>
+						<!-- End Search bar-->
+					</div>
+					<!-- End Advanced search -->
+				</div>
+				<div class="navbar-right d-flex align-items-center">
+					<div class="main-menu">
+
+						<?php wp_nav_menu( $nav_menu_args ); ?>
+
+						<?php if ( is_directorist() ) { ?>
+							<div class="menubar-btn">
+								<?php if ( Theme::$options['add_listing_button'] ) { ?>
+								<a href="<?php echo esc_url( $add ); ?>" class="btn btn-primary menu-doctor-btn" role="button"
+									aria-pressed="true">
+									<?php echo esc_html( Theme::$options['add_listing_button_text'] ); ?>
+								</a>
+								<?php } ?>
+								<?php if ( ! is_user_logged_in() && Theme::$options['login_button'] ) { ?>
+									<div class="btn-group login-area  d-lg-block d-none">
+										<div role="button"
+											class="dropdown-toggle dropdown-toggle-split shadow-none cursor pr-0 pl-xl-30 pl-15"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="far fa-user"></i>
+										</div>
+										<div class="dropdown-menu dropdown-menu-right login-area__menu">
+											<a class="dropdown-item login-area__item" href="#" data-toggle="modal"
+												data-target="#exampleModalCenter"><?php echo esc_attr( Theme::$options['login_button_text'] ); ?></a>
+											<a class="dropdown-item login-area__item" href="#">Register</a>
+										</div>
+									</div>
+								<?php } ?>
+							</div>
+						<?php } ?>
+					</div>
+					<a href="#" class="btn btn-sm btn-primary btn-create">Create Event</a>
+					<div class="dropdown navbar-more">
+						<a href="#" class="more-action more-align-h dropdown-toggle" id="navbar-more-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-more-drop">
+							<a href="#">Action</a>
+							<a href="#">Another action</a>
+							<a href="#">Something else here</a>
+						</div>
+					</div>
 				</div>
 			</div>
 
