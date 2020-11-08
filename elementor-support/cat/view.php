@@ -45,20 +45,17 @@ $style              = $data['style'];
 					$image     = ! empty( $image ) ? esc_url( $image[0] ) : '';
 					$icon      = ( 'la' === $icon_type ) ? $icon_type . ' ' . $icon : 'fa ' . $icon;
 					?>
-					<div class="col-xl-5 col-lg-3 col-md-4 col-sm-6">
-						<div class="features-box features-box--1 text-center content-center shadow6 radius-sm border-color px-30 pt-30 pb-20 ">
-							<div class="features-box__wrapper">
-								<a href="<?php echo esc_url( $link ); ?>">
-									<div class="features-box__img">
+					<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+						<div class="category-card">
+							<div class="category-card__wrapper">
+									<div class="category-card__img">
 										<?php
 										echo sprintf( '<i class="%s cat-icon"></i>', esc_attr( $icon ) );
 										// echo sprintf( '<img src="%s" alt="%s" class="img-fluid" />', esc_url( $image ), esc_attr( Helper::image_alt( $image_id ) ) );
 										?>
 									</div>
-								</a>
-								<div class="features-box__title">
-									<p><?php echo esc_attr( $category->name ); ?> <span>- 84</span></p>
-								</div>
+									<a href="<?php echo esc_url( $link ); ?>" class="stretched-link"><?php echo esc_attr( $category->name ); ?></a>
+									<span class="category-card__total-events">84 Events</span>
 							</div>
 						</div>
 					</div>

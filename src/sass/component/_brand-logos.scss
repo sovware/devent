@@ -1,0 +1,48 @@
+/* brands logo carousel */
+.brand-logo-wrapper{
+    margin: -20px 0;
+    position: relative;
+    .owl-stage-outer{
+        padding: 20px 0;
+    }
+    .brand-logo-single{
+        padding: 25px;
+        text-align: center;
+        background: #fff;
+        box-shadow: 0 3px 20px rgba($gray, 0.1);
+        border-radius: 3px;
+        img{
+            display: inline-block;
+            width: auto;
+            max-width: 90px;
+        }
+    }
+    .owl-nav{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        pointer-events: none;
+        button{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background: #fff !important;
+            box-shadow: 0 4px 7px rgba($gray, 0.08);
+            pointer-events: all;
+            z-index: 1;
+            color: $dark;
+            outline: 0;
+        }
+        .owl-prev{
+            margin-left: -20px;
+        }
+        .owl-next{
+            margin-right: -20px;
+        }
+    }
+}

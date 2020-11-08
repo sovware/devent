@@ -19,20 +19,15 @@ if ( ! empty( $btn_url['url'] ) ) {
 }
 ?>
 
-<section class="help">
-	<div class="help-wrapper">
-		<img src="<?php echo esc_url( $img ); ?>" class="img-fluid" alt="<?php echo esc_attr( $alt ); ?>">
-		<h2><?php echo esc_attr( $data['title'] ); ?></h2>
-		<p><?php echo esc_attr( $data['subtitle'] ); ?></p>
-
-		<?php
-		if ( $btn_url['url'] ) {
-			?>
-			<div class="help-btn">
-				<a <?php echo wp_kses_post( $attr ); ?> class="btn btn-secondary"> <?php echo esc_attr( $data['button_text'] ); ?> </a>
+<section class="cta-wrapper">
+	<div class="row">
+		<div class="col-md-8 offset-md-2">
+			<p class="cta-subtitle">Create your Events or Venues on DEvents</p>
+			<h2>Reach new audiences and sell more tickets with DEvents</h2>
+			<div class="cta-action-btns">
+				<a href="" class="btn btn-primary">See Our Pricing</a>
+				<a href="" class="btn btn-secondary">Create Events</a>
 			</div>
-			<?php
-		}
-		?>
+		</div>
 	</div>
 </section>
