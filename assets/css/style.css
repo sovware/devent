@@ -492,7 +492,8 @@ a:hover h6, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.curren
   background: #f5f7fc;
 }
 
-.bg-medium, .blog .footer {
+.bg-medium, .blog .footer,
+.single-post .footer {
   background: #f1f3f8;
 }
 
