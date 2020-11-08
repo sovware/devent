@@ -11,14 +11,6 @@ class Helper {
 
 	use URI_Trait;
 
-	public static function test() {
-		if ( method_exists( 'get_image' ) ) {
-			return true;
-		} else {
-			return false;
-		}
-	}
-
 	/**
 	 * Sidebar name
 	 */

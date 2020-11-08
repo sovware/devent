@@ -75,7 +75,7 @@ class Scripts {
 		wp_register_script( 'waypoints', Helper::get_vendor_assets( 'js/jquery.waypoints.min.js' ), array( 'jquery' ), $this->version, true );
 		// offcanvas.
 		wp_register_script( 'offcanvas', Helper::get_vendor_assets( 'js/js-offcanvas.pkgd.min.js' ), array( 'jquery' ), $this->version, true );
-		// select
+		// select.
 		wp_register_script( 'select2', Helper::get_vendor_assets( 'js/select2.full.min.js' ), array( 'jquery' ), $this->version, true );
 		// carousel.
 		wp_register_script( 'carousel', Helper::get_vendor_assets( 'js/owl.carousel.min.js' ), array( 'jquery' ), $this->version, true );

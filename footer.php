@@ -43,7 +43,7 @@ switch ( $footer_columns ) {
 								continue;
 							}
 							echo '<div class="' . esc_attr( $footer_class ) . '">';
-							dynamic_sidebar( 'footer-' . $i );
+								dynamic_sidebar( 'footer-' . $i );
 							echo '</div>';
 						}
 						?>
