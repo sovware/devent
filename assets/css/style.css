@@ -57,10 +57,10 @@ a:hover h2,
 a:hover h3,
 a:hover h4,
 a:hover h5,
-a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.current-menu-item > a, .main-menu .menu > .menu-item.current-menu-parent > a, .main-menu .menu > .menu-item.current-menu-ancestor > a, .main-menu .menu > .menu-item a:hover, .main-menu .menu .sub-menu .menu-item.current-menu-item > a, .main-menu .menu .sub-menu .menu-item.current-menu-parent > a, .main-menu .menu .sub-menu .menu-item > a:hover, .login-area__item:hover, .search__item:hover, .search__item:hover i, .category-card__wrapper i, .footer .widget ul li a:hover, .devent_blog-card .blog-content .blog-title:hover a, .devent_blog-card .blog-content .blog-cats a:hover, .devent_blog-card .blog-meta ul li i,
+a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.current-menu-item > a, .main-menu .menu > .menu-item.current-menu-parent > a, .main-menu .menu > .menu-item.current-menu-ancestor > a, .main-menu .menu > .menu-item a:hover, .main-menu .menu .sub-menu .menu-item.current-menu-item > a, .main-menu .menu .sub-menu .menu-item.current-menu-parent > a, .main-menu .menu .sub-menu .menu-item > a:hover, .dropdown-menu a:hover, .login-area__item:hover, .search__item:hover, .search__item:hover i, .category-card__wrapper i, .footer .widget ul li a:hover, .devent_blog-card .blog-content .blog-title:hover a, .devent_blog-card .blog-content .blog-cats a:hover, .devent_blog-card .blog-meta ul li i,
 .devent_blog-card .blog-meta ul li svg,
 .devent_blog-card .blog-meta ul li img, .devent_blog-card .blog-meta ul li a:hover, .post-single .blog-title a:hover, .post-single .post-meta ul li a:hover, .post-single .post-content ol li:before, .post-single .post-pagination .post-pagination-each .post-pagination-title:hover a, .post-single .post-pagination .post-pagination-each .post-pagination-meta .post-pagination-cats a, .related-post-each .related-post-title:hover a, .related-post-each .related-post-meta .related-post-cats a, .widget.widget_recent_comments ul li a, .comment-respond .logged-in-as a:hover, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .reply:hover,
-.comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover, .widget ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .widget_rss ul li a.rsswidget:hover, .subscribe-form .form-group .submit-btn i, .select2-container--default .select2-results__option--highlighted[aria-selected], .dropdown-menu a:hover, .features-box--1 .features-box__img .cat-icon {
+.comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover, .widget ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .widget_rss ul li a.rsswidget:hover, .subscribe-form .form-group .submit-btn i, .select2-container--default .select2-results__option--highlighted[aria-selected], .features-box--1 .features-box__img .cat-icon {
   color: #fd4956;
 }
 
@@ -304,7 +304,7 @@ a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main
 }
 
 .color-light, .content .tab-content .nav-tabs li.nav-item .nav-link, .content .tab-content .nav-tabs p, .content .tab-content .appointments-menu .appointments-menu-inner .short a, .content .tab-content .card .card-header .dropdown-toggle i, .content .tab-content .card .card-body p, .content .tab-content .card .card-body ul li, .recent-activities .recent-activities-wrapper .notification h6, .recent-activities .recent-activities-wrapper .notification p, .user_pro_img_area .image-info span, .dashboard-content-box.change-pass .form-group input, .atbd_content_module .atbdb_content_module_contents .form-group input, .d-caption .module .body form label i,
-.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
+.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .footer .widget.widget_devent_about .azin-socials li a i,
 .footer .widget.widget_devent_about .azin-socials li a svg, .footer .widget.subscribe-widget .subscribe-form input::-webkit-input-placeholder, .footer .widget.widget_text .textwidget p, .devent_blog-card .blog-content .blog-cats a, .devent_blog-card .blog-meta ul li span,
 .devent_blog-card .blog-meta ul li a, .post-single .post-meta ul li, .comment-respond .logged-in-as a, .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply, .widget_devent_post .azin-content .azin-date, .widget_rss ul li .rss-date, .widget .azin-socials li a, #login_modal .modal-header .modal-title i,
 #signup_modal .modal-header .modal-title i, #login_modal .modal-body .keep_signed .custom-control-label,
@@ -313,7 +313,7 @@ a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main
 }
 
 .color-light, .content .tab-content .nav-tabs li.nav-item .nav-link, .content .tab-content .nav-tabs p, .content .tab-content .appointments-menu .appointments-menu-inner .short a, .content .tab-content .card .card-header .dropdown-toggle i, .content .tab-content .card .card-body p, .content .tab-content .card .card-body ul li, .recent-activities .recent-activities-wrapper .notification h6, .recent-activities .recent-activities-wrapper .notification p, .user_pro_img_area .image-info span, .dashboard-content-box.change-pass .form-group input, .atbd_content_module .atbdb_content_module_contents .form-group input, .d-caption .module .body form label i,
-.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
+.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .footer .widget.widget_devent_about .azin-socials li a i,
 .footer .widget.widget_devent_about .azin-socials li a svg, .footer .widget.subscribe-widget .subscribe-form input::-moz-placeholder, .footer .widget.widget_text .textwidget p, .devent_blog-card .blog-content .blog-cats a, .devent_blog-card .blog-meta ul li span,
 .devent_blog-card .blog-meta ul li a, .post-single .post-meta ul li, .comment-respond .logged-in-as a, .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply, .widget_devent_post .azin-content .azin-date, .widget_rss ul li .rss-date, .widget .azin-socials li a, #login_modal .modal-header .modal-title i,
 #signup_modal .modal-header .modal-title i, #login_modal .modal-body .keep_signed .custom-control-label,
@@ -322,7 +322,7 @@ a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main
 }
 
 .color-light, .content .tab-content .nav-tabs li.nav-item .nav-link, .content .tab-content .nav-tabs p, .content .tab-content .appointments-menu .appointments-menu-inner .short a, .content .tab-content .card .card-header .dropdown-toggle i, .content .tab-content .card .card-body p, .content .tab-content .card .card-body ul li, .recent-activities .recent-activities-wrapper .notification h6, .recent-activities .recent-activities-wrapper .notification p, .user_pro_img_area .image-info span, .dashboard-content-box.change-pass .form-group input, .atbd_content_module .atbdb_content_module_contents .form-group input, .d-caption .module .body form label i,
-.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
+.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .footer .widget.widget_devent_about .azin-socials li a i,
 .footer .widget.widget_devent_about .azin-socials li a svg, .footer .widget.subscribe-widget .subscribe-form input::-ms-input-placeholder, .footer .widget.widget_text .textwidget p, .devent_blog-card .blog-content .blog-cats a, .devent_blog-card .blog-meta ul li span,
 .devent_blog-card .blog-meta ul li a, .post-single .post-meta ul li, .comment-respond .logged-in-as a, .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply, .widget_devent_post .azin-content .azin-date, .widget_rss ul li .rss-date, .widget .azin-socials li a, #login_modal .modal-header .modal-title i,
 #signup_modal .modal-header .modal-title i, #login_modal .modal-body .keep_signed .custom-control-label,
@@ -331,7 +331,7 @@ a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main
 }
 
 .color-light, .content .tab-content .nav-tabs li.nav-item .nav-link, .content .tab-content .nav-tabs p, .content .tab-content .appointments-menu .appointments-menu-inner .short a, .content .tab-content .card .card-header .dropdown-toggle i, .content .tab-content .card .card-body p, .content .tab-content .card .card-body ul li, .recent-activities .recent-activities-wrapper .notification h6, .recent-activities .recent-activities-wrapper .notification p, .user_pro_img_area .image-info span, .dashboard-content-box.change-pass .form-group input, .atbd_content_module .atbdb_content_module_contents .form-group input, .d-caption .module .body form label i,
-.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .main-menu .menu .sub-menu .menu-item > a, .footer .widget.widget_devent_about .azin-socials li a i,
+.d-caption .module .body form label span, .d-caption .module .body form label .i-color, .d-caption .module .body .price-range p, .main .progress-bar-box p, .main .progress-bar-box span, .doctor-sidebar-inner .contact-info .contact-info-inner ul li .info, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner p, .hospital-carousel .single-hospital-carousel .hospital-doc-details .doctor-profile-box-inner .listing-data-list ul li .rating i, .atbd_share .atbd_director_social_wrap a, .listing-grid-box-inner .box-title p, .listing-grid-box-inner .listing-data-list ul li p, .listing-grid-box-inner .listing-data-list ul li p a, .listing-grid-box-inner .box-footer .rating .active, .all-doctor .generic-header .generic-header-title, .all-doctor .generic-header .listing-action .short a, .all-doctor .generic-header .listing-action .view-mode .ab-grid, .all-doctor .generic-header .listing-action .view-mode .ab-list, .listing-table .table tr td .table-inner .rating li span, .listing-table .table tr td p, .listing-table .table tr td .dropdown a i, .doctor-profile .doctor-profile-box-inner p, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating i, .doctor-profile .doctor-profile-box-inner .listing-data-list ul li .rating .active, .doctor-profile .doctor-profile-box-inner .clean-icon span, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner, .atbd_content_module .atbdb_content_module_contents .rating-box .average-ratings .average-ratings-inner span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span i, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_box span .active, .atbd_content_module .atbdb_content_module_contents .atbd_area_title .atbd_area_title_inner p, .atbd_content_module .atbdb_content_module_contents .review-rating .review-rating-inner p, .dropdown-menu .dropdown-item, .modal-header .modal-title i, .dropdown-sub-menu .sub-menu a, .search-bar-wrapper .search_module .search_trigger, .navbar-main .adv_search .search-wrapper input, .footer .widget.widget_devent_about .azin-socials li a i,
 .footer .widget.widget_devent_about .azin-socials li a svg, .footer .widget.subscribe-widget .subscribe-form input::placeholder, .footer .widget.widget_text .textwidget p, .devent_blog-card .blog-content .blog-cats a, .devent_blog-card .blog-meta ul li span,
 .devent_blog-card .blog-meta ul li a, .post-single .post-meta ul li, .comment-respond .logged-in-as a, .comments-area .comment-lists ul .depth-2 .media .media-body .media_top .reply, .widget_devent_post .azin-content .azin-date, .widget_rss ul li .rss-date, .widget .azin-socials li a, #login_modal .modal-header .modal-title i,
 #signup_modal .modal-header .modal-title i, #login_modal .modal-body .keep_signed .custom-control-label,
@@ -457,7 +457,7 @@ a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main
   background: #9299b8;
 }
 
-.color-gray, .sidebar .nav-pills .nav-link, .content .tab-content .nav-tabs li.nav-item .nav-link span.count, .content .tab-content .appointments-menu .appointments-menu-inner .match a, .content .tab-content .card .card-body p span, .notification-area ul li .notification-dropdown-menu a, .user_pro_img_area .custom-file-upload label, .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu a, .d-caption .module .body form label, .doctor-sidebar-inner .contact-info .contact-info-inner ul li span, .listing-grid-inner .btn-white, .appointment-doctor .atbd_content_module .appointment-doctor-title h3, .appointment-doctor .atbd_content_module .doc-time-plan h6, .all-doctor-list h1, .all-doctor-list .doctor-listing-inner a, .listing-table .table thead th, .atbd_content_module .atbdb_content_module_contents p, .atbd_content_module .atbdb_content_module_contents ul.social-links-list li, .search-wrapper .search-categories ul li a, .login-area__item, .search__item, .post-single .post-content p, .post-single .post-content ul li, .post-single .post-content ol li, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top a, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-edit-link, .widget ul li a, .widget_calendar #wp-calendar caption, .widget_calendar #wp-calendar thead th, .widget_rss ul li .rssSummary, .widget_rss ul li cite, .widget_text .textwidget strong, .widget_text .textwidget .wp-caption-text, .select2-container--default .select2-selection--single .select2-selection__arrow:after, .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow:after, .select2-container .select2-selection--single .select2-selection__rendered,
+.color-gray, .sidebar .nav-pills .nav-link, .content .tab-content .nav-tabs li.nav-item .nav-link span.count, .content .tab-content .appointments-menu .appointments-menu-inner .match a, .content .tab-content .card .card-body p span, .notification-area ul li .notification-dropdown-menu a, .user_pro_img_area .custom-file-upload label, .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu a, .d-caption .module .body form label, .doctor-sidebar-inner .contact-info .contact-info-inner ul li span, .listing-grid-inner .btn-white, .appointment-doctor .atbd_content_module .appointment-doctor-title h3, .appointment-doctor .atbd_content_module .doc-time-plan h6, .all-doctor-list h1, .all-doctor-list .doctor-listing-inner a, .listing-table .table thead th, .atbd_content_module .atbdb_content_module_contents p, .atbd_content_module .atbdb_content_module_contents ul.social-links-list li, .search-wrapper .search-categories ul li a, .main-menu .menu .sub-menu .menu-item > a, .dropdown-menu a, .login-area__item, .search__item, .post-single .post-content p, .post-single .post-content ul li, .post-single .post-content ol li, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top a, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-edit-link, .widget ul li a, .widget_calendar #wp-calendar caption, .widget_calendar #wp-calendar thead th, .widget_rss ul li .rssSummary, .widget_rss ul li cite, .widget_text .textwidget strong, .widget_text .textwidget .wp-caption-text, .select2-container--default .select2-selection--single .select2-selection__arrow:after, .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow:after, .select2-container .select2-selection--single .select2-selection__rendered,
 .select2-container--default .select2-selection--single .select2-selection__placeholder, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-results__option, #login_modal .recover-pass-form label, .testimonial-wrapper .testimonial-carousel .carousel-single .author-info span, .testimonial-wrapper .testimonial-carousel .carousel-single .author-comment {
   color: #666d92;
 }
@@ -486,11 +486,16 @@ a:hover h6, .section-title--two .view-all, .pagination-area ul li a:hover, .main
   background: #fafbfc;
 }
 
+.bg-lighter, .dropdown-menu a:hover {
+  background: #f8f9fa;
+}
+
 .bg-soft, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .sidebar-modal .btn-light, .doctor-profile .atbd_listing_action_area .atbd_action .doctor-profile-btn, .navbar-main .navbar-left .event-option.location-event, .footer .widget.widget_devent_about .azin-socials li a {
   background: #f5f7fc;
 }
 
-.bg-medium, .blog .footer {
+.bg-medium, .blog .footer,
+.single-post .footer {
   background: #f1f3f8;
 }
 
@@ -2518,7 +2523,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 65px;
+  min-width: 70px;
   margin-right: 10px;
   position: relative;
 }
@@ -2592,6 +2597,15 @@ h6 {
         -ms-flex-align: start !important;
             align-items: flex-start !important;
   }
+}
+
+.navbar-main .navbar-right .main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2817,8 +2831,9 @@ h6 {
 }
 
 .main-menu .menu {
-  margin-right: 30px;
+  margin-right: 20px;
   padding: 0 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 @media only screen and (max-width: 1399px) {
@@ -2995,11 +3010,17 @@ h6 {
   visibility: hidden;
 }
 
+.main-menu .btn-create {
+  padding: 0.0313rem 1.135rem;
+  font-size: 13px;
+  font-weight: 500;
+}
+
 .dropdown-menu {
   border: 0;
   -webkit-border-radius: 0;
           border-radius: 0;
-  padding: 15px 0 15px 20px;
+  padding: 15px 0;
 }
 
 .dropdown-menu .dropdown-item {
@@ -3021,6 +3042,12 @@ h6 {
 .dropdown-menu .dropdown-item i {
   font-size: 14px;
   margin-right: 5px;
+}
+
+.dropdown-menu a {
+  padding: 5px 20px !important;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .menubar-lg-btn {
@@ -6368,8 +6395,8 @@ h6 {
 }
 
 .devent_blog-card .blog-content .blog-title {
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   margin: 10px 0 6px 0;
   line-height: 1.5;
 }
@@ -6446,7 +6473,7 @@ h6 {
 
 .post-single .blog-title {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 36px 0 18px;
 }
 
@@ -6525,6 +6552,10 @@ h6 {
           transform: translateY(-50%);
   content: "";
   background: #ffffff;
+}
+
+.post-single .post-content ul {
+  margin-bottom: 25px;
 }
 
 .post-single .post-content ul li {
@@ -6625,7 +6656,7 @@ h6 {
 
 .post-single .post-pagination .post-pagination-each .post-pagination-title {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 10px 0;
 }
 
@@ -6663,7 +6694,7 @@ h6 {
 .related-post-each .related-post-title {
   font-size: 15px;
   line-height: 1.384;
-  font-weight: 700;
+  font-weight: 500;
   padding: 15px 15px 0 15px;
   margin-bottom: 5px;
 }
@@ -6735,6 +6766,10 @@ h6 {
   width: auto;
 }
 
+.comment-respond .logged-in-as {
+  margin-left: 15px;
+}
+
 .comments-area .comment-title {
   margin-bottom: 1.66667rem;
   text-align: center;
@@ -6756,7 +6791,7 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .comments-area .comment-lists ul .depth-1 .media .media-body {
@@ -7003,7 +7038,7 @@ h6 {
 }
 
 .widget_devent_post .azin-content .azin-title {
-  font-weight: 600;
+  font-weight: 500;
   margin: 6px 0 0;
   font-size: 14px;
 }
@@ -7257,7 +7292,7 @@ h6 {
 .tagcloud a {
   font-size: 13px !important;
   line-height: 1.4;
-  font-weight: 600;
+  font-weight: 500;
   display: inline-block;
   padding: 8px 15px;
   margin: 5px;

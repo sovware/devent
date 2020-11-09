@@ -148,8 +148,9 @@
 
 // Main Menu
 .main-menu .menu {
-  margin-right: 30px;
+  margin-right: 20px;
   padding: 0 15px;
+  font-family: $poppins;
   @include xl{
     margin-right: 15px;
   }
@@ -308,7 +309,7 @@
         padding: 8px 20px 8px 0;
         width: 100%;
         display: block;
-        @extend .color-light;
+        @extend .color-gray;
 
         @include md {
           padding: 5px 0px 3px 0px;
@@ -329,10 +330,17 @@
   }
 }
 
+.main-menu{
+  .btn-create{
+    padding: 0.0313rem 1.135rem;
+    @include ofs(13px, null, 500);
+  }
+}
+
 .dropdown-menu {
   border: 0;
   border-radius: 0;
-  padding: 15px 0 15px 20px;
+  padding: 15px 0;
 
   .dropdown-item {
     position: relative;
@@ -354,6 +362,15 @@
     i {
       @include rfs(14);
       margin-right: 5px;
+    }
+  }
+  a{
+    padding: 5px 20px !important;
+    @include ofs(15px, null, 400);
+    @extend .color-gray;
+    &:hover{
+        @extend .color-primary;
+        @extend .bg-lighter;
     }
   }
 }
