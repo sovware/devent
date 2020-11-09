@@ -6,7 +6,7 @@
         .event-option{
             display: inline-flex;
             align-items: center;
-            min-width: 65px;
+            min-width: 70px;
             margin-right: 10px;
             position: relative;
             &.location-event{
@@ -59,6 +59,8 @@
             align-items: flex-start !important;
         }
         .main-menu{
+            display: flex;
+            align-items: center;
             @include md{
                 width: 100%;
             }
