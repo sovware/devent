@@ -8458,15 +8458,20 @@ h6 {
       flex-wrap: wrap;
 }
 
+.counter-wrapper .counter-inner {
+  text-align: center;
+}
+
 .counter-wrapper .counter-inner h6 {
-  color: #23c8b9;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 36px;
+  color: #272b41;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 1200px) {
   .counter-wrapper .counter-inner h6 {
-    font-size: calc(17.4px + 1.05vw) ;
+    font-size: calc(18px + 1.5vw) ;
   }
 }
 
@@ -8680,6 +8685,13 @@ h6 {
 
 .team .team-wrapper {
   background: #fff;
+}
+
+.team .team-wrapper img {
+  height: 255px;
+  width: 255px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .team .team-wrapper .team-wrapper-inner {
