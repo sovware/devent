@@ -134,10 +134,12 @@
   flex-wrap: wrap;
 
   .counter-inner {
+    text-align: center;
     h6 {
-      color: $secondary;
-      @include rfs(30);
-      font-weight: 700;
+      @include rfs(36);
+      color: $dark;
+      font-weight: 600;
+      margin-bottom: 15px;
     }
 
     p {
@@ -472,6 +474,11 @@
     background: #fff;
     @extend .border-normal;
     @extend .shadow7;
+    img{
+      height: 255px;
+      width: 255px;
+      object-fit: cover;
+    }
 
     .team-wrapper-inner {
       padding: 22px 0 16px 0;
