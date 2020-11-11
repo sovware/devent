@@ -35,27 +35,48 @@ class Search extends Custom_Widget_Base {
 				'label' => __( 'General', 'devent' ),
 			),
 			array(
-				'id'      => 'title1',
-				'type'    => Controls_Manager::TEXT,
-				'label'   => __( 'Title 1', 'devent' ),
+				'id'      => 'title',
+				'type'    => Controls_Manager::TEXTAREA,
+				'label'   => __( 'Title', 'devent' ),
 				'default' => 'Lets find your ideal car for',
 			),
 			array(
-				'id'      => 'title2',
-				'type'    => Controls_Manager::TEXT,
-				'label'   => __( 'Title 2', 'devent' ),
+				'id'      => 'subtitle',
+				'type'    => Controls_Manager::TEXTAREA,
+				'label'   => __( 'Subtitle', 'devent' ),
 				'default' => 'Buy or Rent',
 			),
+
+			array(
+				'id'      => 'tab1_icon',
+				'type'    => Controls_Manager::ICON,
+				'label'   => __( 'Tab1 Icon', 'devent' ),
+				'default' => 'la la-bullhorn',
+			),
+			array(
+				'id'      => 'tab1',
+				'type'    => Controls_Manager::TEXT,
+				'label'   => __( 'Tab1 Label', 'devent' ),
+				'default' => 'Events',
+			),
+			array(
+				'id'      => 'tab2_icon',
+				'type'    => Controls_Manager::ICON,
+				'label'   => __( 'Tab2 Icon', 'devent' ),
+				'default' => 'la la-home',
+			),
+			array(
+				'id'      => 'tab2',
+				'type'    => Controls_Manager::TEXT,
+				'label'   => __( 'Tab2 Label', 'devent' ),
+				'default' => 'Venue',
+			),
+
 			array(
 				'type'    => Controls_Manager::TEXT,
 				'id'      => 'search',
 				'label'   => __( 'Search Button Text', 'devent' ),
 				'default' => 'Search',
-			),
-			array(
-				'id'    => 'img',
-				'type'  => Controls_Manager::MEDIA,
-				'label' => __( 'Right Side Image', 'devent' ),
 			),
 			array(
 				'mode' => 'section_end',
@@ -95,7 +116,7 @@ class Search extends Custom_Widget_Base {
 			array(
 				'mode' => 'section_end',
 			),
-
+                 
 			// Style Tab.
 			array(
 				'mode'  => 'section_start',

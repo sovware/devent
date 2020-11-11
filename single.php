@@ -21,6 +21,7 @@ namespace AazzTech\devent;
 						while ( have_posts() ) :
 							the_post();
 							?>
+
 							<?php
 							get_template_part( 'template-parts/content-single' );
 							if ( comments_open() || get_comments_number() ) {
@@ -29,6 +30,7 @@ namespace AazzTech\devent;
 								echo '</div>';
 							}
 							?>
+
 						<?php endwhile; ?>
 					</div>
 				</div>
