@@ -6,7 +6,6 @@
  */
 
 use AazzTech\devent\Helper;
-
 $imgs = $data['img'];
 $img  = $imgs['url'] ? $imgs['url'] : '';
 $alt  = $imgs['id'] ? $imgs['id'] : '';

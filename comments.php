@@ -20,15 +20,14 @@ $comments_text   = sprintf( _n( '%s Comment', '%s Comments', $comments_number, '
 $comment_args    = array(
 	'callback' => 'AazzTech\devent\Helper::comments_callback',
 );
-$comment_field   = '<div class="col-12">
+
+$comment_field       = '<div class="col-12">
 						<textarea name="comment" placeholder="' . esc_attr_x( 'Your Text', 'placeholder', 'devent' ) . '" class="form-control mb-30"></textarea>
 					</div>';
-
 $comment_form_fields = array(
 	'author'        => '<div class="col-md-6">
 							<input name="author" type="text" placeholder="' . esc_attr_x( 'Name*', 'placeholder', 'devent' ) . '" class="form-control mb-30" required>
 						</div>',
-
 	'email'         => '<div class="col-md-6">
     						<input name="email" type="email" placeholder="' . esc_attr_x( 'Email*', 'placeholder', 'devent' ) . '" class="form-control mb-30" required>
     					</div>',
@@ -48,14 +47,12 @@ $comment_form_args = array(
 	'fields'               => apply_filters( 'comment_form_default_fields', $comment_form_fields ),
 	'comment_field'        => is_user_logged_in() ? $comment_field : '',
 	'comment_notes_before' => '<div class="col-12">
-								<p class="comment-notes mb-40">
-									<span id="email-notes">' . esc_html__( 'Your email address will not be published.', 'direo' ) . '</span>' .
-								'</p>
-							</div>',
+									<p class="comment-notes mb-40">
+										<span id="email-notes">' . esc_html__( 'Your email address will not be published.', 'direo' ) . '</span>' .
+									'</p>
+								</div>',
 );
-
 ?>
-
 
 <?php if ( have_comments() ) : ?>
 	<div class="comments-area" id="comments">
