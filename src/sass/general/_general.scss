@@ -3,6 +3,19 @@
 @import "../general/all_colors.scss";
 @import "../general/utility-classes.scss";
 
+//Elementor
+
+$h1-font-size-e: 48px;
+$h2-font-size-e: 30px;
+$h3-font-size-e: 24px; //22px
+$h4-font-size-e: 22px; //20px
+$h5-font-size-e: 20px; //18px
+$h6-font-size-e: 18px; //16px
+$headings-margin-bottom-e: 0;
+$headings-font-weight-e: 600;
+$headings-color-e: $dark;
+$headings-line-height-e:1.2;
+
 html {
   height: 100%;
   margin: 0;
@@ -102,6 +115,9 @@ a.theme-back-to-top {
       font-weight: 500;
     }
   }
+  p{
+    margin-top: 20px;
+  }
 }
 
 h1,
@@ -111,4 +127,124 @@ h4,
 h5,
 h6 {
   font-family: 'Poppins', sans-serif;
+}
+
+//Elementary Default Overwrite
+
+
+h1,
+.h1 {
+  &.elementor-heading-title {
+  @include font-size($h1-font-size-e);
+  line-height: $headings-line-height-e;
+  color: $headings-color-e;
+  font-weight: 700;
+  }
+}
+
+h2,
+.h2 {
+  &.elementor-heading-title {
+  @include font-size($h2-font-size-e);
+  line-height: $headings-line-height-e;
+  color: $headings-color-e;
+  font-weight: $headings-font-weight-e;
+  }
+}
+
+h3,
+.h3 {
+  &.elementor-heading-title {
+  @include font-size($h3-font-size-e);
+  line-height: $headings-line-height-e;
+  color: $headings-color-e;
+  font-weight: $headings-font-weight-e;
+  }
+}
+
+h4,
+.h4 {
+  &.elementor-heading-title {
+  @include font-size($h4-font-size-e);
+  line-height: $headings-line-height-e;
+  color: $headings-color-e;
+  font-weight: $headings-font-weight-e;
+  }
+}
+
+h5,
+.h5 {
+  &.elementor-heading-title {
+  @include font-size($h5-font-size-e);
+  line-height: $headings-line-height-e;
+  color: $headings-color-e;
+  font-weight: $headings-font-weight-e;
+  }
+}
+
+h6,
+.h6 {
+  &.elementor-heading-title {
+  @include font-size($h6-font-size-e);
+  line-height: $headings-line-height-e;
+  color: $headings-color-e;
+  font-weight: $headings-font-weight-e;
+  }
+}
+
+p,
+span {
+  &.elementor-heading-title {
+  line-height: 1.5;
+  }
+}
+
+.elementor-heading-title {
+  line-height: 1.5;
+}
+
+.elementor-widget-text-editor {
+  ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+
+    &:before {
+      position: absolute;
+      content: '';
+      width: 8px;
+      height: 8px;
+      @extend .border-primary;
+      border-radius: 300px;
+      top: 50%;
+      left: 4px;
+      transform: translate(-50%, -50%);
+      }
+    }
+
+    ol {
+      padding: 0;
+
+    li {
+      margin-bottom: 8px;
+      margin-left: 15px;
+
+      &::marker {
+        @extend .color-primary;
+      }
+    }
+  }
+}
+
+.elementor-widget-text-editor{
+  img{
+    margin: 0 15px 10px 0;
+  }
+}
+
+.elementor-button-wrapper{
+.elementor-button{
+    @extend .bg-primary;
+    @extend .btn-md;
+  }
 }

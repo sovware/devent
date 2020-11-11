@@ -72,6 +72,7 @@
         .adv-input-location,
         .adv-input-date{
             flex: 1;
+            position: relative;
         }
         .form-group{
             margin-right: -1px;
@@ -94,6 +95,34 @@
                 input{
                     border-radius: 6px 0 0 6px;
                 }
+            }
+        }
+        .adv-input-location{
+            &:before{
+                content: '\f041';
+                font-family: "Line Awesome Free";
+                font-weight: 900;
+                position: absolute;
+                left: 23px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            input{
+                padding-left: 45px;
+            }
+        }
+        .adv-input-date{
+            &:before{
+                content: '\f274';
+                font-family: "Line Awesome Free";
+                font-weight: 900;
+                position: absolute;
+                left: 23px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            input{
+                padding-left: 45px;
             }
         }
     }
