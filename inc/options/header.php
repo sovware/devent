@@ -49,7 +49,7 @@ $opt_name = Constants::$theme_options;
 				'id'         => 'add_listing_button_text',
 				'type'       => 'text',
 				'title'      => esc_html__( 'Add Listing Button Text', 'devent' ),
-				'default'    => esc_html__( 'Add a Doctor', 'devent' ),
+				'default'    => esc_html__( 'Create Event', 'devent' ),
 				'dependency' => array( 'add_listing_button', '==', 'true' ),
 			),
 			array(

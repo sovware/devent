@@ -15,7 +15,7 @@ $alt   = $imgs['id'] ? $imgs['id'] : '';
 ?>
 
 <section class="testimonial-wrapper">
-<img src="<?php echo esc_url( $img ); ?>" class="img-fluid" alt="<?php echo esc_attr( $alt ); ?>">
+	<img src="<?php echo esc_url( $img ); ?>" class="img-fluid" alt="<?php echo esc_attr( $alt ); ?>">
 	<?php
 	if ( $data['title'] || $data['subtitle'] ) {
 		?>
