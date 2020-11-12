@@ -21,11 +21,10 @@ $user_id     = get_user_meta( get_current_user_id(), 'pro_pic', true );
 $profile_img = wp_get_attachment_image_src( $user_id );
 $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class' => 'img-fluid' ) );
 ?>
+
 <div class="dashboard-off-canvas-main">
-	<aside class="js-offcanvas offcanvas-dashboard" data-offcanvas-options='{"modifiers":"right,overlay"}' id="right"
-		role="complementary">
-		<button class="js-offcanvas-close btn btn-secondary btn-lg btn-block"
-			data-button-options='{"modifiers":"m1,m2"}'>Close</button>
+	<aside class="js-offcanvas offcanvas-dashboard" data-offcanvas-options='{"modifiers":"right,overlay"}' id="right" role="complementary">
+		<button class="js-offcanvas-close btn btn-secondary btn-lg btn-block" data-button-options='{"modifiers":"m1,m2"}'>Close</button>
 		<div class="notification-area-sidebar">
 			<ul id="accordionExample">
 				<li>
@@ -100,6 +99,7 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 		</div>
 	</aside>
 </div>
+
 <div class="menu-bar menu--light menu-area-sticky fixed-top headroom">
 	<!-- fixed-top -->
 	<div class="container-fluid">
@@ -123,6 +123,7 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 				<?php
 			}
 			?>
+
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -182,115 +183,66 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 					<!-- End Advanced search -->
 				</div>
 				<div class="navbar-right d-flex align-items-center">
-
 					<div class="main-menu">
-
 						<?php wp_nav_menu( $nav_menu_args ); ?>
 
+						<?php if ( is_directorist() && ! is_user_logged_in() && Theme::$options['login_button'] ) { ?>
+							<a class="btn btn-primary menu-doctor-btn" href="#" data-toggle="modal"
+								data-target="#login_modal"> 
+								<?php echo esc_attr( Theme::$options['login_button_text'] ); ?>
+							</a>
+						<?php } ?>
+
+						<?php if ( is_directorist() && is_user_logged_in() ) { ?>
+							<div class="notification-area">
+								<ul>
+									<li>
+										<a class="notification" href="#">
+											<?php
+											if ( empty( $profile_img ) ) {
+												echo wp_kses_post( $avatar_img );
+											} else {
+												echo sprintf( '<img src="%s" alt="%s" class="img-fluid"/>', esc_url( $profile_img[0] ), esc_attr( Helper::image_alt( $user_id ) ) );
+											}
+											?>
+										</a>
+
+										<div class="notification-dropdown-menu author-dropdown-menu">
+											<div class="author-user">
+												<?php
+													$author_name = get_the_author_meta( 'display_name', $post->post_author );
+												if ( ! $profile_img ) {
+													echo wp_kses_post( $avatar_img );
+												} else {
+													echo sprintf( '<img width="65" src="%s" alt="%s" class="img-fluid rounded-circle"/>', esc_url( $profile_img[0] ), esc_attr( Helper::image_alt( $user_id ) ) );
+												}
+													echo $author_name ? '<h6>' . esc_attr( $author_name ) . '</h6>' : '';
+												?>
+											</div>
+
+											<a href="#"><i class="la la-list-alt"></i>Listing</a>
+											<a href="#"><i class="la la-calendar-check-o"></i>My Appointment</a>
+											<a href="#"><i class="la la-heart-o"></i>Bookmarks</a>
+											<a href="#"><i class="la la-star-o"></i></i>My Reviews</a>
+											<a href="#"><i class="la la-bell"></i>Notifications</a>
+											<a href="#"><i class="la la-envelope"></i>Messages</a>
+											<a href="#"><i class="la la-money"></i>Billings</a>
+											<a href="#"><i class="la la-user"></i>My Profile</a>
+											<a class="btn" href="#" role="button"><i class="la la-power-off"></i> Logout</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						<?php } ?>
+
 						<?php if ( Theme::$options['add_listing_button'] ) { ?>
-							<a href="<?php echo esc_url( $add ); ?>" class="btn btn-sm btn-primary btn-create"><?php echo esc_html( Theme::$options['add_listing_button_text'] ); ?></a>
+							<a href="<?php echo esc_url( $add ); ?>" class="btn btn-sm btn-primary btn-create">
+								<?php echo esc_html( Theme::$options['add_listing_button_text'] ); ?>
+							</a>
 						<?php } ?>
-
-						<?php if ( is_directorist() ) { ?>
-							<div class="menubar-btn">
-								<?php if ( ! is_user_logged_in() && Theme::$options['login_button'] ) { ?>
-									<div class="btn-group login-area  d-lg-block d-none">
-										<div role="button"
-											class="dropdown-toggle dropdown-toggle-split shadow-none cursor pr-0 pl-xl-30 pl-15"
-											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											<i class="far fa-user"></i>
-										</div>
-										<div class="dropdown-menu dropdown-menu-right login-area__menu">
-											<a class="dropdown-item login-area__item" href="#" data-toggle="modal"
-												data-target="#exampleModalCenter"><?php echo esc_attr( Theme::$options['login_button_text'] ); ?></a>
-											<a class="dropdown-item login-area__item" href="#">Register</a>
-										</div>
-									</div>
-								<?php } ?>
-							</div>
-						<?php } ?>
-					</div>
-
-					<div class="dropdown navbar-more">
-						<a href="#" class="more-action more-align-h dropdown-toggle" id="navbar-more-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<span></span>
-							<span></span>
-							<span></span>
-						</a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-more-drop">
-							<a href="#">Login</a>
-							<a href="#">Register</a>
-						</div>
 					</div>
 				</div>
 			</div>
-
-			<?php if ( is_directorist() ) { ?>
-				<div class="nav-right-side-content d-none">
-					<div class="search-bar-wrapper">
-						<div class="nav_right_module search_module">
-							<span class="la search_trigger la-search"></span>
-							<div class="search_area_inner">
-								<div class="search-wrapper looking-field">
-									<div class="nav_right_module search_module">
-										<div class="search_area">
-											<form action="/">
-												<div class="input-group input-group-light">
-													<span class="la search_trigger la-search"></span>
-													<input type="text" class="form-control search_field top-search-field"
-														placeholder="Search doctors, conditions or procedures"
-														autocomplete="off">
-												</div>
-											</form>
-										</div>
-									</div>
-									<div class="search-categories">
-										<ul class="list-unstyled">
-											<li><a href="">Doctors</a></li>
-											<li><a href="">Hospitals</a></li>
-											<li><a href="">Bload Bank</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<?php
-			}
-			?>
-
-			<div class="dashboard-off-canvas-main">
-				<main class="c-offcanvas-content-wrap" role="main">
-					<div class="o-wrapper">
-						<a class="js-offcanvas-trigger" data-offcanvas-trigger="right" id="#test" href="#right">
-							<i class="la la-user"></i>
-						</a>
-					</div>
-				</main>
-			</div>
-
-			<?php if ( is_directorist() ) { ?>
-			<div class="menubar-lg-btn d-lg-flex d-none align-items-center">
-				<?php if ( ! is_user_logged_in() && Theme::$options['login_button'] ) { ?>
-					<div class="btn-group login-area  d-lg-block d-none">
-						<a class="btn btn-primary menu-doctor-btn" href="#" data-toggle="modal"
-							data-target="#login_modal"> 
-							<?php echo esc_attr( Theme::$options['login_button_text'] ); ?>
-						</a>
-						<a class="btn btn-primary menu-doctor-btn" href="#" data-toggle="modal"
-							data-target="#signup_modal">Register</a>
-					</div>
-
-				<?php } ?>
-				<?php if ( Theme::$options['add_listing_button'] ) { ?>
-				<a href="<?php echo esc_url( $add ); ?>" class="btn btn-primary menu-doctor-btn fw-600 text-capitalize"
-					role="button" aria-pressed="true">
-					<?php echo esc_html( Theme::$options['add_listing_button_text'] ); ?>
-				</a>
-				<?php } ?>
-			</div>
-			<?php } ?>
 			<!-- modal -->
 			<div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="login_modal_label"
 				aria-hidden="true">
@@ -449,47 +401,6 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 					</div>
 				</div>
 			</div>
-			<?php if ( is_directorist() && is_user_logged_in() ) { ?>
-			<div class="notification-area">
-				<ul>
-					<li>
-						<a class="notification" href="#">
-							<?php
-							if ( empty( $profile_img ) ) {
-								echo wp_kses_post( $avatar_img );
-							} else {
-								echo sprintf( '<img src="%s" alt="%s" class="img-fluid"/>', esc_url( $profile_img[0] ), esc_attr( Helper::image_alt( $user_id ) ) );
-							}
-							?>
-						</a>
-
-						<div class="notification-dropdown-menu author-dropdown-menu">
-							<div class="author-user">
-								<?php
-									$author_name = get_the_author_meta( 'display_name', $post->post_author );
-								if ( ! $profile_img ) {
-									echo wp_kses_post( $avatar_img );
-								} else {
-									echo sprintf( '<img width="65" src="%s" alt="%s" class="img-fluid rounded-circle"/>', esc_url( $profile_img[0] ), esc_attr( Helper::image_alt( $user_id ) ) );
-								}
-									echo $author_name ? '<h6>' . esc_attr( $author_name ) . '</h6>' : '';
-								?>
-							</div>
-
-							<a href="#"><i class="la la-list-alt"></i>Listing</a>
-							<a href="#"><i class="la la-calendar-check-o"></i>My Appointment</a>
-							<a href="#"><i class="la la-heart-o"></i>Bookmarks</a>
-							<a href="#"><i class="la la-star-o"></i></i>My Reviews</a>
-							<a href="#"><i class="la la-bell"></i>Notifications</a>
-							<a href="#"><i class="la la-envelope"></i>Messages</a>
-							<a href="#"><i class="la la-money"></i>Billings</a>
-							<a href="#"><i class="la la-user"></i>My Profile</a>
-							<a class="btn" href="#" role="button"><i class="la la-power-off"></i> Logout</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<?php } ?>
 		</nav>
 	</div>
 </div>
