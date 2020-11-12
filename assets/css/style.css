@@ -60,13 +60,15 @@ a:hover h5,
 a:hover h6, .section-title--two .view-all, .elementor-widget-text-editor ol li::marker, .pagination-area ul li a:hover, .main-menu .menu > .menu-item.current-menu-item > a, .main-menu .menu > .menu-item.current-menu-parent > a, .main-menu .menu > .menu-item.current-menu-ancestor > a, .main-menu .menu > .menu-item a:hover, .main-menu .menu .sub-menu .menu-item.current-menu-item > a, .main-menu .menu .sub-menu .menu-item.current-menu-parent > a, .main-menu .menu .sub-menu .menu-item > a:hover, .dropdown-menu a:hover, .login-area__item:hover, .search__item:hover, .search__item:hover i, .category-card__wrapper i, .footer .widget ul li a:hover, .devent_blog-card .blog-content .blog-title:hover a, .devent_blog-card .blog-content .blog-cats a:hover, .devent_blog-card .blog-meta ul li i,
 .devent_blog-card .blog-meta ul li svg,
 .devent_blog-card .blog-meta ul li img, .devent_blog-card .blog-meta ul li a:hover, .post-single .blog-title a:hover, .post-single .post-meta ul li a:hover, .post-single .post-content ol li:before, .post-single .post-pagination .post-pagination-each .post-pagination-title:hover a, .post-single .post-pagination .post-pagination-each .post-pagination-meta .post-pagination-cats a, .related-post-each .related-post-title:hover a, .related-post-each .related-post-meta .related-post-cats a, .widget.widget_recent_comments ul li a, .comment-respond .logged-in-as a:hover, .comments-area .comment-lists ul .depth-1 .media .media-body .media_top .reply:hover,
-.comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover, .widget ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .widget_rss ul li a.rsswidget:hover, .subscribe-form .form-group .submit-btn i, .select2-container--default .select2-results__option--highlighted[aria-selected], .features-box--1 .features-box__img .cat-icon {
+.comments-area .comment-lists ul .depth-1 .media .media-body .media_top .comment-reply-link:hover, .widget ul li a:hover, .widget_calendar #wp-calendar tbody td#today, .widget_rss ul li a.rsswidget:hover, .subscribe-form .form-group .submit-btn i, .select2-container--default .select2-results__option--highlighted[aria-selected], .features-box--1 .features-box__img .cat-icon, .testimonial-wrapper .owl-nav button:hover span,
+.testimonial-wrapper .owl-nav button:hover i,
+.testimonial-wrapper .owl-nav button:hover svg, .client-testimonial .fst span {
   color: #fd4956;
 }
 
 .bg-primary, .categories-slider .categories-carousel-inner .single-categories-carousel .categories-btn, .notification-area ul li .author-dropdown-menu .author-user, .recent-activities .recent-activities-wrapper .icon-primary, .recent-activities .pagination li.page-item a.page-link:hover, .recent-activities .pagination li.page-item .active .page-link, .dashboard-off-canvas-main span.c-button__text i, .dashboard-off-canvas-main .notification-area-sidebar ul li .messages i,
 .dashboard-off-canvas-main .notification-area-sidebar ul li .notification-icon i, .dashboard-off-canvas-main .notification-area-sidebar .notification-dropdown-menu .author-user, .d-caption .module .body form input[type="checkbox"]:checked + label:before, .d-caption .module .body .price-range.rs-primary .ui-slider-horizontal .ui-slider-range, .doctor-sidebar-inner .contact-info .contact-info-inner .contact-info-footer .social a:hover, .owl-nav i:hover, .listing-grid .listing-grid-wrapper .filters ul .active, .listing-grid-box-inner .box-footer .box-btn .btn:hover, .all-doctor nav .active .page-link, .appointment-doctor .atbd_content_module .radio .radio-wrapper .radio-inner input:focus + label, .all-doctor-list .doctor-listing-inner .doctor-listing-title, .ui-datepicker .ui-state-highlight,
-.ui-datepicker .ui-widget-content .ui-state-highlight, .ui-datepicker .ui-datepicker-title, .listing-table nav ul.pagination .page-item a.page-link:hover, .listing-table nav ul.pagination .page-item.active .page-link, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item a.page-link:hover, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item .active, a.theme-back-to-top, .elementor-button-wrapper .elementor-button, .pagination-area ul li.active a, .post-single .post-content ul li:after, .post-single .post-footer .post-tags a:hover, .tagcloud a:hover, .social-box ul li a i:hover {
+.ui-datepicker .ui-widget-content .ui-state-highlight, .ui-datepicker .ui-datepicker-title, .listing-table nav ul.pagination .page-item a.page-link:hover, .listing-table nav ul.pagination .page-item.active .page-link, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item a.page-link:hover, .atbd_content_module .atbdb_content_module_contents ul.pagination li.page-item .active, a.theme-back-to-top, .elementor-button-wrapper .elementor-button, .pagination-area ul li.active a, .post-single .post-content ul li:after, .post-single .post-footer .post-tags a:hover, .tagcloud a:hover, .social-box ul li a i:hover, .testimonial-wrapper .owl-dots button.active span {
   background: #fd4956;
 }
 
@@ -393,7 +395,7 @@ a:hover h6, .section-title--two .view-all, .elementor-widget-text-editor ol li::
 .comments-wrapper h5,
 .comments-wrapper h6, .widget.widget_recent_comments ul li .comment-author-link .url, .widget .widget-title, .widget_devent_post .azin-content .azin-title a, .widget label, .widget_calendar #wp-calendar tbody td, .widget_rss a.rsswidget, .widget_rss ul li a.rsswidget, .event-option .select2-container .select2-selection--single .select2-selection__rendered,
 .event-option .select2-container--default .select2-selection--single .select2-selection__placeholder, #login_modal .modal-header .modal-title,
-#signup_modal .modal-header .modal-title, #login_modal .form-excerpts ul li a, #signup_modal .form-excerpts ul li a, .features-box__title p {
+#signup_modal .modal-header .modal-title, #login_modal .form-excerpts ul li a, #signup_modal .form-excerpts ul li a, .features-box__title p, .h_work-carousel-box .title .fsc p {
   color: #272b41;
 }
 
@@ -8518,6 +8520,98 @@ span.elementor-heading-title {
   margin: 5px;
 }
 
+.testimonial-wrapper .owl-dots button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.testimonial-wrapper .owl-dots button span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #ffdbdd;
+}
+
+.testimonial-wrapper .owl-nav button {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  -webkit-box-shadow: 0 5px 15px rgba(102, 109, 146, 0.15);
+          box-shadow: 0 5px 15px rgba(102, 109, 146, 0.15);
+  -webkit-border-radius: 300px;
+          border-radius: 300px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  outline: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.testimonial-wrapper .owl-nav button span {
+  font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+  .testimonial-wrapper .owl-nav button span {
+    font-size: calc(16.2px + 0.15vw) ;
+  }
+}
+
+.testimonial-wrapper .owl-nav button.owl-prev {
+  left: 15px;
+}
+
+.testimonial-wrapper .owl-nav button.owl-next {
+  right: 15px;
+}
+
+.h_work-carousel-box {
+  position: relative;
+  max-width: 730px;
+  padding: 50px;
+  margin: -150px auto auto;
+  -webkit-box-shadow: 0 10px 30px rgba(146, 153, 184, 0.15);
+          box-shadow: 0 10px 30px rgba(146, 153, 184, 0.15);
+  background-color: #fff;
+}
+
+.h_work-carousel-box .title {
+  margin-bottom: 0;
+}
+
+.h_work-carousel-box .title .fst {
+  margin-bottom: 45px;
+}
+
+.h_work-carousel-box .title .fsc p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.client-testimonial .title {
+  margin-bottom: 45px;
+}
+
+.client-testimonial .fst {
+  line-height: 1.6;
+  font-weight: 600;
+}
+
 .title {
   margin-bottom: 50px;
 }
@@ -8894,8 +8988,13 @@ span.elementor-heading-title {
   text-align: center;
 }
 
+.team .row {
+  margin-bottom: -30px;
+}
+
 .team .team-wrapper {
   background: #fff;
+  margin-bottom: 30px;
 }
 
 .team .team-wrapper img {
@@ -8968,53 +9067,6 @@ span.elementor-heading-title {
 
 .testimonial-wrapper .testimonial-carousel .carousel-single p {
   font-size: 14px;
-}
-
-.testimonial-wrapper .testimonial-carousel .owl-nav button {
-  width: 50px;
-  height: 50px;
-  background: #fff;
-  -webkit-box-shadow: 0 5px 15px rgba(102, 109, 146, 0.15);
-          box-shadow: 0 5px 15px rgba(102, 109, 146, 0.15);
-  -webkit-border-radius: 300px;
-          border-radius: 300px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  outline: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: none;
-}
-
-.testimonial-wrapper .testimonial-carousel .owl-nav button span {
-  font-size: 18px;
-}
-
-@media (max-width: 1200px) {
-  .testimonial-wrapper .testimonial-carousel .owl-nav button span {
-    font-size: calc(16.2px + 0.15vw) ;
-  }
-}
-
-.testimonial-wrapper .testimonial-carousel .owl-nav button.owl-prev {
-  left: 15px;
-}
-
-.testimonial-wrapper .testimonial-carousel .owl-nav button.owl-next {
-  right: 15px;
 }
 
 .about-header {
