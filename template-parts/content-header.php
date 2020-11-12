@@ -218,9 +218,8 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 							<span></span>
 						</a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-more-drop">
-							<a href="#">Action</a>
-							<a href="#">Another action</a>
-							<a href="#">Something else here</a>
+							<a href="#">Login</a>
+							<a href="#">Register</a>
 						</div>
 					</div>
 				</div>
