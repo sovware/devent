@@ -60,19 +60,19 @@ class Counter extends Custom_Widget_Base {
 				),
 				'default' => array(
 					array(
-						'num'    => 186,
-						'suffix' => 'k +',
-						'label'  => 'Healthcare Providers',
+						'num'    => 3.9,
+						'suffix' => 'M',
+						'label'  => 'Worldwide Events in 2020',
 					),
 					array(
-						'num'    => 484,
-						'suffix' => 'k +',
-						'label'  => 'Verified Doctors',
+						'num'    => 795,
+						'suffix' => 'K',
+						'label'  => 'Events creators in 2020',
 					),
 					array(
-						'num'    => 2,
-						'suffix' => ' Million +',
-						'label'  => 'People Helped',
+						'num'    => 170,
+						'suffix' => '',
+						'label'  => 'Countries Live experiences',
 					),
 				),
 			),

@@ -2215,7 +2215,7 @@ h1.elementor-heading-title,
 
 h2.elementor-heading-title,
 .h2.elementor-heading-title {
-  font-size: 30px;
+  font-size: 36px;
   line-height: 1.2;
   color: #272b41;
   font-weight: 600;
@@ -2224,13 +2224,13 @@ h2.elementor-heading-title,
 @media (max-width: 1200px) {
   h2.elementor-heading-title,
   .h2.elementor-heading-title {
-    font-size: calc(17.4px + 1.05vw) ;
+    font-size: calc(18px + 1.5vw) ;
   }
 }
 
 h3.elementor-heading-title,
 .h3.elementor-heading-title {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.2;
   color: #272b41;
   font-weight: 600;
@@ -2239,13 +2239,13 @@ h3.elementor-heading-title,
 @media (max-width: 1200px) {
   h3.elementor-heading-title,
   .h3.elementor-heading-title {
-    font-size: calc(16.8px + 0.6vw) ;
+    font-size: calc(17.4px + 1.05vw) ;
   }
 }
 
 h4.elementor-heading-title,
 .h4.elementor-heading-title {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.2;
   color: #272b41;
   font-weight: 600;
@@ -2254,13 +2254,13 @@ h4.elementor-heading-title,
 @media (max-width: 1200px) {
   h4.elementor-heading-title,
   .h4.elementor-heading-title {
-    font-size: calc(16.6px + 0.45vw) ;
+    font-size: calc(16.8px + 0.6vw) ;
   }
 }
 
 h5.elementor-heading-title,
 .h5.elementor-heading-title {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.2;
   color: #272b41;
   font-weight: 600;
@@ -2269,13 +2269,13 @@ h5.elementor-heading-title,
 @media (max-width: 1200px) {
   h5.elementor-heading-title,
   .h5.elementor-heading-title {
-    font-size: calc(16.4px + 0.3vw) ;
+    font-size: calc(16.6px + 0.45vw) ;
   }
 }
 
 h6.elementor-heading-title,
 .h6.elementor-heading-title {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
   color: #272b41;
   font-weight: 600;
@@ -2284,13 +2284,14 @@ h6.elementor-heading-title,
 @media (max-width: 1200px) {
   h6.elementor-heading-title,
   .h6.elementor-heading-title {
-    font-size: calc(16.2px + 0.15vw) ;
+    font-size: calc(16.4px + 0.3vw) ;
   }
 }
 
 p.elementor-heading-title,
 span.elementor-heading-title {
   line-height: 1.5;
+  font-size: 18px;
 }
 
 .elementor-heading-title {
@@ -2328,6 +2329,12 @@ span.elementor-heading-title {
 
 .elementor-widget-text-editor img {
   margin: 0 15px 10px 0;
+}
+
+.elementor-button-wrapper .elementor-button {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 
 .more-action {
@@ -8916,7 +8923,6 @@ span.elementor-heading-title {
 
 .testimonial-wrapper {
   text-align: center;
-  padding: 95px 0 68px 0;
 }
 
 .testimonial-wrapper .title p {

@@ -31,11 +31,6 @@ class CTA extends Custom_Widget_Base {
 				'label' => __( 'General', 'devent' ),
 			),
 			array(
-				'id'    => 'img',
-				'type'  => Controls_Manager::MEDIA,
-				'label' => __( 'Section Image', 'devent' ),
-			),
-			array(
 				'label'       => __( 'Title', 'elementor' ),
 				'type'        => Controls_Manager::TEXTAREA,
 				'id'          => 'title',
@@ -43,25 +38,37 @@ class CTA extends Custom_Widget_Base {
 					'active' => true,
 				),
 				'placeholder' => __( 'Enter your title', 'elementor' ),
-				'default'     => __( 'Discover a batter way to sell or rent your cars' ),
+				'default'     => __( 'Looks for the event feed?</br> Get the app' ),
 			),
 			array(
 				'type'    => Controls_Manager::TEXTAREA,
 				'id'      => 'subtitle',
 				'label'   => __( 'Subtitle', 'devent' ),
-				'default' => 'Vivamus quis mi. Vivamus elementum semper nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam.',
+				'default' => 'Find great events to attend, connect with new opportunities</br>and expand your networking!',
 			),
 			array(
 				'type'    => Controls_Manager::TEXT,
 				'id'      => 'button_text',
-				'label'   => __( 'Button Text', 'devent' ),
-				'default' => 'Start right now',
+				'label'   => __( 'Button Label 1', 'devent' ),
+				'default' => 'App Store',
 			),
 			array(
 				'type'  => Controls_Manager::URL,
 				'id'    => 'button_url',
-				'label' => __( 'Button URL', 'devent' ),
+				'label' => __( 'Button URL 1', 'devent' ),
 			),
+			array(
+				'type'    => Controls_Manager::TEXT,
+				'id'      => 'button_text2',
+				'label'   => __( 'Button Label 2', 'devent' ),
+				'default' => 'Google Play',
+			),
+			array(
+				'type'  => Controls_Manager::URL,
+				'id'    => 'button_url2',
+				'label' => __( 'Button URL 2', 'devent' ),
+			),
+
 			array(
 				'mode' => 'section_end',
 			),

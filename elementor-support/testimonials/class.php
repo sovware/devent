@@ -31,29 +31,17 @@ class Testimonials extends Custom_Widget_Base {
 				'label' => __( 'General', 'devent' ),
 			),
 			array(
-				'id'      => 'style',
-				'type'    => Controls_Manager::SELECT2,
-				'label'   => __( 'Style', 'ddoctor' ),
-				'options' => array(
-					'1' => __( 'Style 1', 'ddoctor' ),
-					'2' => __( 'Style 2', 'ddoctor' ),
-				),
-				'default' => '1',
-			),
-			array(
 				'label'       => __( 'Title', 'elementor' ),
 				'type'        => Controls_Manager::TEXTAREA,
 				'id'          => 'title',
 				'placeholder' => __( 'Enter section title', 'elementor' ),
 				'default'     => __( 'What others are saying' ),
-				'condition'   => array( 'style' => array( '1' ) ),
 			),
 			array(
-				'type'      => Controls_Manager::TEXTAREA,
-				'id'        => 'subtitle',
-				'label'     => __( 'Subtitle', 'devent' ),
-				'default'   => 'Here is what people say about devents',
-				'condition' => array( 'style' => array( '1' ) ),
+				'type'    => Controls_Manager::TEXTAREA,
+				'id'      => 'subtitle',
+				'label'   => __( 'Subtitle', 'devent' ),
+				'default' => 'Here is what people say about devents',
 			),
 			array(
 				'type'    => Controls_Manager::REPEATER,
@@ -76,7 +64,6 @@ class Testimonials extends Custom_Widget_Base {
 						'name' => '@TomBourgoing',
 						'desc' => 'Consumers across the US are keeping their cars longer than ever before. That can make the car buying process 						even more stressful when it’s done only once per decade.  To help shoppers get the best deal and ensure a 						quality purchase.',
 					),
-
 					array(
 						'name' => '@TomBourgoing',
 						'desc' => 'Consumers across the US are keeping their cars longer than ever before. That can make the car buying process 						even more stressful when it’s done only once per decade.  To help shoppers get the best deal and ensure a 						quality purchase.',
@@ -141,9 +128,7 @@ class Testimonials extends Custom_Widget_Base {
 	}
 
 	protected function render() {
-		$data     = $this->get_settings();
-		$template = 'view';
-		return $this->az_template( $template, $data );
+		$data = $this->get_settings();
+		return $this->az_template( 'view', $data );
 	}
-
 }
