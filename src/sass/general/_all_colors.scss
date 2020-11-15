@@ -4,7 +4,7 @@
 // categories
 .categories-slider {
   h2 {
-   @extend .color-dark;
+    @extend .color-dark;
   }
 
   .categories-carousel-inner {
@@ -13,7 +13,7 @@
 
     .single-categories-carousel {
       h6 {
-       @extend .color-dark;
+        @extend .color-dark;
       }
 
       .categories-img {
@@ -53,18 +53,18 @@
     @extend .bg-banner;
 
     .nav-link {
-     @extend .color-gray;
+      @extend .color-gray;
       border-left: 3px solid transparent;
     }
 
     .nav-link.active {
-     @extend .color-primary;
+      @extend .color-primary;
       background-color: #fff;
       border-left: 3px solid $primary;
       box-shadow: 5px 0 5px rgba($light, 0.05);
 
       i {
-       @extend .color-primary;
+        @extend .color-primary;
       }
     }
 
@@ -104,7 +104,7 @@
 
         span.count {
           background: rgba($primary, 0.15);
-         @extend .color-primary;
+          @extend .color-primary;
         }
       }
 
@@ -113,12 +113,12 @@
         @extend .bg-banner;
 
         span {
-         @extend .color-primary;
+          @extend .color-primary;
         }
       }
 
       li.nav-item .appointment-request {
-       @extend .color-dark;
+        @extend .color-dark;
         border-left: 1px solid $border-color;
         background: transparent;
       }
@@ -129,7 +129,7 @@
       box-shadow: 5px 0 5px rgba($light, 0.05);
 
       h5 {
-       @extend .color-dark;
+        @extend .color-dark;
       }
 
       .appointments-menu-inner {
@@ -141,7 +141,7 @@
 
         .match {
           a {
-           @extend .color-gray;
+            @extend .color-gray;
           }
         }
       }
@@ -166,12 +166,12 @@
       .card-body {
         a {
           .card-title {
-           @extend .color-dark;
+            @extend .color-dark;
           }
 
           &:hover {
             .card-title {
-             @extend .color-primary;
+              @extend .color-primary;
             }
           }
         }
@@ -180,7 +180,7 @@
           @extend .color-light;
 
           span {
-           @extend .color-gray;
+            @extend .color-gray;
           }
         }
 
@@ -189,7 +189,7 @@
             @extend .color-light;
 
             span {
-             @extend .color-dark;
+              @extend .color-dark;
             }
 
             i {
@@ -253,13 +253,13 @@
         box-shadow: 3px 0 30px rgba($light, 0.2);
 
         a {
-         @extend .color-gray;
+          @extend .color-gray;
 
           &:hover {
-           @extend .color-primary;
+            @extend .color-primary;
 
             i {
-             @extend .color-primary;
+              @extend .color-primary;
             }
           }
         }
@@ -319,7 +319,7 @@
         @extend .color-light;
 
         a {
-         @extend .color-primary;
+          @extend .color-primary;
         }
       }
 
@@ -342,7 +342,7 @@
   .pagination {
     li.page-item {
       a.page-link {
-       @extend .color-dark;
+        @extend .color-dark;
 
         &:hover {
           @extend .bg-primary;
@@ -364,7 +364,7 @@
 
   .image-info {
     h6 {
-     @extend .color-dark;
+      @extend .color-dark;
     }
 
     span {
@@ -375,7 +375,7 @@
   .custom-file-upload {
     label {
       background: #f8f9fc;
-     @extend .color-gray;
+      @extend .color-gray;
       border: 1px solid $border-color;
     }
   }
@@ -386,7 +386,7 @@
 
   h6 {
     border-bottom: 1px solid $border-color;
-   @extend .color-dark;
+    @extend .color-dark;
   }
 
   .form-group {
@@ -401,20 +401,20 @@
 
     .btn-transparent {
       border: 1px solid $primary;
-     @extend .color-primary;
+      @extend .color-primary;
     }
   }
 }
 
 .atbd_content_module {
   .form-label {
-   @extend .color-dark;
+    @extend .color-dark;
   }
 
   .atbdb_content_module_contents {
     .form-group {
       label {
-       @extend .color-dark;
+        @extend .color-dark;
       }
 
       input {
@@ -495,17 +495,17 @@
 
     .notification-dropdown-menu {
       background: $white;
-      border-top: 1px solid $primary;
+      // border-top: 1px solid $primary;
       box-shadow: 3px 0 30px rgba($light, 0.2);
 
       a {
-       @extend .color-gray;
+        @extend .color-gray;
 
         &:hover {
-         @extend .color-primary;
+          @extend .color-primary;
 
           i {
-           @extend .color-primary;
+            @extend .color-primary;
           }
         }
       }
@@ -524,7 +524,7 @@
   box-shadow: 3px 0 5px rgba($light, 0.05);
 
   h6 {
-   @extend .color-dark;
+    @extend .color-dark;
   }
 }
 
@@ -536,7 +536,7 @@
 
     .caption {
       p {
-       @extend .color-dark;
+        @extend .color-dark;
       }
     }
 
@@ -562,7 +562,7 @@
         }
 
         label {
-         @extend .color-gray;
+          @extend .color-gray;
 
           i,
           span {
@@ -570,7 +570,7 @@
           }
 
           .i-color {
-           @extend .color-light;
+            @extend .color-light;
           }
         }
       }
@@ -581,7 +581,7 @@
       }
 
       .price-range.rs-primary .amount {
-       @extend .color-primary;
+        @extend .color-primary;
       }
 
       .price-range .ui-slider-horizontal {
@@ -646,7 +646,7 @@
     .listing-data-list {
       .doc-degree {
         a {
-         @extend .color-primary;
+          @extend .color-primary;
         }
       }
     }
@@ -704,7 +704,7 @@
   .active-three,
   .active-four,
   .active-five {
-   @extend .color-primary;
+    @extend .color-primary;
   }
 }
 
@@ -716,7 +716,7 @@
     .contact-info-inner {
       h6 {
         border-bottom: 1px solid $border-color;
-       @extend .color-dark;
+        @extend .color-dark;
       }
 
       ul {
@@ -729,7 +729,7 @@
           }
 
           span {
-           @extend .color-gray;
+            @extend .color-gray;
           }
 
           .info {
@@ -754,11 +754,11 @@
         .sidebar-modal {
           .btn-light {
             @extend .bg-soft;
-           @extend .color-dark;
+            @extend .color-dark;
             border: 1px solid #e9ebf4;
 
             i {
-             @extend .color-primary;
+              @extend .color-primary;
             }
           }
 
@@ -785,7 +785,7 @@
               }
 
               input::placeholder {
-                color:$light;
+                color: $light;
               }
             }
           }
@@ -825,7 +825,7 @@
     .hospital-doc-details {
       .doctor-profile-box-inner {
         h2 {
-         @extend .color-dark;
+          @extend .color-dark;
         }
 
         p {
@@ -835,7 +835,7 @@
         .listing-data-list {
           ul li .rating {
             i {
-             @extend .color-light;
+              @extend .color-light;
             }
 
             span {
@@ -978,7 +978,7 @@
 
   .btn-white {
     background: #fff;
-   @extend .color-gray;
+    @extend .color-gray;
     box-shadow: 3px 0 5px rgba($light, 0.05);
   }
 }
@@ -1003,7 +1003,7 @@
 
   .box-title {
     h6 {
-     @extend .color-dark;
+      @extend .color-dark;
     }
 
     p {
@@ -1038,13 +1038,13 @@
       }
 
       .active {
-       @extend .color-light;
+        @extend .color-light;
       }
     }
 
     .box-btn .btn {
       border: 1px solid $primary;
-     @extend .color-primary;
+      @extend .color-primary;
 
       &:hover {
         @extend .bg-primary;
@@ -1070,7 +1070,7 @@
       @extend .color-light;
 
       span {
-       @extend .color-dark;
+        @extend .color-dark;
       }
     }
 
@@ -1080,7 +1080,7 @@
       }
 
       .match a {
-       @extend .color-dark;
+        @extend .color-dark;
       }
 
       .view-mode {
@@ -1094,7 +1094,7 @@
 
         .active span {
           background: #fff;
-         @extend .color-primary;
+          @extend .color-primary;
         }
       }
     }
@@ -1103,10 +1103,10 @@
   nav {
     .page-item {
       .page-link {
-       @extend .color-dark;
+        @extend .color-dark;
 
         i {
-         @extend .color-dark;
+          @extend .color-dark;
         }
       }
     }
@@ -1126,12 +1126,12 @@
       border-top: 1px solid $border-color;
 
       h3 {
-       @extend .color-gray;
+        @extend .color-gray;
       }
 
       .btn {
         border: 1px solid $primary;
-       @extend .color-primary;
+        @extend .color-primary;
       }
     }
 
@@ -1145,10 +1145,10 @@
 
     .doc-time-plan {
       h6 {
-       @extend .color-gray;
+        @extend .color-gray;
 
         b {
-         @extend .color-dark;
+          @extend .color-dark;
         }
       }
     }
@@ -1156,7 +1156,7 @@
     .radio {
       .radio-wrapper {
         h6 {
-         @extend .color-dark;
+          @extend .color-dark;
         }
 
         .radio-inner input:focus + label {
@@ -1191,7 +1191,7 @@
     }
 
     h6 {
-     @extend .color-dark;
+      @extend .color-dark;
     }
 
     .form-control {
@@ -1218,7 +1218,7 @@
 .appointment-doctor-two {
   .atbd_listing_details {
     h2 {
-     @extend .color-dark;
+      @extend .color-dark;
 
       i {
         @extend .color-success;
@@ -1230,10 +1230,10 @@
 // All categories
 .all-doctor-list {
   h1 {
-   @extend .color-gray;
+    @extend .color-gray;
 
     b {
-     @extend .color-dark;
+      @extend .color-dark;
     }
   }
 
@@ -1244,10 +1244,10 @@
     }
 
     a {
-     @extend .color-gray;
+      @extend .color-gray;
 
       &:hover {
-       @extend .color-primary;
+        @extend .color-primary;
       }
     }
   }
@@ -1258,7 +1258,7 @@
     .location-listing-inner {
       span.location-listing-title {
         background: rgba($primary, 0.05);
-       @extend .color-primary;
+        @extend .color-primary;
       }
     }
   }
@@ -1323,7 +1323,7 @@
 
     thead {
       th {
-       @extend .color-gray;
+        @extend .color-gray;
       }
     }
 
@@ -1333,13 +1333,13 @@
 
         .table-inner {
           p {
-           @extend .color-dark;
+            @extend .color-dark;
           }
 
           .rating {
             li {
               span {
-               @extend .color-light;
+                @extend .color-light;
               }
 
               span.atbd_count {
@@ -1368,7 +1368,7 @@
         }
 
         .remaining-listing span {
-         @extend .color-primary;
+          @extend .color-primary;
         }
       }
 
@@ -1425,7 +1425,7 @@
     .box-title {
       .box-title-inner {
         h2 {
-         @extend .color-dark;
+          @extend .color-dark;
         }
       }
     }
@@ -1438,7 +1438,7 @@
       ul li {
         .rating {
           b {
-           @extend .color-dark;
+            @extend .color-dark;
           }
 
           i {
@@ -1446,7 +1446,7 @@
           }
 
           .active {
-           @extend .color-light;
+            @extend .color-light;
           }
 
           span {
@@ -1479,23 +1479,23 @@
   box-shadow: 3px 0 5px rgba($light, 0.05);
 
   h4 {
-   @extend .color-dark;
+    @extend .color-dark;
   }
 
   h6 {
-   @extend .color-primary;
+    @extend .color-primary;
   }
 
   .atbdb_content_module_contents {
     border-top: 1px solid $border-color;
 
     p {
-     @extend .color-gray;
+      @extend .color-gray;
     }
 
     ul.social-links-list {
       li {
-       @extend .color-gray;
+        @extend .color-gray;
 
         &:before {
           @extend .bg-secondary;
@@ -1507,7 +1507,7 @@
       .average-ratings {
         .atbd_listing_rating {
           background: rgba(#f8f9fb, 1);
-         @extend .color-primary;
+          @extend .color-primary;
         }
 
         .average-ratings-inner {
@@ -1515,7 +1515,7 @@
 
           span {
             .active {
-             @extend .color-light;
+              @extend .color-light;
             }
           }
         }
@@ -1529,13 +1529,13 @@
         }
 
         span .active {
-         @extend .color-light;
+          @extend .color-light;
         }
       }
 
       .atbd_area_title_inner {
         h6 {
-         @extend .color-dark;
+          @extend .color-dark;
         }
 
         p {
@@ -1572,7 +1572,7 @@
           @extend .color-light;
 
           &:last-child {
-           @extend .color-dark;
+            @extend .color-dark;
           }
         }
 
@@ -1608,24 +1608,17 @@
 .menu-bar {
   background: $white;
   @extend .shadow2;
-
-  .navbar {
-
-    .search-wrapper .search-categories ul {
-      border-top: 1px solid $primary;
-    }
-  }
 }
 
 .dropdown-menu {
-  border-top: 1px solid $primary !important;
+  // border-top: 1px solid $primary !important;
 
   .dropdown-item {
     @extend .color-light;
 
     &:hover {
       background: none;
-     @extend .color-primary;
+      @extend .color-primary;
 
       i {
         color: $primary !important;
@@ -1729,14 +1722,13 @@
   }
 
   .search-categories {
-    border: 1px solid rgba(#fff, 0.2);
     box-shadow: 0 5px remy(10px) rgba($dark, 0.1);
     background: #fff;
-
+    border-top: 0 none !important;
     ul {
       li {
         a {
-            @extend .color-gray;
+          @extend .color-gray;
 
           span {
             color: #fff;
@@ -1745,7 +1737,7 @@
 
         &:hover {
           a {
-           @extend .color-primary;
+            @extend .color-primary;
           }
         }
       }

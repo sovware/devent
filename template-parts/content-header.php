@@ -133,29 +133,44 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 				<div class="navbar-left d-flex align-items-center">
 					<!-- Start Advanced search -->
 					<div class="location position-relative">
-						<div class="event-option location-event arrow-default arrow-cross-none mr-3" id="location-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<span class="icon-marker">
+						<div class="event-option location-event arrow-cross-none mr-3">
+							<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-target="#location-drop" aria-haspopup="true" aria-expanded="false">
+								<i class="location-icon las la-map-marker"></i> London <i class="dropdown-toggle--arrow las la-angle-down"></i>
+							</a>
+							<!-- <span class="icon-marker">
 								<i class="la la-map-marker"></i>
-							</span>
-							<span class="location-label">London</span>
-							<div class="dropdown-menu dropdown-menu-left" aria-labelledby="location-drop">
-								<a href="#">London</a>
-								<a href="#">Australia</a>
-								<a href="#">Bangladesh</a>
+							</span> -->
+							<div class="dropdown-menu dropdown-menu-left" id="location-drop" aria-labelledby="location-drop">
+								<form action="#">
+									<div class="dropdown-menu__form">
+										<input type="text" placeholder="Where?">
+									</div>
+								</form>
+								<a href="#" class="current-location"><i class="la la-location-arrow"></i>Current Location</a>
 							</div>
 						</div>
 					</div>
 					<div class="adv_search align-items-center d-xl-flex d-none mr-30">
 						<!-- Start Event Area -->
-						<div class="event-option arrow-default arrow-cross-none">
-							<select class="js-example-basic-single js-states form-control" id="event-option">
+						<div class="event-option search-type arrow-cross-none">
+							<!-- <select class="js-example-basic-single js-states form-control" id="event-option">
 								<option value="all">Events</option>
 								<option value="JAN">Venue</option>
-							</select>
+							</select> -->
+							<div class="dropdown">
+								<a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#search-type-drop" aria-haspopup="true" aria-expanded="false">
+									Event
+									<i class="dropdown-toggle--arrow las la-angle-down"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-left dropdown-search-type" id="search-type-drop" aria-labelledby="search-type-drop">
+									<a href="#" class="dropdown-item">Events</a>
+									<a href="#" class="dropdown-item">Venues</a>
+								</div>
+							</div>
 						</div>
 						<!-- End Event Area -->
 						<!-- Start Search Bar -->
-						<div class="search w-100 d-xl-block d-none">
+						<div class="event-search w-100 d-xl-block d-none">
 							<div class="search-wrapper w-100">
 								<div class="search_module position-relative">
 									<form action="#">
@@ -167,13 +182,13 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 									</form>
 								</div>
 								<div class="search-categories">
-									<div class="search__menu">
-										<a class="dropdown-item search__item" href="#">Education</a>
-										<a class="dropdown-item search__item" href="#">Technology</a>
-										<a class="dropdown-item search__item" href="#">Food & Drink</a>
-										<a class="dropdown-item search__item" href="#">Business</a>
-										<a class="dropdown-item search__item" href="#">Health</a>
-										<a class="dropdown-item search__item" href="#">Other</a>
+									<div class="event-search__menu">
+										<a class="dropdown-item event-search__item" href="#"><i class="las la-graduation-cap"></i>Education</a>
+										<a class="dropdown-item event-search__item" href="#"><i class="las la-laptop"></i>Technology</a>
+										<a class="dropdown-item event-search__item" href="#"><i class="las la-wine-glass"></i>Food & Drink</a>
+										<a class="dropdown-item event-search__item" href="#"><i class="las la-chart-bar"></i>Business</a>
+										<a class="dropdown-item event-search__item" href="#"><i class="las la-heartbeat"></i>Health</a>
+										<a class="dropdown-item event-search__item" href="#"><i class="lar la-star"></i>Other</a>
 									</div>
 								</div>
 							</div>
@@ -187,7 +202,7 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 						<?php wp_nav_menu( $nav_menu_args ); ?>
 
 						<?php if ( is_directorist() && ! is_user_logged_in() && Theme::$options['login_button'] ) { ?>
-							<a class="btn btn-primary menu-doctor-btn" href="#" data-toggle="modal"
+							<a class="btn btn-primary btn-login" href="#" data-toggle="modal"
 								data-target="#login_modal"> 
 								<?php echo esc_attr( Theme::$options['login_button_text'] ); ?>
 							</a>
