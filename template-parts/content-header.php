@@ -258,164 +258,164 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 					</div>
 				</div>
 			</div>
-			<!-- modal -->
-			<div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="login_modal_label"
-				aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h6 class="modal-title fw-700" id="login_modal_label">
-								<i class="la la-lock"></i>
-								Login
-							</h6>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<form action="login" id="direo-login" class="direo-login" method="post">
-								<input type="text" class="form-control" id="direo-username" name="username"
-									placeholder="Username or Email" required>
-								<input type="password" id="direo-password" autocomplete="false" name="password"
-									class="form-control" placeholder="Password" required>
-								<button class="btn content-center btn-lg w-100 fw-600 btn-gradient btn-gradient-two"
-									type="submit" name="submit">Login</button>
-								<p class="status"></p>
-								<div class="form-excerpts">
-									<div class="custom-control custom-checkbox keep_signed">
-										<input type="checkbox" class="custom-control-input" id="direo-keep_signed_in"
-											name="keep_signed_in">
-										<label class="custom-control-label not_empty"
-											for="direo-keep_signed_in">Remember Me </label>
-									</div>
-									<a href="" class="recover-pass-link">Forgot your password?</a>
-								</div>
-								<input type="hidden" id="direo-security" name="direo-security" value="21f0084d3f" />
-								<input type="hidden" name="_wp_http_referer" value="/theme/direo/" />
-							</form>
-							<form method="post" id="direo_recovery_password" class="recover-pass-form">
-								<fieldset>
-									<p>Please enter your username or email address. You will receive a link to
-										create a new password via email. </p>
-									<label for="user_login">E-mail:</label>
-									<input type="text" name="direo_recovery_user" class="direo_recovery_user"
-										id="user_login" value="" />
-									<input type="hidden" name="action" value="reset" />
-									<p class="recovery_status"></p>
-									<button type="submit" class="btn btn-primary direo_recovery_password"
-										id="direo-submit">Get New Password</button>
-								</fieldset>
-							</form>
-							<p class="social-connector text-center">
-								<span>Or connect with</span>
-							</p>
-							<div class="social-login  m-n1 py-3">
-								<button type="button" class="btn btn btn-outline-primary m-1">
-									<span class="azbdp-fb-loading">
-										<span class="fa fa-spin fa-spinner"></span>
-									</span>
-									<span class="fa fa-facebook"></span>
-									Facebook
-								</button>
-								<button type="button" class="btn btn btn-outline-secondary m-1">
-									<span class="azbdp-gg-loading">
-										<span class="fa fa-spin fa-spinner"></span>
-									</span>
-									<span class="fa fa-google"></span>
-									Google
-								</button>
-							</div>
-							<div class="form-excerpts">
-								<ul class="list-unstyled">
-									<li>
-										Not a member? <a href="#" class="access-link" data-toggle="modal"
-											data-target="#signup_modal" data-dismiss="modal">Register </a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal fade" id="signup_modal" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label"
-				aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h6 class="modal-title fw-700" id="signup_modal_label">
-								<i class="la la-lock"></i>
-								Register
-							</h6>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<div class="vb-registration-form">
-								<form class="form-horizontal registraion-form" role="form">
-									<div class="form-group">
-										<input type="text" name="vb_username" id="vb_username" value=""
-											placeholder="Username" class="form-control" />
-									</div>
-									<div class="form-group">
-										<input type="email" name="vb_email" id="vb_email" value=""
-											placeholder="Your Email" class="form-control" required />
-									</div>
-									<div class="form-group">
-										<input type="password" name="vb_password" id="vb_password" value=""
-											placeholder="Password" class="form-control" />
-									</div>
-									<input type="hidden" id="vb_new_user_nonce" name="vb_new_user_nonce"
-										value="b272233ae9" />
-									<input type="hidden" name="_wp_http_referer" value="/theme/direo/" />
-									<div class="directory_regi_btn mb-10 d-flex">
-										<span class="atbdp_make_str_red mr-1">*</span>
-										<div class="custom-control custom-checkbox keep_signed">
-											<input type="checkbox" class="custom-control-input" id="devent-register"
-												name="keep_signed_in">
-											<label class="custom-control-label not_empty" for="devent-register">I
-												agree to the <a class="color-secondary" target="_blank" href="#">Privacy
-												</a>
-												&amp;<a class="color-secondary" target="_blank" href="#">Terms
-												</a></label>
-										</div>
-									</div>
-									<button type="submit"
-										class="btn btn btn-primary content-center btn-lg w-100 fw-600 btn-gradient btn-gradient-two"
-										id="btn-new-user">Register </button>
-								</form>
-							</div>
-							<p class="social-connector text-center">
-								<span>Or connect with</span>
-							</p>
-							<div class="social-login m-n1 py-3">
-								<button type="button" class="btn btn-outline-primary m-1">
-									<span class="azbdp-fb-loading">
-										<span class="fa fa-spin fa-spinner"></span>
-									</span>
-									<span class="fa fa-facebook"></span>
-									Facebook
-								</button>
-								<button type="button" class="btn btn-outline-secondary m-1">
-									<span class="azbdp-gg-loading">
-										<span class="fa fa-spin fa-spinner"></span>
-									</span>
-									<span class="fa fa-google"></span>
-									Google
-								</button>
-							</div>
-							<div class="form-excerpts">
-								<ul class="list-unstyled">
-									<li>
-										Already a member? <a href="#" class="access-link" data-toggle="modal"
-											data-target="#login_modal" data-dismiss="modal">Login</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</nav>
+	</div>
+</div>
+
+<!-- modal -->
+<div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="login_modal_label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h6 class="modal-title fw-700" id="login_modal_label">
+					<i class="la la-lock"></i>
+					Login
+				</h6>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form action="login" id="direo-login" class="direo-login" method="post">
+					<input type="text" class="form-control" id="direo-username" name="username"
+						placeholder="Username or Email" required>
+					<input type="password" id="direo-password" autocomplete="false" name="password"
+						class="form-control" placeholder="Password" required>
+					<button class="btn content-center btn-lg w-100 fw-600 btn-gradient btn-gradient-two"
+						type="submit" name="submit">Login</button>
+					<p class="status"></p>
+					<div class="form-excerpts">
+						<div class="custom-control custom-checkbox keep_signed">
+							<input type="checkbox" class="custom-control-input" id="direo-keep_signed_in"
+								name="keep_signed_in">
+							<label class="custom-control-label not_empty"
+								for="direo-keep_signed_in">Remember Me </label>
+						</div>
+						<a href="" class="recover-pass-link">Forgot your password?</a>
+					</div>
+					<input type="hidden" id="direo-security" name="direo-security" value="21f0084d3f" />
+					<input type="hidden" name="_wp_http_referer" value="/theme/direo/" />
+				</form>
+				<form method="post" id="direo_recovery_password" class="recover-pass-form">
+					<fieldset>
+						<p>Please enter your username or email address. You will receive a link to
+							create a new password via email. </p>
+						<label for="user_login">E-mail:</label>
+						<input type="text" name="direo_recovery_user" class="direo_recovery_user"
+							id="user_login" value="" />
+						<input type="hidden" name="action" value="reset" />
+						<p class="recovery_status"></p>
+						<button type="submit" class="btn btn-primary direo_recovery_password"
+							id="direo-submit">Get New Password</button>
+					</fieldset>
+				</form>
+				<p class="social-connector text-center">
+					<span>Or connect with</span>
+				</p>
+				<div class="social-login  m-n1 py-3">
+					<button type="button" class="btn btn btn-outline-primary m-1">
+						<span class="azbdp-fb-loading">
+							<span class="fa fa-spin fa-spinner"></span>
+						</span>
+						<span class="fa fa-facebook"></span>
+						Facebook
+					</button>
+					<button type="button" class="btn btn btn-outline-secondary m-1">
+						<span class="azbdp-gg-loading">
+							<span class="fa fa-spin fa-spinner"></span>
+						</span>
+						<span class="fa fa-google"></span>
+						Google
+					</button>
+				</div>
+				<div class="form-excerpts">
+					<ul class="list-unstyled">
+						<li>
+							Not a member? <a href="#" class="access-link" data-toggle="modal"
+								data-target="#signup_modal" data-dismiss="modal">Register </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="signup_modal" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label"
+	aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h6 class="modal-title fw-700" id="signup_modal_label">
+					<i class="la la-lock"></i>
+					Register
+				</h6>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="vb-registration-form">
+					<form class="form-horizontal registraion-form" role="form">
+						<div class="form-group">
+							<input type="text" name="vb_username" id="vb_username" value=""
+								placeholder="Username" class="form-control" />
+						</div>
+						<div class="form-group">
+							<input type="email" name="vb_email" id="vb_email" value=""
+								placeholder="Your Email" class="form-control" required />
+						</div>
+						<div class="form-group">
+							<input type="password" name="vb_password" id="vb_password" value=""
+								placeholder="Password" class="form-control" />
+						</div>
+						<input type="hidden" id="vb_new_user_nonce" name="vb_new_user_nonce"
+							value="b272233ae9" />
+						<input type="hidden" name="_wp_http_referer" value="/theme/direo/" />
+						<div class="directory_regi_btn mb-10 d-flex">
+							<span class="atbdp_make_str_red mr-1">*</span>
+							<div class="custom-control custom-checkbox keep_signed">
+								<input type="checkbox" class="custom-control-input" id="devent-register"
+									name="keep_signed_in">
+								<label class="custom-control-label not_empty" for="devent-register">I
+									agree to the <a class="color-secondary" target="_blank" href="#">Privacy
+									</a>
+									&amp;<a class="color-secondary" target="_blank" href="#">Terms
+									</a></label>
+							</div>
+						</div>
+						<button type="submit"
+							class="btn btn btn-primary content-center btn-lg w-100 fw-600 btn-gradient btn-gradient-two"
+							id="btn-new-user">Register </button>
+					</form>
+				</div>
+				<p class="social-connector text-center">
+					<span>Or connect with</span>
+				</p>
+				<div class="social-login m-n1 py-3">
+					<button type="button" class="btn btn-outline-primary m-1">
+						<span class="azbdp-fb-loading">
+							<span class="fa fa-spin fa-spinner"></span>
+						</span>
+						<span class="fa fa-facebook"></span>
+						Facebook
+					</button>
+					<button type="button" class="btn btn-outline-secondary m-1">
+						<span class="azbdp-gg-loading">
+							<span class="fa fa-spin fa-spinner"></span>
+						</span>
+						<span class="fa fa-google"></span>
+						Google
+					</button>
+				</div>
+				<div class="form-excerpts">
+					<ul class="list-unstyled">
+						<li>
+							Already a member? <a href="#" class="access-link" data-toggle="modal"
+								data-target="#login_modal" data-dismiss="modal">Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
