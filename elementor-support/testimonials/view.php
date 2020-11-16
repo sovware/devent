@@ -10,7 +10,7 @@ namespace AazzTech\devent;
 $items = $data['items'];
 ?>
 
-<section class="testimonial-wrapper">
+<section class="testimonial-wrapper client-testimonial">
 	<?php
 	if ( $data['title'] || $data['subtitle'] ) {
 		?>

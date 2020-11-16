@@ -12,8 +12,8 @@ $items = $data['items'];
 
 <section class="counter">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 offset-lg-2">
+		<div class="row justify-content-center">
+			<div class="col-lg-10">
 				<div class="counter-wrapper">
 					<?php foreach ( $items as $item ) { ?>
 						<div class="counter-inner">

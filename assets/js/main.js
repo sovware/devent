@@ -274,6 +274,12 @@ Version      : 1.0
                  *  testimonial-carousel
                  * ----------------------------------------------------------------------------------------
                  */
+                $('.h_work-carousel').owlCarousel({
+                        items: 1,
+                        dots: true,
+                        nav: false,
+                });
+
                 $('.testimonial-carousel').owlCarousel({
                         items: 1,
                         dots: false,
