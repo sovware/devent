@@ -6,11 +6,11 @@
 //Elementor
 
 $h1-font-size-e: 48px;
-$h2-font-size-e: 30px;
-$h3-font-size-e: 24px; //22px
-$h4-font-size-e: 22px; //20px
-$h5-font-size-e: 20px; //18px
-$h6-font-size-e: 18px; //16px
+$h2-font-size-e: 36px;
+$h3-font-size-e: 30px; //22px
+$h4-font-size-e: 24px; //20px
+$h5-font-size-e: 22px; //18px
+$h6-font-size-e: 20px; //16px
 $headings-margin-bottom-e: 0;
 $headings-font-weight-e: 600;
 $headings-color-e: $dark;
@@ -196,6 +196,7 @@ p,
 span {
   &.elementor-heading-title {
   line-height: 1.5;
+  font-size: 18px;
   }
 }
 
@@ -246,5 +247,8 @@ span {
   .elementor-button{
     @extend .bg-primary;
     @extend .btn-md;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
   }
 }

@@ -1,33 +1,32 @@
 .menu-bar {
-
   @include md {
     display: flex;
     align-items: center;
   }
   .site-identify {
-    margin:9px 0;
-    @include md{
+    margin: 9px 0;
+    @include md {
       order: 2;
       margin-right: 0;
       padding-right: 0;
     }
-    @include xs{
+    @include xs {
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-flow: column;
-      padding-top:10px;
-      margin:0;
+      padding-top: 10px;
+      margin: 0;
     }
-    &+.navbar-toggler{
-      @include xs{
-        order:3;
+    & + .navbar-toggler {
+      @include xs {
+        order: 3;
       }
     }
   }
-  .dashboard-off-canvas-main{
-    @include xs{
+  .dashboard-off-canvas-main {
+    @include xs {
       margin: 10px 0;
     }
   }
@@ -41,7 +40,7 @@
 
       @include md {
         margin-left: 0;
-        >li.menu-item {
+        > li.menu-item {
           .sub-menu {
             position: static;
             margin: 0;
@@ -91,7 +90,7 @@
       padding-bottom: 21px;
       margin-right: 30px;
       height: 100%;
-      @include xl{
+      @include xl {
         margin-right: 15px;
       }
     }
@@ -145,30 +144,29 @@
   }
 }
 
-
 // Main Menu
 .main-menu .menu {
   margin-right: 20px;
   padding: 0 15px;
   font-family: $poppins;
-  @include xl{
+  @include xl {
     margin-right: 15px;
   }
-  @include md{
+  @include md {
     padding: 15px 25px;
   }
-  >.menu-item {
+  > .menu-item {
     display: inline-block;
     position: relative;
 
-    @include md{
-      display: block;;
+    @include md {
+      display: block;
     }
 
     &:not(:last-child) {
       margin-right: 30px;
 
-      @include xl{
+      @include xl {
         margin-right: 15px;
       }
       @include md {
@@ -179,14 +177,14 @@
     &.current-menu-item,
     &.current-menu-parent,
     &.current-menu-ancestor {
-      >a {
+      > a {
         @extend .color-primary;
       }
     }
 
-    &.menu-item-has-children>a:after {
-      content: '\f107';
-      font-family: 'Line Awesome Free';
+    &.menu-item-has-children > a:after {
+      content: "\f107";
+      font-family: "Line Awesome Free";
       font-size: 0.66667rem;
       padding-left: 0;
       right: -8px;
@@ -199,14 +197,13 @@
         top: 19px;
         right: 0;
         transform: translate(-50%, -50%);
-
       }
     }
 
-    &.menu-item-has-children .menu-item-has-children{
-      >a:after{
-        content: '\f105';
-        font-family: 'Line Awesome Free';
+    &.menu-item-has-children .menu-item-has-children {
+      > a:after {
+        content: "\f105";
+        font-family: "Line Awesome Free";
         font-size: 0.66667rem;
         padding-left: 0;
         right: 10px;
@@ -225,7 +222,7 @@
       @extend .transition;
       @extend .color-dark;
 
-      @include md{
+      @include md {
         padding: 10px 0;
       }
       &:hover {
@@ -234,7 +231,7 @@
     }
 
     &:hover {
-      >.sub-menu {
+      > .sub-menu {
         top: 80px;
         opacity: 1;
         visibility: visible;
@@ -247,7 +244,7 @@
     }
 
     &.active {
-      >.sub-menu {
+      > .sub-menu {
         visibility: visible;
         top: 40px;
         opacity: 1;
@@ -255,7 +252,7 @@
     }
 
     &.sub-menu-oppened {
-      >a {
+      > a {
         &:after {
           content: "\f106";
         }
@@ -283,7 +280,7 @@
     z-index: 10;
     @extend .color-dark;
 
-    @include md{
+    @include md {
       padding: 0 15px;
     }
     .menu-item {
@@ -292,7 +289,7 @@
 
       &.current-menu-item,
       &.current-menu-parent {
-        >a {
+        > a {
           @extend .color-primary;
         }
       }
@@ -304,7 +301,7 @@
         }
       }
 
-      >a {
+      > a {
         @include ofs(14px, null, 400);
         padding: 8px 20px 8px 0;
         width: 100%;
@@ -330,8 +327,11 @@
   }
 }
 
-.main-menu{
-  .btn-create{
+.main-menu {
+  .btn-login {
+    margin-right: 15px;
+  }
+  .btn-create {
     padding: 0.0313rem 1.135rem;
     @include ofs(13px, null, 500);
   }
@@ -364,13 +364,13 @@
       margin-right: 5px;
     }
   }
-  a{
+  a {
     padding: 5px 20px !important;
     @include ofs(15px, null, 400);
     @extend .color-gray;
-    &:hover{
-        @extend .color-primary;
-        @extend .bg-lighter;
+    &:hover {
+      @extend .color-primary;
+      @extend .bg-lighter;
     }
   }
 }
@@ -470,43 +470,6 @@
   }
 }
 
-/*=====  3.7: Search ======*/
-.search {
-  input {
-    width: 100%;
-
-    &:focus {
-      outline: none;
-    }
-
-    &::placeholder {
-      color: $text-light;
-      font-size: 14px;
-    }
-  }
-
-  &__item {
-    @include ofs(15px, null, null);
-    display: flex;
-    align-items: center;
-    @extend .color-gray;
-    padding: 7px 30px;
-
-    &:active {
-      color: white;
-    }
-
-    &:hover {
-      @extend .color-primary;
-
-      i {
-        @extend .color-primary;
-      }
-
-    }
-  }
-}
-
 /*=====  3.8: Search dropdown ======*/
 
 .search-wrapper .search-categories {
@@ -514,7 +477,7 @@
   position: absolute;
   width: 100%;
   left: 0;
-  top: 40px;
+  top: 35px;
   z-index: 100;
   visibility: hidden;
   opacity: 0;
@@ -525,13 +488,12 @@
   @extend .shadow3;
   border-radius: 0 0 3px 3px;
   border-top: 1px solid $primary;
-  margin-top: 12px;
 
   &.active {
     visibility: visible;
     opacity: 1;
     width: 100%;
-    transition: .50s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 }
 
@@ -539,9 +501,9 @@
 .offcanvas-dashboard {
   opacity: 0;
   visibility: hidden;
-  &.c-offcanvas.is-open{
+  &.c-offcanvas.is-open {
     opacity: 1;
-  visibility: visible;
+    visibility: visible;
   }
 }
 
@@ -630,8 +592,6 @@
 //   }
 // }
 
-
-
 //menu sticky
 // .header-top-area {
 //   position: fixed;
@@ -680,14 +640,14 @@
 
 .headroom--pinned {
   -webkit-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-          transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 .menu--transparent.headroom--not-top {
   background: #ffffff !important;
   -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.07);
-          box-shadow: 0 10px 15px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.07);
 }
 
 .menu--transparent.headroom--not-top.menu-area.menu--light .logo-white {
@@ -703,31 +663,54 @@
   display: none;
 }
 
-.menu--transparent.headroom--not-top.menu-area.menu--light .author__access_area ul li .access-link,
+.menu--transparent.headroom--not-top.menu-area.menu--light
+  .author__access_area
+  ul
+  li
+  .access-link,
 .menu--transparent.headroom--not-top .cart_module span.la,
-.menu--transparent.headroom--not-top.menu-area.menu--light .navbar-toggler .icon-menu,
-.menu--transparent.headroom--not-top.menu-area.menu--light .mainmenu__menu .navbar-nav > li > a {
+.menu--transparent.headroom--not-top.menu-area.menu--light
+  .navbar-toggler
+  .icon-menu,
+.menu--transparent.headroom--not-top.menu-area.menu--light
+  .mainmenu__menu
+  .navbar-nav
+  > li
+  > a {
   color: #272b41;
 }
 
-.menu--transparent.headroom--not-top.menu-area.menu--light .author__access_area ul li > span {
+.menu--transparent.headroom--not-top.menu-area.menu--light
+  .author__access_area
+  ul
+  li
+  > span {
   color: rgba(39, 43, 65, 0.5);
 }
 
-.menu--transparent.headroom--not-top.menu-area.menu--light .top-menu-area .logo-top p {
+.menu--transparent.headroom--not-top.menu-area.menu--light
+  .top-menu-area
+  .logo-top
+  p {
   color: rgba(39, 43, 65, 0.7);
 }
 
-.menu--transparent.headroom--not-top.menu-area.menu--light .top-menu-area .logo-top .logo-white {
+.menu--transparent.headroom--not-top.menu-area.menu--light
+  .top-menu-area
+  .logo-top
+  .logo-white {
   display: none;
 }
 
-.menu--transparent.headroom--not-top.menu-area.menu--light .top-menu-area .logo-top .logo-dark {
+.menu--transparent.headroom--not-top.menu-area.menu--light
+  .top-menu-area
+  .logo-top
+  .logo-dark {
   display: block;
 }
 
 .headroom--unpinned {
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
 }

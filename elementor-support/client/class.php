@@ -37,14 +37,21 @@ class Client extends Custom_Widget_Base {
 				'default' => 'Explore by popular makers',
 			),
 			array(
-				'id'      => 'style',
-				'type'    => Controls_Manager::SELECT2,
-				'label'   => __( 'Style', 'ddoctor' ),
-				'options' => array(
-					'1' => __( 'Style 1', 'ddoctor' ),
-					'2' => __( 'Style 2', 'ddoctor' ),
-				),
-				'default' => '1',
+				'id'      => 'subtitle',
+				'label'   => __( 'Subtitle', 'devent' ),
+				'type'    => Controls_Manager::TEXTAREA,
+				'default' => 'Browse worldwide leading event organizers',
+			),
+			array(
+				'type'    => Controls_Manager::TEXT,
+				'id'      => 'button_text',
+				'label'   => __( 'Button Label', 'dcar' ),
+				'default' => 'View All',
+			),
+			array(
+				'type'  => Controls_Manager::URL,
+				'id'    => 'button_url',
+				'label' => __( 'Button URL', 'dcar' ),
 			),
 			array(
 				'type'   => Controls_Manager::REPEATER,

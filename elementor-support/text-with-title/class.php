@@ -8,7 +8,6 @@
 namespace AazzTech\Theme\Elementor;
 
 use Elementor\Controls_Manager;
-use Elementor\Group_control_Image_Size;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -22,11 +21,6 @@ class Text_with_Title extends Custom_Widget_Base {
 		parent::__construct( $data, $args );
 	}
 
-	private function az_load_scripts() {
-		// magnific-popup.
-		wp_enqueue_style( 'magnific-popup' );
-	}
-
 	public function az_fields() {
 
 		$fields = array(
@@ -37,16 +31,6 @@ class Text_with_Title extends Custom_Widget_Base {
 				'label' => __( 'General', 'devent' ),
 			),
 			array(
-				'type'    => Controls_Manager::SELECT2,
-				'id'      => 'style',
-				'label'   => __( 'Style', 'devent' ),
-				'options' => array(
-					'1' => __( 'Style 1', 'devent' ),
-					'2' => __( 'Style 2', 'devent' ),
-				),
-				'default' => '1',
-			),
-			array(
 				'label'       => __( 'Title', 'elementor' ),
 				'type'        => Controls_Manager::TEXTAREA,
 				'id'          => 'title',
@@ -54,27 +38,13 @@ class Text_with_Title extends Custom_Widget_Base {
 					'active' => true,
 				),
 				'placeholder' => __( 'Enter your title', 'elementor' ),
-				'default'     => __( 'Nullam aliquet eleifend dapibus. Cras sagittis, ex euismod lacinia tempor' ),
+				'default'     => __( 'This is title' ),
 			),
 			array(
 				'type'    => Controls_Manager::WYSIWYG,
 				'id'      => 'content',
 				'label'   => __( 'Content', 'devent' ),
-				'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ligula eu lectus vulputate..',
-			),
-			array(
-				'type'      => Controls_Manager::TEXT,
-				'id'        => 'button_text',
-				'label'     => __( 'Button Text', 'devent' ),
-				'desc'      => __( 'Add video popup button Text.', 'devent' ),
-				'default'   => 'Play Video',
-				'condition' => array( 'style' => array( '1' ) ),
-			),
-			array(
-				'type'      => Controls_Manager::URL,
-				'id'        => 'button_url',
-				'label'     => __( 'Button URL', 'devent' ),
-				'condition' => array( 'style' => array( '1' ) ),
+				'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 			),
 			array(
 				'mode' => 'section_end',
@@ -99,7 +69,6 @@ class Text_with_Title extends Custom_Widget_Base {
 				'label'     => __( 'Content', 'devent' ),
 				'selectors' => array( '{{WRAPPER}} .fsc p' => 'color: {{VALUE}}' ),
 			),
-
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'video_color',
@@ -148,16 +117,6 @@ class Text_with_Title extends Custom_Widget_Base {
 
 	protected function render() {
 		$data = $this->get_settings();
-		if ( $data['button_url']['url'] ) {
-			$this->az_load_scripts();
-		}
-
-		if ( '2' === $data['style'] ) {
-			$template = 'view-1';
-		} else {
-			$template = 'view-2';
-		}
-
-		return $this->az_template( $template, $data );
+		return $this->az_template( 'view', $data );
 	}
 }

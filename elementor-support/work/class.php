@@ -46,7 +46,7 @@ class Work extends Custom_Widget_Base {
 				'type'    => Controls_Manager::TEXTAREA,
 				'id'      => 'subtitle',
 				'label'   => __( 'Subtitle', 'devent' ),
-				'default' => 'Free search & listing tools',
+				'default' => "Choose what you're into",
 			),
 			array(
 				'type'    => Controls_Manager::REPEATER,

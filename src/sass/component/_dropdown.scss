@@ -1,11 +1,14 @@
 // Dropdown Menu
-.dropdown-menu{
-    a{
-        padding: 6px 0;
-        display: block;
-        @extend .color-light;
-        &:hover{
-            @extend .color-primary;
-        }
+.dropdown-menu {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 3px 30px rgba($light, 0.2);
+  a {
+    padding: 6px 0;
+    display: block;
+    @extend .color-light;
+    &:hover {
+      @extend .color-primary;
     }
+  }
 }
