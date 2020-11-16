@@ -7,19 +7,9 @@
 
 namespace AazzTech\devent;
 
-$reg           = '';
-$add           = '';
 $logo          = Helper::get_logo_src();
 $nav_menu_args = Helper::get_nav_menu_args();
-
-if ( is_directorist() ) {
-	$reg = \ATBDP_Permalink::get_registration_page_link();
-	$add = \ATBDP_Permalink::get_add_listing_page_link();
-}
-
-$user_id     = get_user_meta( get_current_user_id(), 'pro_pic', true );
-$profile_img = wp_get_attachment_image_src( $user_id );
-$avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class' => 'img-fluid' ) );
+$add           = is_directorist() ? \ATBDP_Permalink::get_add_listing_page_link() : '';
 ?>
 
 <div class="dashboard-off-canvas-main">
@@ -193,47 +183,7 @@ $avatar_img  = get_avatar( get_current_user_id(), 40, null, null, array( 'class'
 							</a>
 						<?php } ?>
 
-						<?php if ( is_directorist() && is_user_logged_in() ) { ?>
-							<div class="notification-area">
-								<ul>
-									<li>
-										<a class="notification" href="#">
-											<?php
-											if ( empty( $profile_img ) ) {
-												echo wp_kses_post( $avatar_img );
-											} else {
-												echo sprintf( '<img src="%s" alt="%s" class="img-fluid"/>', esc_url( $profile_img[0] ), esc_attr( Helper::image_alt( $user_id ) ) );
-											}
-											?>
-										</a>
-
-										<div class="notification-dropdown-menu author-dropdown-menu">
-											<div class="author-user">
-												<?php
-													$author_name = get_the_author_meta( 'display_name', $post->post_author );
-												if ( ! $profile_img ) {
-													echo wp_kses_post( $avatar_img );
-												} else {
-													echo sprintf( '<img width="65" src="%s" alt="%s" class="img-fluid rounded-circle"/>', esc_url( $profile_img[0] ), esc_attr( Helper::image_alt( $user_id ) ) );
-												}
-													echo $author_name ? '<h6>' . esc_attr( $author_name ) . '</h6>' : '';
-												?>
-											</div>
-
-											<a href="#"><i class="la la-list-alt"></i>Listing</a>
-											<a href="#"><i class="la la-calendar-check-o"></i>My Appointment</a>
-											<a href="#"><i class="la la-heart-o"></i>Bookmarks</a>
-											<a href="#"><i class="la la-star-o"></i></i>My Reviews</a>
-											<a href="#"><i class="la la-bell"></i>Notifications</a>
-											<a href="#"><i class="la la-envelope"></i>Messages</a>
-											<a href="#"><i class="la la-money"></i>Billings</a>
-											<a href="#"><i class="la la-user"></i>My Profile</a>
-											<a class="btn" href="#" role="button"><i class="la la-power-off"></i> Logout</a>
-										</div>
-									</li>
-								</ul>
-							</div>
-						<?php } ?>
+						<?php get_template_part( 'template-parts/author', 'asidebar' ); ?>
 
 						<?php if ( Theme::$options['add_listing_button'] ) { ?>
 							<a href="<?php echo esc_url( $add ); ?>" class="btn btn-sm btn-primary btn-create">
