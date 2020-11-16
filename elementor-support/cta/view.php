@@ -30,7 +30,7 @@ if ( ! empty( $btn_url2['url'] ) ) {
 			<p><?php echo esc_attr( $data['subtitle'] ); ?></p>
 			<div class="cta-action-btns">
 			<?php if ( $btn_url['url'] || $data['button_text'] ) { ?>
-				<a class="cta-btn cta-btn--dark" <?php echo wp_kses_post( $attr ); ?> ><i class="lab la-apple"></i><?php echo esc_attr( $data['button_text'] ); ?> </a>
+				<a class="cta-btn cta-btn--dark" <?php echo wp_kses_post( $attr ); ?> ><i class="fab fa-apple"></i><?php echo esc_attr( $data['button_text'] ); ?> </a>
 			<?php } ?>
 
 			<?php if ( $btn_url2['url'] || $data['button_text2'] ) { ?>
