@@ -23,18 +23,18 @@ if ( ! empty( $btn_url2['url'] ) ) {
 }
 ?>
 
-<section class="cta">
+<section class="cta-wrapper">
 	<div class="row">
 		<div class="col-md-8 offset-md-2">
 			<h2><?php echo esc_attr( $data['title'] ); ?></h2>
 			<p><?php echo esc_attr( $data['subtitle'] ); ?></p>
 			<div class="cta-action-btns">
 			<?php if ( $btn_url['url'] || $data['button_text'] ) { ?>
-				<a class="btn btn-primary" <?php echo wp_kses_post( $attr ); ?> ><i class="la la-app-store"></i><?php echo esc_attr( $data['button_text'] ); ?> </a>
+				<a class="cta-btn cta-btn--dark" <?php echo wp_kses_post( $attr ); ?> ><i class="lab la-apple"></i><?php echo esc_attr( $data['button_text'] ); ?> </a>
 			<?php } ?>
 
 			<?php if ( $btn_url2['url'] || $data['button_text2'] ) { ?>
-				<a class="btn btn-primary" <?php echo wp_kses_post( $attr2 ); ?> > <i class="la la-google-play"></i><?php echo esc_attr( $data['button_text2'] ); ?> </a>
+				<a class="cta-btn cta-btn--light" <?php echo wp_kses_post( $attr2 ); ?> ><i class="lab la-google-play"></i></i><?php echo esc_attr( $data['button_text2'] ); ?> </a>
 			<?php } ?>
 			</div>
 		</div>

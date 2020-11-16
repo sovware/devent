@@ -2717,7 +2717,7 @@ span.elementor-heading-title {
 }
 
 .navbar-main .navbar-left .event-option.location-event .dropdown-toggle .dropdown-toggle--arrow {
-  margin-left: 6px;
+  margin-left: 2px;
 }
 
 .navbar-main .navbar-left .event-option.location-event .dropdown-menu {
@@ -8496,22 +8496,28 @@ span.elementor-heading-title {
 
 /* call to action */
 .cta-wrapper {
-  padding: 140px 0 145px;
-  background: #222;
-}
-
-.cta-wrapper .cta-subtitle {
-  font-size: 18px;
-  color: #fff;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .cta-wrapper h2 {
-  font-size: 36px;
-  font-weight: 600;
-  text-align: center;
+  font-size: 30px;
+  font-weight: 1.33;
   color: #fff;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 1200px) {
+  .cta-wrapper h2 {
+    font-size: calc(17.4px + 1.05vw) ;
+  }
+}
+
+.cta-wrapper p {
+  font-size: 17px;
+  line-height: 1.76;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 32px;
 }
 
 .cta-wrapper .cta-action-btns {
@@ -8521,16 +8527,43 @@ span.elementor-heading-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 45px -5px -5px -5px;
+  margin: 0 -10px;
 }
 
-.cta-wrapper .cta-action-btns .btn {
-  margin: 5px;
+.cta-wrapper .cta-btn {
+  margin: 0 10px;
+  height: 52px;
+  padding: 0 25px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cta-wrapper .cta-btn--dark {
+  background: #272b41;
+  color: #fff;
+}
+
+.cta-wrapper .cta-btn--light {
+  background: #fff;
+  color: #272b41;
+}
+
+.cta-wrapper .cta-btn i {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 22px;
 }
 
 .testimonial-wrapper .owl-dots button:not(:last-child) {
