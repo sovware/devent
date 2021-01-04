@@ -8548,6 +8548,9 @@ span.elementor-heading-title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 .cta-wrapper .cta-btn--dark {
@@ -8564,6 +8567,7 @@ span.elementor-heading-title {
   display: inline-block;
   margin-right: 8px;
   font-size: 22px;
+  font-weight: normal;
 }
 
 .testimonial-wrapper .owl-dots button:not(:last-child) {
