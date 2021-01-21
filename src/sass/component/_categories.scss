@@ -91,6 +91,9 @@
 
 /* category card */
 .category-card{
+   .category-card__wrapper:hover {
+      border: 1px solid $primary;
+  }
    margin-bottom: 30px;
    @include e(wrapper){
       position: relative;

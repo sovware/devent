@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-class Search extends Custom_Widget_Base {
+class Hero extends Custom_Widget_Base {
 
 	/**
 	 * Description
@@ -22,8 +22,8 @@ class Search extends Custom_Widget_Base {
 	 * @param args  $args .
 	 */
 	public function __construct( $data = array(), $args = null ) {
-		$this->az_title = __( 'Search Banner', 'devent' );
-		$this->az_name  = 'az-dir-search';
+		$this->az_title = __( 'Hero Banner', 'devent' );
+		$this->az_name  = 'az-dir-hero';
 		parent::__construct( $data, $args );
 	}
 
@@ -38,13 +38,13 @@ class Search extends Custom_Widget_Base {
 				'id'      => 'title',
 				'type'    => Controls_Manager::TEXTAREA,
 				'label'   => __( 'Title', 'devent' ),
-				'default' => 'Lets find your ideal car for',
+				'default' => 'The real world is calling',
 			),
 			array(
 				'id'      => 'subtitle',
 				'type'    => Controls_Manager::TEXTAREA,
 				'label'   => __( 'Subtitle', 'devent' ),
-				'default' => 'Buy or Rent',
+				'default' => 'Your leading directory for internationals events, conferences, exhibitions, venues and trades shows.',
 			),
 
 			array(
@@ -71,7 +71,6 @@ class Search extends Custom_Widget_Base {
 				'label'   => __( 'Tab2 Label', 'devent' ),
 				'default' => 'Venue',
 			),
-
 			array(
 				'type'    => Controls_Manager::TEXT,
 				'id'      => 'search',
@@ -93,7 +92,25 @@ class Search extends Custom_Widget_Base {
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'title_color',
 				'label'     => __( 'Title', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .fst' => 'color: {{VALUE}}' ),
+				'selectors' => array( '{{WRAPPER}} .section-title h1' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'subtitle_color',
+				'label'     => __( 'Subtitle', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .section-title p' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'tab',
+				'label'     => __( 'Active Tab', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .adv-filter .adv-filter-content__tab ul .nav-link.active' => 'background-color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'tab_icon',
+				'label'     => __( 'Tab Icon', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .adv-filter .adv-filter-content__tab ul .nav-link i' => 'color: {{VALUE}}' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -102,22 +119,10 @@ class Search extends Custom_Widget_Base {
 				'selectors' => array( '{{WRAPPER}} .btn-primary' => 'background-color: {{VALUE}}' ),
 			),
 			array(
-				'type'      => Controls_Manager::COLOR,
-				'id'        => 'cats',
-				'label'     => __( 'Categories Color', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .header-category li a' => 'color: {{VALUE}}' ),
-			),
-			array(
-				'type'      => Controls_Manager::COLOR,
-				'id'        => 'cats_bg',
-				'label'     => __( 'Category Box BG', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .header-category ul' => 'background-color: {{VALUE}}' ),
-			),
-			array(
 				'mode' => 'section_end',
 			),
                  
-			// Style Tab.
+			// Typography Tab.
 			array(
 				'mode'  => 'section_start',
 				'id'    => 'content_style',
@@ -129,7 +134,28 @@ class Search extends Custom_Widget_Base {
 				'type'     => \Elementor\Group_Control_Typography::get_type(),
 				'id'       => 'title_typo',
 				'label'    => __( 'Title', 'devent' ),
-				'selector' => '{{WRAPPER}} .fst',
+				'selector' => '{{WRAPPER}} .section-title h1',
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'subtitle_typo',
+				'label'    => __( 'Subtitle', 'devent' ),
+				'selector' => '{{WRAPPER}} .section-title p',
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'tab_typo',
+				'label'    => __( 'Tab', 'devent' ),
+				'selector' => '{{WRAPPER}} .adv-filter .adv-filter-content__tab ul .nav-link',
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'Search_typo',
+				'label'    => __( 'Search Button', 'devent' ),
+				'selector' => '{{WRAPPER}} .btn-primary',
 			),
 			array(
 				'mode' => 'section_end',

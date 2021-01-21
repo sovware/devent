@@ -90,8 +90,14 @@ class Counter extends Custom_Widget_Base {
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'color',
-				'label'     => __( 'Color', 'devent' ),
+				'label'     => __( 'Number Color', 'devent' ),
 				'selectors' => array( '{{WRAPPER}} .counter-wrapper .counter-inner h6' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'title_color',
+				'label'     => __( 'Title Color', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .counter-wrapper .counter-inner p' => 'color: {{VALUE}}' ),
 			),
 			array(
 				'mode' => 'section_end',

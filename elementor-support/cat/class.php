@@ -31,6 +31,16 @@ class Cat extends Custom_Widget_Base {
 				'label' => __( 'General', 'devent' ),
 			),
 			array(
+				'type'    => Controls_Manager::SELECT2,
+				'id'      => 'style',
+				'label'   => __( 'Style', 'devent' ),
+				'options' => array(
+					'1' => __( 'Style 1', 'devent' ),
+					'2' => __( 'Style 2', 'devent' ),
+				),
+				'default' => '1',
+			),
+			array(
 				'id'          => 'title',
 				'type'        => Controls_Manager::TEXTAREA,
 				'label'       => __( 'Title', 'devent' ),
@@ -94,7 +104,31 @@ class Cat extends Custom_Widget_Base {
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'title_color',
 				'label'     => __( 'Title', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .fst' => 'color: {{VALUE}}' ),
+				'selectors' => array( '{{WRAPPER}} .section-title h1' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'subtitle_color',
+				'label'     => __( 'Subtitle', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .section-title p' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'cat_icon_color',
+				'label'     => __( 'Category Icon (style-1)', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .category-card__img i' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'cat_color',
+				'label'     => __( 'Category', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .category-card__wrapper a' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'cat_hover_color',
+				'label'     => __( 'Category Hover', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .category-card__wrapper:hover:before' => 'border-bottom-color: {{VALUE}}','{{WRAPPER}} .category-card .category-card__wrapper:hover' => 'border-color: {{VALUE}}' ),
 			),
 			array(
 				'mode' => 'section_end',
@@ -112,7 +146,21 @@ class Cat extends Custom_Widget_Base {
 				'type'     => \Elementor\Group_Control_Typography::get_type(),
 				'id'       => 'title_typo',
 				'label'    => __( 'Title', 'devent' ),
-				'selector' => '{{WRAPPER}} .fst',
+				'selector' => '{{WRAPPER}} .section-title h1',
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'subtitle_typo',
+				'label'    => __( 'Subtitle', 'devent' ),
+				'selector' => '{{WRAPPER}} .section-title p',
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'category_label',
+				'label'    => __( 'Category', 'devent' ),
+				'selector' => '{{WRAPPER}} .category-card__wrapper a',
 			),
 			array(
 				'mode' => 'section_end',

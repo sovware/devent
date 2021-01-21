@@ -3699,6 +3699,10 @@ span.elementor-heading-title {
   margin-bottom: 30px;
 }
 
+.category-card .category-card__wrapper:hover {
+  border: 1px solid #fd4956;
+}
+
 .category-card__wrapper {
   position: relative;
   border: 1px solid #f2f2f2;
@@ -8223,7 +8227,7 @@ span.elementor-heading-title {
 }
 
 .adv-filter .adv-filter-content__tab ul .nav-link.active i {
-  color: #fff;
+  color: #fff !important;
 }
 
 .adv-filter .adv-filter-content__tab ul .nav-item:first-child a {

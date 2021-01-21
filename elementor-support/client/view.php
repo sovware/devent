@@ -27,13 +27,11 @@ if ( ! empty( $btn_url['url'] ) ) {
 						<h1><?php echo esc_attr( $data['title'] ); ?></h1>
 						<p><?php echo esc_attr( $data['subtitle'] ); ?></p>
 					</div>
-					<?php
-					if ( $btn_url['url'] || $data['button_text'] ) {
-						?>
-						<a class="view-all" <?php echo wp_kses_post( $attr ); ?> ><?php echo esc_attr( $data['button_text'] ); ?><i class="la la-long-arrow-right"></i></a>
-						<?php
-					}
-					?>
+					<?php if ( $btn_url['url'] || $data['button_text'] ) { ?>
+						<a class="view-all" <?php echo wp_kses_post( $attr ); ?> ><?php echo esc_attr( $data['button_text'] ); ?>
+							<i class="la la-long-arrow-right"></i>
+						</a>
+					<?php } ?>
 				</div>
 			</div>
 			<?php if ( $items ) { ?>

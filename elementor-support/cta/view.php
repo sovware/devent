@@ -7,20 +7,7 @@
 
 namespace AazzTech\Theme\Elementor;
 
-$btn_url  = $data['button_url'];
-$btn_url2 = $data['button_url2'];
-
-if ( ! empty( $btn_url['url'] ) ) {
-	$attr  = 'href="' . $data['button_url']['url'] . '"';
-	$attr .= ! empty( $data['button_url']['is_external'] ) ? ' target="_blank"' : '';
-	$attr .= ! empty( $data['button_url']['nofollow'] ) ? ' rel="nofollow"' : '';
-}
-
-if ( ! empty( $btn_url2['url'] ) ) {
-	$attr2  = 'href="' . $data['button_url2']['url'] . '"';
-	$attr2 .= ! empty( $data['button_url2']['is_external'] ) ? ' target="_blank"' : '';
-	$attr2 .= ! empty( $data['button_url2']['nofollow'] ) ? ' rel="nofollow"' : '';
-}
+$items = $data['items'];
 ?>
 
 <section class="cta-wrapper">
@@ -29,13 +16,30 @@ if ( ! empty( $btn_url2['url'] ) ) {
 			<h2><?php echo esc_attr( $data['title'] ); ?></h2>
 			<p><?php echo esc_attr( $data['subtitle'] ); ?></p>
 			<div class="cta-action-btns">
-			<?php if ( $btn_url['url'] || $data['button_text'] ) { ?>
-				<a class="cta-btn cta-btn--dark" <?php echo wp_kses_post( $attr ); ?> ><i class="fab fa-apple"></i><?php echo esc_attr( $data['button_text'] ); ?> </a>
-			<?php } ?>
 
-			<?php if ( $btn_url2['url'] || $data['button_text2'] ) { ?>
-				<a class="cta-btn cta-btn--light" <?php echo wp_kses_post( $attr2 ); ?> ><i class="lab la-google-play"></i></i><?php echo esc_attr( $data['button_text2'] ); ?> </a>
-			<?php } ?>
+			<?php
+			foreach ( $items as $item ) {
+				$color       = $item['button_color'];
+				$bg          = $item['button_bg'];
+				$btn_label   = $item['btn_label'];
+				$button_icon = $item['button_icon'] ? '<i class="' . $item['button_icon'] . '"></i>' : '';
+				$btn_url     = $item['button_url'];
+				$style       = 'style="background: ' . $bg . '; color: ' . $color . ';"';
+				$attr        = '';
+				if ( ! empty( $btn_url['url'] ) ) {
+					$attr  = 'href="' . $item['button_url']['url'] . '"';
+					$attr .= ! empty( $item['button_url']['is_external'] ) ? ' target="_blank"' : '';
+					$attr .= ! empty( $item['button_url']['nofollow'] ) ? ' rel="nofollow"' : '';
+				}
+				?>
+
+				<?php if ( $btn_label ) { ?>
+				<a  class="cta-btn cta-btn--dark" <?php echo wp_kses_post( $attr . $style ); ?> > <?php echo wp_kses_post( $button_icon ) . esc_attr( $btn_label ); ?></a>
+				<?php } ?>
+
+				<?php
+			}
+			?>
 			</div>
 		</div>
 	</div>

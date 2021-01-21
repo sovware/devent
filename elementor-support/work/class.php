@@ -46,7 +46,7 @@ class Work extends Custom_Widget_Base {
 				'type'    => Controls_Manager::TEXTAREA,
 				'id'      => 'subtitle',
 				'label'   => __( 'Subtitle', 'devent' ),
-				'default' => "Choose what you're into",
+				'default' => 'Free search & listing tools',
 			),
 			array(
 				'type'    => Controls_Manager::REPEATER,
@@ -65,7 +65,6 @@ class Work extends Custom_Widget_Base {
 					),
 				),
 			),
-
 			array(
 				'mode' => 'section_end',
 			),
@@ -81,19 +80,25 @@ class Work extends Custom_Widget_Base {
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'title_color',
 				'label'     => __( 'Title', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .fst' => 'color: {{VALUE}}' ),
+				'selectors' => array( '{{WRAPPER}} .title h1' => 'color: {{VALUE}}' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'subtitle_color',
-				'label'     => __( 'subtitle', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .fsc p' => 'color: {{VALUE}}' ),
+				'label'     => __( 'Subtitle', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .title p' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'desc_color',
+				'label'     => __( 'Description', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .h_work-carousel.owl-carousel p' => 'color: {{VALUE}}' ),
 			),
 			array(
 				'mode' => 'section_end',
 			),
 
-			// subtitle Style Tab.
+			// Typography Style Tab.
 			array(
 				'mode'  => 'section_start',
 				'id'    => 'subtitle_style',
@@ -105,14 +110,21 @@ class Work extends Custom_Widget_Base {
 				'type'     => \Elementor\Group_Control_Typography::get_type(),
 				'id'       => 'title_typo',
 				'label'    => __( 'Title', 'devent' ),
-				'selector' => '{{WRAPPER}} .fst',
+				'selector' => '{{WRAPPER}} .title h1',
 			),
 			array(
 				'mode'     => 'group',
 				'type'     => \Elementor\Group_Control_Typography::get_type(),
 				'id'       => 'subtitle_typo',
-				'label'    => __( 'subtitle', 'devent' ),
-				'selector' => '{{WRAPPER}} .fsc p',
+				'label'    => __( 'Subtitle', 'devent' ),
+				'selector' => '{{WRAPPER}} .title p',
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'desc_typo',
+				'label'    => __( 'Description', 'devent' ),
+				'selector' => '{{WRAPPER}} .h_work-carousel.owl-carousel p',
 			),
 			array(
 				'mode' => 'section_end',

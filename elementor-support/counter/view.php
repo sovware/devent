@@ -17,9 +17,7 @@ $items = $data['items'];
 				<div class="counter-wrapper">
 					<?php foreach ( $items as $item ) { ?>
 						<div class="counter-inner">
-							<h6>
-								<span class="count_up"><?php echo esc_attr( $item['num'] ); ?></span><b><?php echo esc_attr( $item['suffix'] ); ?></b>
-							</h6>
+							<h6><span class="count_up"><?php echo esc_attr( $item['num'] ); ?></span><b><?php echo esc_attr( $item['suffix'] ); ?></b></h6>
 							<p><?php echo esc_attr( $item['label'] ); ?></p>
 						</div>
 					<?php } ?>

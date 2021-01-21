@@ -32,9 +32,9 @@ $style              = $data['style'];
 						<p><?php echo esc_attr( $data['subtitle'] ); ?></p>
 					</div>
 				</div>
-				<?php
-			}
+			<?php } ?>
 
+			<?php
 			if ( $popular_categories ) {
 				foreach ( $popular_categories as $category ) {
 					$link      = is_directorist() ? \ATBDP_Permalink::atbdp_get_category_page( (object) $category ) : '';
@@ -48,19 +48,22 @@ $style              = $data['style'];
 					<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
 						<div class="category-card">
 							<div class="category-card__wrapper">
-									<div class="category-card__img">
-										<?php
+								<div class="category-card__img">
+									<?php
+									if ( '1' === $data['style'] ) {
 										echo sprintf( '<i class="%s cat-icon"></i>', esc_attr( $icon ) );
-										// echo sprintf( '<img src="%s" alt="%s" class="img-fluid" />', esc_url( $image ), esc_attr( Helper::image_alt( $image_id ) ) );
-										?>
-									</div>
-									<a href="<?php echo esc_url( $link ); ?>" class="stretched-link"><?php echo esc_attr( $category->name ); ?></a>
-									<span class="category-card__total-events">84 Events</span>
+									} else{
+										echo sprintf( '<img src="%s" alt="%s" class="img-fluid" />', esc_url( $image ), esc_attr( Helper::image_alt( $image_id ) ) );
+									}
+									?>
+								</div>
+								<a href="<?php echo esc_url( $link ); ?>" class="stretched-link"><?php echo esc_attr( $category->name ); ?></a>
+								<span class="category-card__total-events">84 Events</span>
 							</div>
 						</div>
 					</div>
 					<?php
-				} wp_reset_postdata();
+				}
 			} else {
 				echo sprintf( '<h3>%s</h3>', esc_html__( 'No categories are found!', 'findbiz-core' ) );
 			}

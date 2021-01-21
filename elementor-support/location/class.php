@@ -40,7 +40,7 @@ class Location extends Custom_Widget_Base {
 			array(
 				'id'      => 'layout',
 				'type'    => Controls_Manager::SELECT,
-				'label'   => __( 'Style', 'ddoctor' ),
+				'label'   => __( 'Style', 'devent' ),
 				'options' => array(
 					'grid' => __( 'Grid View', 'dservice-core' ),
 					'list' => __( 'List View', 'dservice-core' ),

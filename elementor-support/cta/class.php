@@ -31,6 +31,16 @@ class CTA extends Custom_Widget_Base {
 				'label' => __( 'General', 'devent' ),
 			),
 			array(
+				'type'    => Controls_Manager::SELECT2,
+				'id'      => 'style',
+				'label'   => __( 'Style', 'devent' ),
+				'options' => array(
+					'1' => __( 'Style 1', 'devent' ),
+					'2' => __( 'Style 2', 'devent' ),
+				),
+				'default' => '1',
+			),
+			array(
 				'label'       => __( 'Title', 'elementor' ),
 				'type'        => Controls_Manager::TEXTAREA,
 				'id'          => 'title',
@@ -38,37 +48,65 @@ class CTA extends Custom_Widget_Base {
 					'active' => true,
 				),
 				'placeholder' => __( 'Enter your title', 'elementor' ),
-				'default'     => __( 'Looks for the event feed?</br> Get the app' ),
+				'default'     => __( 'Create your events or venues on dEvents' ),
 			),
 			array(
 				'type'    => Controls_Manager::TEXTAREA,
 				'id'      => 'subtitle',
 				'label'   => __( 'Subtitle', 'devent' ),
-				'default' => 'Find great events to attend, connect with new opportunities</br>and expand your networking!',
+				'default' => 'Explore by popular makers',
 			),
 			array(
-				'type'    => Controls_Manager::TEXT,
-				'id'      => 'button_text',
-				'label'   => __( 'Button Label 1', 'devent' ),
-				'default' => 'App Store',
+				'type'    => Controls_Manager::REPEATER,
+				'id'      => 'items',
+				'label'   => __( 'Add Button', 'devent' ),
+				'fields'  => array(
+					array(
+						'name'    => 'btn_label',
+						'label'   => __( 'Button Label', 'devent' ),
+						'type'    => Controls_Manager::TEXT,
+						'default' => 'See our pricing plan',
+					),
+					array(
+						'name'  => 'button_url',
+						'label' => __( 'Button URL', 'devent' ),
+						'type'  => Controls_Manager::URL,
+					),
+					array(
+						'name'  => 'button_icon',
+						'label' => __( 'Button Icon', 'devent' ),
+						'type'  => Controls_Manager::ICON,
+					),
+					array(
+						'name'  => 'button_color',
+						'label' => __( 'Button Label Color', 'devent' ),
+						'type'  => Controls_Manager::COLOR,
+					),
+					array(
+						'name'  => 'button_bg',
+						'label' => __( 'Button BG Color', 'devent' ),
+						'type'  => Controls_Manager::COLOR,
+					),
+					array(
+						'name'  => 'button_hover_label',
+						'label' => __( 'Button Hover Label Color', 'devent' ),
+						'type'  => Controls_Manager::COLOR,
+					),
+					array(
+						'name'  => 'button_hover_bg',
+						'label' => __( 'Button Hover BG Color', 'devent' ),
+						'type'  => Controls_Manager::COLOR,
+					),
+				),
+				'default' => array(
+					array(
+						'btn_label' => 'See our pricing plan',
+					),
+					array(
+						'btn_label' => 'Create your listing',
+					),
+				),
 			),
-			array(
-				'type'  => Controls_Manager::URL,
-				'id'    => 'button_url',
-				'label' => __( 'Button URL 1', 'devent' ),
-			),
-			array(
-				'type'    => Controls_Manager::TEXT,
-				'id'      => 'button_text2',
-				'label'   => __( 'Button Label 2', 'devent' ),
-				'default' => 'Google Play',
-			),
-			array(
-				'type'  => Controls_Manager::URL,
-				'id'    => 'button_url2',
-				'label' => __( 'Button URL 2', 'devent' ),
-			),
-
 			array(
 				'mode' => 'section_end',
 			),
@@ -84,19 +122,13 @@ class CTA extends Custom_Widget_Base {
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'title_color',
 				'label'     => __( 'Title', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .fst' => 'color: {{VALUE}}' ),
+				'selectors' => array( '{{WRAPPER}} .section-title h1' => 'color: {{VALUE}}' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'subtitle_color',
-				'label'     => __( 'Content', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .fsc' => 'color: {{VALUE}}' ),
-			),
-			array(
-				'type'      => Controls_Manager::COLOR,
-				'id'        => 'phone_color',
-				'label'     => __( 'Phone', 'devent' ),
-				'selectors' => array( '{{WRAPPER}} .call' => 'color: {{VALUE}}' ),
+				'label'     => __( 'Subtitle', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .section-title p' => 'color: {{VALUE}}' ),
 			),
 			array(
 				'mode' => 'section_end',
@@ -139,11 +171,8 @@ class CTA extends Custom_Widget_Base {
 	}
 
 	protected function render() {
-		$data = $this->get_settings();
-
+		$data     = $this->get_settings();
 		$template = 'view';
-
 		return $this->az_template( $template, $data );
 	}
-
 }

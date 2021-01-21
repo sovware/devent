@@ -46,7 +46,7 @@ class Widget_Init {
 		$widgets2 = array();
 		if ( class_exists( 'Directorist_Base' ) ) {
 			$widgets2 = array(
-				'search'      => 'Search',
+				'hero'        => 'Hero',
 				'cat'         => 'Cat',
 				'location'    => 'Location',
 				'listings'    => 'Listings',

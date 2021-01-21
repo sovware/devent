@@ -8,7 +8,6 @@
 namespace AazzTech\devent;
 
 $items = $data['items'];
-$style = $data['style'];
 $imgs  = $data['img'];
 $img   = $imgs['url'] ? $imgs['url'] : '';
 $alt   = $imgs['id'] ? $imgs['id'] : '';
@@ -17,16 +16,12 @@ $alt   = $imgs['id'] ? $imgs['id'] : '';
 <section class="testimonial-wrapper h_work-testimonial">
 	<img src="<?php echo esc_url( $img ); ?>" class="img-fluid" alt="<?php echo esc_attr( $alt ); ?>">
 	<div class="h_work-carousel-box">
-		<?php
-		if ( $data['title'] || $data['subtitle'] ) {
-			?>
+		<?php if ( $data['title'] || $data['subtitle'] ) { ?>
 			<div class="title text-center">
-				<h1 class="fst"><?php echo esc_attr( $data['title'] ); ?></h1>
-				<div class="fsc"> <p><?php echo esc_attr( $data['subtitle'] ); ?></p></div>
+				<h1><?php echo esc_attr( $data['title'] ); ?></h1>
+				<p><?php echo esc_attr( $data['subtitle'] ); ?></p>
 			</div>
-			<?php
-		}
-		?>
+		<?php } ?>
 		<div class="h_work-carousel owl-carousel">
 			<?php
 			foreach ( $items as $item ) {

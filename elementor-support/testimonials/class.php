@@ -95,10 +95,16 @@ class Testimonials extends Custom_Widget_Base {
 				'selectors' => array( '{{WRAPPER}} .fsc p' => 'color: {{VALUE}}' ),
 			),
 			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'desc_color',
+				'label'     => __( 'Description', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .testimonial-wrapper .carousel-single .author-comment' => 'color: {{VALUE}}' ),
+			),
+			array(
 				'mode' => 'section_end',
 			),
 
-			// subtitle Style Tab.
+			// Typography Style Tab.
 			array(
 				'mode'  => 'section_start',
 				'id'    => 'subtitle_style',
@@ -118,6 +124,13 @@ class Testimonials extends Custom_Widget_Base {
 				'id'       => 'subtitle_typo',
 				'label'    => __( 'subtitle', 'devent' ),
 				'selector' => '{{WRAPPER}} .fsc p',
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'desc_typo',
+				'label'    => __( 'Description', 'devent' ),
+				'selector' => '{{WRAPPER}} .testimonial-wrapper .carousel-single .author-comment',
 			),
 			array(
 				'mode' => 'section_end',

@@ -45,13 +45,13 @@ class Client extends Custom_Widget_Base {
 			array(
 				'type'    => Controls_Manager::TEXT,
 				'id'      => 'button_text',
-				'label'   => __( 'Button Label', 'dcar' ),
+				'label'   => __( 'Button Label', 'devent' ),
 				'default' => 'View All',
 			),
 			array(
 				'type'  => Controls_Manager::URL,
 				'id'    => 'button_url',
-				'label' => __( 'Button URL', 'dcar' ),
+				'label' => __( 'Button URL', 'devent' ),
 			),
 			array(
 				'type'   => Controls_Manager::REPEATER,
@@ -70,6 +70,60 @@ class Client extends Custom_Widget_Base {
 						'default' => 'BMW',
 					),
 				),
+			),
+			array(
+				'mode' => 'section_end',
+			),
+
+			// Color Tab.
+			array(
+				'mode'  => 'section_start',
+				'id'    => 'title_style',
+				'tab'   => Controls_Manager::TAB_STYLE,
+				'label' => __( 'Color', 'devent' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'title_color',
+				'label'     => __( 'Title', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .section-title h1' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'subtitle_color',
+				'label'     => __( 'Subtitle', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .section-title p' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'btn_color',
+				'label'     => __( 'Button Color', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .view-all' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'mode' => 'section_end',
+			),
+
+			// Typography Tab.
+			array(
+				'mode'  => 'section_start',
+				'id'    => 'content_style',
+				'tab'   => Controls_Manager::TAB_STYLE,
+				'label' => __( 'Typography', 'devent' ),
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'title_typo',
+				'label'    => __( 'Title', 'devent' ),
+				'selector' => '{{WRAPPER}} .section-title h1',
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'subtitle_typo',
+				'label'    => __( 'Subtitle', 'devent' ),
+				'selector' => '{{WRAPPER}} .section-title p',
 			),
 			array(
 				'mode' => 'section_end',

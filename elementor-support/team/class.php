@@ -87,6 +87,41 @@ class Team extends Custom_Widget_Base {
 			array(
 				'mode' => 'section_end',
 			),
+
+			// Color Tab.
+			array(
+				'mode'  => 'section_start',
+				'id'    => 'listing_style',
+				'tab'   => Controls_Manager::TAB_STYLE,
+				'label' => __( 'Color', 'devent' ),
+			),
+			array(
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'title_color',
+				'label'     => __( 'Title', 'devent' ),
+				'selectors' => array( '{{WRAPPER}} .title h1' => 'color: {{VALUE}}' ),
+			),
+			array(
+				'mode' => 'section_end',
+			),
+
+			// Typography Style Tab.
+			array(
+				'mode'  => 'section_start',
+				'id'    => 'listing_typography',
+				'tab'   => Controls_Manager::TAB_STYLE,
+				'label' => __( 'Typography', 'devent' ),
+			),
+			array(
+				'mode'     => 'group',
+				'type'     => \Elementor\Group_Control_Typography::get_type(),
+				'id'       => 'title_typo',
+				'label'    => __( 'Title', 'devent' ),
+				'selector' => '{{WRAPPER}} .title h1',
+			),
+			array(
+				'mode' => 'section_end',
+			),
 		);
 
 		return $fields;
