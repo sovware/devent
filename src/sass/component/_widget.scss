@@ -387,11 +387,12 @@
         align-items: center;
         @include rfs(18);
         transition: $transition-base;
-        background: #36394a;
-        color: $white;
+        background: #F5F7FC;
+        color: #9299B9;
 
         &:hover {
           @extend .bg-primary;
+          color: #fff;
         }
       }
     }

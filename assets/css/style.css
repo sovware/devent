@@ -4838,7 +4838,7 @@ span.elementor-heading-title {
   -webkit-border-radius: 0;
           border-radius: 0;
   border: none;
-  margin-bottom: 37px;
+  margin-bottom: 25px;
   padding: 0;
 }
 
@@ -7496,14 +7496,18 @@ span.elementor-heading-title {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  background: #36394a;
-  color: #ffffff;
+  background: #F5F7FC;
+  color: #9299B9;
 }
 
 @media (max-width: 1200px) {
   .social-box ul li a i {
     font-size: calc(16.2px + 0.15vw) ;
   }
+}
+
+.social-box ul li a i:hover {
+  color: #fff;
 }
 
 .subscribe-form form {
